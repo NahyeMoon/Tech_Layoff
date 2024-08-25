@@ -475,7 +475,8 @@ combined_data <- bind_rows(
   mutate(survey_data_liberal, dataset = "survey data"),
   mutate(census_data, dataset = "census data"))
 
-ggplot(combined_data, aes(x = factor(income, levels = c("Less than $25,000", "$25,000 to $49,999","$50,000 to $74,999","$75,000 to $99,999","$100,000 to $ 124,999","$125,000 and more" )), fill = dataset)) +
+ggplot(combined_data, aes(x = factor(income, levels = c("Less than $25,000", "$25,000 to $49,999","$50,000 to $74,999","$75,000 to $99,999","$100,000 to 
+$124,999","$125,000 and more" )), fill = dataset)) +
   geom_bar(position = position_dodge(width = 0.9), color = "black", show.legend = TRUE) +
   labs(title = "Figure 1: Distribution of Voters' Income Level", x = "Income Level", y = "Count") +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10))
@@ -754,7 +755,8 @@ The estimated proportion ${\hat{p}_{NDP}}^{PS}$ is roughly $0.2025$ which is $20
 The estimated proportion ${\hat{p}_{BlocQuebecois}}^{PS}$ is roughly $0.0543$ which is $5.43\%$ of the population.
 
 ### Additional analysis for the Liberal Party
-We also estimated the proportion of liberal voters in each group divided by a predictor ($\hat{p}^{PS}$) using the mathematical formula. For instance, we estimated the proportion of liberal voters in each age group, and the proportion of liberal voters in each gender group and so on. We were able to check if the 
+We also estimated the proportion of liberal voters in each group divided by a predictor ($\hat{p}^{PS}$) using the mathematical formula. For instance, we 
+estimated the proportion of liberal voters in each age group, and the proportion of liberal voters in each gender group and so on. We were able to check if the 
 estimated proportion of liberal voters in the entire population was calculated correctly by taking the average of $\hat{p}^{PS}$ of all groups.
 
 ```{r, include=FALSE}
