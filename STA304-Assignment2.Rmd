@@ -793,7 +793,8 @@ kable(age_table,
 
 ```
 
-We created this table to present the estimated proportion of liberal voters in different age groups based on the post-stratification. The age groups are categorized into 7 ranges such as 'younger than 30,' 'between 30 and 40,' and so on. The proportion of liberal voters is calculated by summing the estimated 
+We created this table to present the estimated proportion of liberal voters in different age groups based on the post-stratification. The age groups are 
+categorized into 7 ranges such as 'younger than 30,' 'between 30 and 40,' and so on. The proportion of liberal voters is calculated by summing the estimated 
 probability of each cell (age group) and dividing it by the total number of individuals in that age group. This information provides insights into the voting 
 behavior of different age groups.
 
@@ -1166,9 +1167,13 @@ voting for the Bloc Quebecois party, but there is still a relevant difference to
 
 ### Results section for all parties
 
-Table 13-16 contain the population proportion of voting for each party, obtained through post-stratification. The population probability is the estimated proportion of the entire population that would vote for each political party, calculated by applying the logistic regression models to the census data and performing post-stratification.
+Table 13-16 contain the population proportion of voting for each party, obtained through post-stratification. The population probability is the estimated
+proportion of the entire population that would vote for each political party, calculated by applying the logistic regression models to the census data and
+performing post-stratification.
 
-According to four tables, the Liberal party has the highest population proportion, $26.15\%$, among the four parties, indicating that it is most likely to be elected. This conclusion is drawn based on the statistical method of post-stratification, which considers the distribution of key demographic variables in the population.
+According to four tables, the Liberal party has the highest population proportion, $26.15\%$, among the four parties, indicating that it is most likely to be 
+elected. This conclusion is drawn based on the statistical method of post-stratification, which considers the distribution of key demographic variables in the 
+population.
 
 
 ## Conclusions
@@ -1178,11 +1183,13 @@ find which party has the highest proportion to confirm or reject our hypothesis.
 using a statistical method called post-stratification. The process involved cleaning survey data and census data, creating a logistic regression model based on 
 the survey data, and applying post-stratification techniques to the census data.
 
-In the data section, we first cleaned and standardized the variables in both the survey and census data sets. We ensured that variable values were aligned, missing values were handled, and variable names were consistent across the two data sets. seven variables were chosen to be used in our data analysis, which are 
+In the data section, we first cleaned and standardized the variables in both the survey and census data sets. We ensured that variable values were aligned,
+missing values were handled, and variable names were consistent across the two data sets. seven variables were chosen to be used in our data analysis, which are 
 *cps21_votechoice*, *cps21_age*, *cps21_genderid*, *cps21_marital*, *cps21_education*, *cps21_income_number* and *cps21_province*. In the census data, six 
 variables will be used, which are *age*, *sex*, *marital_status*, *education* and *income_respondent*.
 
-To model the probability of voting for different parties, a multilevel logistic regression model was employed each time. This model incorporated various predictors such as age, gender, marital status and so on. The model was then applied to the survey data, and the results were used to estimate the probability of
+To model the probability of voting for different parties, a multilevel logistic regression model was employed each time. This model incorporated various 
+predictors such as age, gender, marital status and so on. The model was then applied to the survey data, and the results were used to estimate the probability of
 voting for the liberal party in the population.
 
 We use Post-stratification to apply the logistic regression model to the census data, categorizing individuals into strata based on their characteristics, and 
