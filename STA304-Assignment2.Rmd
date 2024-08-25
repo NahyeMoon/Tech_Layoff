@@ -22,7 +22,10 @@ library(ggplot2)
 
 ## Introduction
 
-For this assignment, our analysis seeks to contribute valuable insights into the voting dynamics of the Canadian population. We are using the General Social Survey (GSS) as Census Data and the 2021 Canadian Election Study (CES) as Survey Data. We are interested in finding the most popular party in the overall population based on the Survey (sample) data. Our problem is that the Census Data does not contain the data of individuals voting for different parties. We utilize the survey data to find an estimated population proportion of voting for liberal, conservative, NDP, and Bloc Quebecois parties for the missing vote data. Poststratification allows us to make this inference. The importance of this analysis is that it allows people to have a general understanding of the election based on past survey data. Our hypothesis is the Liberal party will be the most popular party in the upcoming election represented for the general population. 
+For this assignment, our analysis seeks to contribute valuable insights into the voting dynamics of the Canadian population. 
+We are using the General Social Survey (GSS) as Census Data and the 2021 Canadian Election Study (CES) as Survey Data.
+We are interested in finding the most popular party in the overall population based on the Survey (sample) data.
+Our problem is that the Census Data does not contain the data of individuals voting for different parties. We utilize the survey data to find an estimated population proportion of voting for liberal, conservative, NDP, and Bloc Quebecois parties for the missing vote data. Poststratification allows us to make this inference. The importance of this analysis is that it allows people to have a general understanding of the election based on past survey data. Our hypothesis is the Liberal party will be the most popular party in the upcoming election represented for the general population. 
 
 
 ## Data
