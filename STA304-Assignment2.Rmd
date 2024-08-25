@@ -1,0 +1,1080 @@
+---
+title: "A2"
+author: "Group 32: Christopher Jung, Muzi Li, Taiyu Li, Nahye Moon"
+subtitle: "STA304 - Fall 2023 -Assignment 2"
+date: "2023-11-23-1:57pm"
+output:
+  pdf_document: default
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+library(openintro)
+library(tidyverse)
+library(lme4)
+library(broom)
+library(dplyr)
+library(knitr)
+library(ggplot2)
+```
+
+
+
+## Introduction
+
+For this assignment, our analysis seeks to contribute valuable insights into the voting dynamics of the Canadian population. We are using the General Social Survey (GSS) as Census Data and the 2021 Canadian Election Study (CES) as Survey Data. We are interested in finding the most popular party in the overall population based on the Survey (sample) data. Our problem is that the Census Data does not contain the data of individuals voting for different parties. We utilize the survey data to find an estimated population proportion of voting for liberal, conservative, NDP, and Bloc Quebecois parties for the missing vote data. Poststratification allows us to make this inference. The importance of this analysis is that it allows people to have a general understanding of the election based on past survey data. Our hypothesis is the Liberal party will be the most popular party in the upcoming election represented for the general population. 
+
+
+## Data
+
+### In the survey data, seven variables will be used in our data analysis: 
+
+*cps21_votechoice*: a numerical variable that takes values of whole numbers 1 to 7; options 1 to 5 represent each party and 6 represents "another party" running in the election. Option 7 represents "prefer not to answer". 
+
+*cps21_age*: a numerical variable that records the age of an individual voter. 
+
+*cps21_genderid*: a numerical variable that takes values of whole numbers 1 to 4; each number represents a gender identity. 
+
+*cps21_marital*: a numerical variable that takes values from 1 to 7; each whole number represents the voter's marital status. 
+
+*cps21_education*: a numerical variable that takes values from 1 to 12; each number represents the highest education level of the voter.
+
+*cps21_income_number*: a numerical variable that describes the total household income of the voters. 
+
+*cps21_province*: a numerical variable that takes values of whole numbers from 1 to 13, where each number represents a province or territory in Canada where the voter currently resides. 
+
+### In the census data, six variables will be used:  
+
+*age*: a numerical variable that represents the age of the voter. 
+
+*sex*: a categorical variable that takes values "Female" or "Male".
+
+*marital_status*: a categorical variable that takes 7 values; each represents the voter's marital status.
+
+*education*: a categorical variable that takes 8 values; each represents the voter's highest education level.
+
+*income_respondent*: a categorical variable that categorizes the voter's household income into 6 levels. 
+
+*province*: a categorical variable that records the voter's current province of residence.
+
+### Data Cleaning
+We started our data cleaning process by creating one new variable for each party where these variables are each assigned for their specific survey data. We created a variable called *vote_liberal* that represents whether the voter votes for the liberal party. We created a variable called *vote_conservative* that represents whether the voter votes for the conservative party. We created a variable called *vote_ndp* that represents whether the voter votes for the NDP. We created a variable called *vote_quebec* that represents whether the voter votes for the Bloc Quebecois party. This was done by identifying whether the value of *cps21_votechoice* equals to the number that represents the party in the original survey data. Addtionally, for each party, we created a new dataset, namely *survey_data_liberal*, *survey_data_conservative*, *survey_data_ndp*, and *survey_data_quebec*. 
+
+Then, it was essential to ensure an exact match of variable values between the census data and the survey data, and the number of levels for each variable had to be the same in both datasets. Thus, we aligned values for corresponding variables across the census and survey datasets. For simplicity, we standardized variable names across the datasets. In the survey data, we renamed the variables *cps21_age*, *cps21_genderid*, *cps21_marital*, *cps21_education*, *cps21_income_number*, and *cps21_province* as *age*, *gender*, *marital_status*, *education*, *income*, and *province*, respectively. In the census data, we renamed the variables *income_respondent* as *income* and *sex* as *gender* while keeping the other variable names unchanged.
+
+Next, we focused on matching values for each corresponding variable in the two datasets. We rounded the *age* in the census data to match the whole number representation of ages in the survey data. We then categorized *age* in both census and survey data into seven groups, with voters between 30 and 80 years old grouped in ten-year ranges, and voters under 30 years old or older than 80 years old grouped into two other categories. We converted the original numerical values of the *gender* variable in the survey data into categorical gender identities, keeping only values representing 'Male' and 'Female'. For the *education* variable, we replaced all NA values with 'Prefer not to say' in the census data and renamed values in the census data as follows: 'high school,' 'trade diploma,' 'bachelor,' 'college,' 'below high school,' 'uni degree below bachelor,' and 'uni degree above bachelor.' Subsequently, we categorized the values in the survey data based on their numerical representations, aligning them with the corresponding categories in the census data. For *marital_status*, we retained the original values in the census data and categorized the values in the survey data based on their numerical representations, aligning them with the corresponding categories in the census data. Once again, we replaced all NA values with 'Prefer not to say' in the census data. For *province*, we first dropped all three values in the survey data that represent territories. We did this because the *province* variable in the census data does not include territories; we wanted to make sure that the number of levels match. Then we categorized the values in the survey data based on which province their numerical values represent, aligning them with the corresponding categories in the census data. Regarding *income*, we kept values representing income ranges in the census data, then categorized the numerical income numbers in the survey data into corresponding ranges that align with the census data.  
+
+Finally, for each of the four newly created datasets, we selected all the above mentioned variables from the survey data, along with the four variables indicating whether voters voted for the respective parties. We then excluded all NA values. All variable values matching a categorical variable in the census data were converted to categorical values that exactly match those in the census data, with no inclusion of NA values.
+ 
+```{r, include = FALSE}
+census_data <- read_csv("gss_clean.csv")
+
+census_data <- census_data %>% 
+  mutate(age=round(age),
+         income = income_respondent,
+         gender = sex) %>% 
+  mutate(marital_status = ifelse(is.na(marital_status), "Prefer not to say", marital_status),
+         education = ifelse(is.na(education), "Prefer not to say", education),
+         education = case_when(education == "High school diploma or a high school equivalency certificate" ~ "high school",
+                               education == "Trade certificate or diploma" ~ "trade diploma",
+                               education == "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)" ~ "bachelor",
+                               education == "College, CEGEP or other non-university certificate or di..." ~ "college",
+                               education == "Less than high school diploma or its equivalent" ~ "below high school",
+                               education == "University certificate or diploma below the bachelor's level" ~ "uni degree below bachelor",
+                               education == "University certificate, diploma or degree above the bach..." ~ "uni degree above bachelor",
+                               education == "Prefer not to say" ~ "Prefer not to say"),
+         age = case_when(age >= 18 & age < 30 ~ "younger than 30",
+                         age >= 30 & age < 40 ~ "between 30 and 40",
+                         age >= 40 & age < 50 ~ "bewteen 40 and 50",
+                         age >= 50 & age < 60 ~ "bewteen 50 and 60",
+                         age >= 60 & age < 70 ~ "between 60 and 70",
+                         age >= 70 & age < 80 ~ "between 70 and 80",
+                         age >= 80 ~ "older than 80"))%>% 
+  select(age, gender, marital_status, education, income, province)%>% na.omit()
+```
+
+```{r, include = FALSE}
+load('ces2021.RData')
+```
+
+```{r, include = FALSE}
+survey_data_liberal <- 
+  survey_data %>% 
+  filter(cps21_genderid==1|cps21_genderid==2,
+         province != 8 | province != 6 & province != 13) %>% #removed genderid 3,4
+  mutate(vote_liberal = ifelse(cps21_votechoice==1, 1, 0),
+         age = cps21_age,
+         gender = cps21_genderid,
+         marital_status = cps21_marital,
+         education = cps21_education,
+         income = cps21_income_number,
+         province = cps21_province) %>% 
+  mutate(gender = case_when(gender == 2 ~ "Female", 
+                            gender == 1 ~ "Male"),
+         education = case_when(education == 1 ~ "below high school",
+                               education == 2 ~ "below high school",
+                               education == 3 ~ "below high school",
+                               education == 4 ~ "below high school",
+                               education == 5 ~ "high school",
+                               education == 6 ~ "trade diploma",
+                               education == 7 ~ "college",
+                               education== 8 ~ "uni degree below bachelor",
+                               education== 9 ~"bachelor",
+                               education == 10  ~ "uni degree above bachelor",
+                               education == 11  ~ "uni degree above bachelor",
+                               education ==12 ~ "Prefer not to say"),
+         marital_status = case_when(marital_status == 1 ~ "Married",
+                                    marital_status == 2 ~ "Living common-law",
+                                    marital_status == 3 ~ "Divorced",
+                                    marital_status == 4 ~ "Separated",
+                                    marital_status == 5 ~ "Widowed",
+                                    marital_status == 6 ~ "Single, never married",
+                                    marital_status == 7 ~ "Prefer not to say"),
+         province = case_when(province == 1 ~ "Alberta",
+                              province == 2 ~ "British Columbia",
+                              province == 3 ~ "Manitoba",
+                              province == 4 ~ "New Brunswick",
+                              province == 5 ~ "Newfoundland and Labrador",
+                              province == 7 ~ "Nova Scotia",
+                              province == 9 ~ "Ontario",
+                              province == 10 ~ "Prince Edward Island",
+                              province == 11 ~ "Quebec",
+                              province == 12 ~ "Saskatchewan"),
+         income = case_when(income < 25000 ~ "Less than $25,000",
+                            income >= 25000 & income < 50000 ~ "$25,000 to $49,999",
+                            income >= 50000 & income < 75000 ~ "$50,000 to $74,999",
+                            income >= 75000 & income < 100000 ~ "$75,000 to $99,999",
+                            income >= 100000 & income < 125000 ~ "$100,000 to $ 124,999",
+                            income >= 125000 ~ "$125,000 and more"),
+         age = case_when(age >= 18 & age < 30 ~ "younger than 30",
+                         age >= 30 & age < 40 ~ "between 30 and 40",
+                         age >= 40 & age < 50 ~ "bewteen 40 and 50",
+                         age >= 50 & age < 60 ~ "bewteen 50 and 60",
+                         age >= 60 & age < 70 ~ "between 60 and 70",
+                         age >= 70 & age < 80 ~ "between 70 and 80",
+                         age >= 80 ~ "older than 80")) %>% 
+  select(vote_liberal, age, gender, marital_status, education, income, province) %>% 
+  na.omit()
+```
+
+```{r, include = FALSE}
+survey_data_conservative <- 
+  survey_data %>% 
+  filter(cps21_genderid==1|cps21_genderid==2,
+         province != 8 | province != 6 & province != 13) %>% #removed genderid 3,4
+  mutate(vote_conservative = ifelse(cps21_votechoice==2, 1, 0),
+         age = cps21_age,
+         gender = cps21_genderid,
+         marital_status = cps21_marital,
+         education = cps21_education,
+         income = cps21_income_number,
+         province = cps21_province) %>% 
+  mutate(gender = case_when(gender == 2 ~ "Female", 
+                            gender == 1 ~ "Male"),
+         education = case_when(education == 1 ~ "below high school",
+                               education == 2 ~ "below high school",
+                               education == 3 ~ "below high school",
+                               education == 4 ~ "below high school",
+                               education == 5 ~ "high school",
+                               education == 6 ~ "trade diploma",
+                               education == 7 ~ "college",
+                               education== 8 ~ "uni degree below bachelor",
+                               education== 9 ~"bachelor",
+                               education == 10  ~ "uni degree above bachelor",
+                               education == 11  ~ "uni degree above bachelor",
+                               education ==12 ~ "Prefer not to say"),
+         marital_status = case_when(marital_status == 1 ~ "Married",
+                                    marital_status == 2 ~ "Living common-law",
+                                    marital_status == 3 ~ "Divorced",
+                                    marital_status == 4 ~ "Separated",
+                                    marital_status == 5 ~ "Widowed",
+                                    marital_status == 6 ~ "Single, never married",
+                                    marital_status == 7 ~ "Prefer not to say"),
+         province = case_when(province == 1 ~ "Alberta",
+                              province == 2 ~ "British Columbia",
+                              province == 3 ~ "Manitoba",
+                              province == 4 ~ "New Brunswick",
+                              province == 5 ~ "Newfoundland and Labrador",
+                              province == 7 ~ "Nova Scotia",
+                              province == 9 ~ "Ontario",
+                              province == 10 ~ "Prince Edward Island",
+                              province == 11 ~ "Quebec",
+                              province == 12 ~ "Saskatchewan"),
+         income = case_when(income < 25000 ~ "Less than $25,000",
+                            income >= 25000 & income < 50000 ~ "$25,000 to $49,999",
+                            income >= 50000 & income < 75000 ~ "$50,000 to $74,999",
+                            income >= 75000 & income < 100000 ~ "$75,000 to $99,999",
+                            income >= 100000 & income < 125000 ~ "$100,000 to $ 124,999",
+                            income >= 125000 ~ "$125,000 and more"),
+         age = case_when(age >= 18 & age < 30 ~ "younger than 30",
+                         age >= 30 & age < 40 ~ "between 30 and 40",
+                         age >= 40 & age < 50 ~ "bewteen 40 and 50",
+                         age >= 50 & age < 60 ~ "bewteen 50 and 60",
+                         age >= 60 & age < 70 ~ "between 60 and 70",
+                         age >= 70 & age < 80 ~ "between 70 and 80",
+                         age >= 80 ~ "older than 80")) %>% 
+  select(vote_conservative, age, gender, marital_status, education, income, province) %>% 
+  na.omit()
+```
+
+```{r, include = FALSE}
+survey_data_ndp <- 
+  survey_data %>% 
+  filter(cps21_genderid==1|cps21_genderid==2,
+         province != 8 | province != 6 & province != 13) %>% #removed genderid 3,4
+  mutate(vote_ndp = ifelse(cps21_votechoice==3, 1, 0),
+         age = cps21_age,
+         gender = cps21_genderid,
+         marital_status = cps21_marital,
+         education = cps21_education,
+         income = cps21_income_number,
+         province = cps21_province) %>% 
+  mutate(gender = case_when(gender == 2 ~ "Female", 
+                            gender == 1 ~ "Male"),
+         education = case_when(education == 1 ~ "below high school",
+                               education == 2 ~ "below high school",
+                               education == 3 ~ "below high school",
+                               education == 4 ~ "below high school",
+                               education == 5 ~ "high school",
+                               education == 6 ~ "trade diploma",
+                               education == 7 ~ "college",
+                               education== 8 ~ "uni degree below bachelor",
+                               education== 9 ~"bachelor",
+                               education == 10  ~ "uni degree above bachelor",
+                               education == 11  ~ "uni degree above bachelor",
+                               education ==12 ~ "Prefer not to say"),
+         marital_status = case_when(marital_status == 1 ~ "Married",
+                                    marital_status == 2 ~ "Living common-law",
+                                    marital_status == 3 ~ "Divorced",
+                                    marital_status == 4 ~ "Separated",
+                                    marital_status == 5 ~ "Widowed",
+                                    marital_status == 6 ~ "Single, never married",
+                                    marital_status == 7 ~ "Prefer not to say"),
+         province = case_when(province == 1 ~ "Alberta",
+                              province == 2 ~ "British Columbia",
+                              province == 3 ~ "Manitoba",
+                              province == 4 ~ "New Brunswick",
+                              province == 5 ~ "Newfoundland and Labrador",
+                              province == 7 ~ "Nova Scotia",
+                              province == 9 ~ "Ontario",
+                              province == 10 ~ "Prince Edward Island",
+                              province == 11 ~ "Quebec",
+                              province == 12 ~ "Saskatchewan"),
+         income = case_when(income < 25000 ~ "Less than $25,000",
+                            income >= 25000 & income < 50000 ~ "$25,000 to $49,999",
+                            income >= 50000 & income < 75000 ~ "$50,000 to $74,999",
+                            income >= 75000 & income < 100000 ~ "$75,000 to $99,999",
+                            income >= 100000 & income < 125000 ~ "$100,000 to $ 124,999",
+                            income >= 125000 ~ "$125,000 and more"),
+         age = case_when(age >= 18 & age < 30 ~ "younger than 30",
+                         age >= 30 & age < 40 ~ "between 30 and 40",
+                         age >= 40 & age < 50 ~ "bewteen 40 and 50",
+                         age >= 50 & age < 60 ~ "bewteen 50 and 60",
+                         age >= 60 & age < 70 ~ "between 60 and 70",
+                         age >= 70 & age < 80 ~ "between 70 and 80",
+                         age >= 80 ~ "older than 80")) %>% 
+  select(vote_ndp, age, gender, marital_status, education, income, province) %>% 
+  na.omit()
+```
+
+```{r, include = FALSE}
+survey_data_quebec <- 
+  survey_data %>% 
+  filter(cps21_genderid==1|cps21_genderid==2,
+         province != 8 | province != 6 & province != 13) %>% #removed genderid 3,4
+  mutate(vote_quebec = ifelse(cps21_votechoice==4, 1, 0),
+         age = cps21_age,
+         gender = cps21_genderid,
+         marital_status = cps21_marital,
+         education = cps21_education,
+         income = cps21_income_number,
+         province = cps21_province) %>% 
+  mutate(gender = case_when(gender == 2 ~ "Female", 
+                            gender == 1 ~ "Male"),
+         education = case_when(education == 1 ~ "below high school",
+                               education == 2 ~ "below high school",
+                               education == 3 ~ "below high school",
+                               education == 4 ~ "below high school",
+                               education == 5 ~ "high school",
+                               education == 6 ~ "trade diploma",
+                               education == 7 ~ "college",
+                               education== 8 ~ "uni degree below bachelor",
+                               education== 9 ~"bachelor",
+                               education == 10  ~ "uni degree above bachelor",
+                               education == 11  ~ "uni degree above bachelor",
+                               education ==12 ~ "Prefer not to say"),
+         marital_status = case_when(marital_status == 1 ~ "Married",
+                                    marital_status == 2 ~ "Living common-law",
+                                    marital_status == 3 ~ "Divorced",
+                                    marital_status == 4 ~ "Separated",
+                                    marital_status == 5 ~ "Widowed",
+                                    marital_status == 6 ~ "Single, never married",
+                                    marital_status == 7 ~ "Prefer not to say"),
+         province = case_when(province == 1 ~ "Alberta",
+                              province == 2 ~ "British Columbia",
+                              province == 3 ~ "Manitoba",
+                              province == 4 ~ "New Brunswick",
+                              province == 5 ~ "Newfoundland and Labrador",
+                              province == 7 ~ "Nova Scotia",
+                              province == 9 ~ "Ontario",
+                              province == 10 ~ "Prince Edward Island",
+                              province == 11 ~ "Quebec",
+                              province == 12 ~ "Saskatchewan"),
+         income = case_when(income < 25000 ~ "Less than $25,000",
+                            income >= 25000 & income < 50000 ~ "$25,000 to $49,999",
+                            income >= 50000 & income < 75000 ~ "$50,000 to $74,999",
+                            income >= 75000 & income < 100000 ~ "$75,000 to $99,999",
+                            income >= 100000 & income < 125000 ~ "$100,000 to $ 124,999",
+                            income >= 125000 ~ "$125,000 and more"),
+         age = case_when(age >= 18 & age < 30 ~ "younger than 30",
+                         age >= 30 & age < 40 ~ "between 30 and 40",
+                         age >= 40 & age < 50 ~ "bewteen 40 and 50",
+                         age >= 50 & age < 60 ~ "bewteen 50 and 60",
+                         age >= 60 & age < 70 ~ "between 60 and 70",
+                         age >= 70 & age < 80 ~ "between 70 and 80",
+                         age >= 80 ~ "older than 80")) %>% 
+  select(vote_quebec, age, gender, marital_status, education, income, province) %>% 
+  na.omit()
+```
+
+### Data Studying
+However, if we look at the summaries at this stage, we observed that some data were scarce. For instance, in *survey_data_liberal*, only 42 people were recorded under Prince Edward Island, while over 5000 were recorded under Ontario. Table 1 displays the distribution of voters voting for the Liberal across provinces, and Table 2 illustrates the distribution of voters voting for the Conservative with different marital statuses. Table 3 shows distribution of voters voting for the NDP with different education levels. Another thing we notice from the tables below is that data with the value 'Prefer not to say' is commonly scarce in many of the four datasets.
+
+For Table 1-6, the $0$ represents voters who did not vote for the party and $1$ represents voters who voted for the party.
+
+```{r, echo=FALSE}
+table(survey_data_liberal$province, survey_data_liberal$vote_liberal) %>% kable(caption="Distributions of Voters Voting for Liberal Across Provinces")
+
+table(survey_data_conservative$marital_status, survey_data_conservative$vote_conservative) %>% kable(caption="Distributions of Voters Voting for Conservative with Different Marital Status")
+
+table(survey_data_ndp$education, survey_data_ndp$vote_ndp) %>% kable(caption="Distributions of Voters Voting for NDP with Different Education Levels")
+```
+
+### Data alignment for all 4 parties
+Thus, we needed to combine some levels in the survey data that have too little data to make the data less scarce and improve estimates during the poststratification step. To achieve this, we combined the marital statuses 'Divorced,' 'Separated,' and 'Widowed' into one level, 'Separated.' For provinces of voters' residency, we combined 'Newfoundland and Labrador,' 'New Brunswick,' 'Prince Edward Island,' and 'Nova Scotia' into 'Atlantic Canada,' and combined 'Saskatchewan,' 'Manitoba,' and 'Alberta' into 'Prairie Provinces.' Additionally, we grouped 'below high school' and 'high school' education levels into 'high school,' and 'college,' 'trade diploma,' and 'uni degree below bachelor' into 'below bachelor.' We also dropped all instances of 'Prefer not to say' as it is scarce in most variables, and we could treat it as NA values. We also made these changes to the cencus data to make sure the number of levels for each variable had to be the same in both datasets.
+
+```{r, include=FALSE}
+survey_data_liberal <- 
+  survey_data_liberal %>% mutate(marital_status = ifelse(marital_status %in% c("Divorced","Separated", "Widowed"), "Separated", 
+                                                 ifelse(marital_status == "Prefer not to say", NA, marital_status)),
+         province = ifelse(province %in% c("Newfoundland and Labrador","New Brunswick","Prince Edward Island","Nova Scotia"), "Atlantic Canada", 
+                           ifelse(province %in% c("Saskatchewan","Manitoba","Alberta"), "Prairie Provinces",
+                                  ifelse(province == "Prefer not to say", NA, province))),
+         education = ifelse(education %in% c("below high school","high school"),"high school",
+                            ifelse(education %in% c("college","trade diploma","uni degree below bachelor"),"below bachelor",
+                                   ifelse(education == "Prefer not to say", NA, education)))) %>% na.omit()
+```
+
+```{r, include=FALSE}
+survey_data_conservative <- 
+  survey_data_conservative %>% mutate(marital_status = ifelse(marital_status %in% c("Divorced","Separated", "Widowed"), "Separated", 
+                                                 ifelse(marital_status == "Prefer not to say", NA, marital_status)),
+         province = ifelse(province %in% c("Newfoundland and Labrador","New Brunswick","Prince Edward Island","Nova Scotia"), "Atlantic Canada", 
+                           ifelse(province %in% c("Saskatchewan","Manitoba","Alberta"), "Prairie Provinces",
+                                  ifelse(province == "Prefer not to say", NA, province))),
+         education = ifelse(education %in% c("below high school","high school"),"high school",
+                            ifelse(education %in% c("college","trade diploma","uni degree below bachelor"),"below bachelor",
+                                   ifelse(education == "Prefer not to say", NA, education)))) %>% na.omit()
+```
+
+```{r, include=FALSE}
+survey_data_ndp <- 
+  survey_data_ndp %>% mutate(marital_status = ifelse(marital_status %in% c("Divorced","Separated", "Widowed"), "Separated", 
+                                                 ifelse(marital_status == "Prefer not to say", NA, marital_status)),
+         province = ifelse(province %in% c("Newfoundland and Labrador","New Brunswick","Prince Edward Island","Nova Scotia"), "Atlantic Canada", 
+                           ifelse(province %in% c("Saskatchewan","Manitoba","Alberta"), "Prairie Provinces",
+                                  ifelse(province == "Prefer not to say", NA, province))),
+         education = ifelse(education %in% c("below high school","high school"),"high school",
+                            ifelse(education %in% c("college","trade diploma","uni degree below bachelor"),"below bachelor",
+                                   ifelse(education == "Prefer not to say", NA, education)))) %>% na.omit()
+```
+
+```{r, include=FALSE}
+survey_data_quebec <- 
+  survey_data_quebec %>% mutate(marital_status = ifelse(marital_status %in% c("Divorced","Separated", "Widowed"), "Separated", 
+                                                 ifelse(marital_status == "Prefer not to say", NA, marital_status)),
+         province = ifelse(province %in% c("Newfoundland and Labrador","New Brunswick","Prince Edward Island","Nova Scotia"), "Atlantic Canada", 
+                           ifelse(province %in% c("Saskatchewan","Manitoba","Alberta"), "Prairie Provinces",
+                                  ifelse(province == "Prefer not to say", NA, province))),
+         education = ifelse(education %in% c("below high school","high school"),"high school",
+                            ifelse(education %in% c("college","trade diploma","uni degree below bachelor"),"below bachelor",
+                                   ifelse(education == "Prefer not to say", NA, education)))) %>% na.omit()
+```
+
+
+```{r, include=FALSE}
+census_data <- 
+  census_data %>% mutate(marital_status = ifelse(marital_status %in% c("Divorced","Separated", "Widowed"), "Separated", 
+                                                 ifelse(marital_status == "Prefer not to say", NA, marital_status)),
+         province = ifelse(province %in% c("Newfoundland and Labrador","New Brunswick","Prince Edward Island","Nova Scotia"), "Atlantic Canada", 
+                           ifelse(province %in% c("Saskatchewan","Manitoba","Alberta"), "Prairie Provinces",
+                                  ifelse(province == "Prefer not to say", NA, province))),
+         education = ifelse(education %in% c("below high school","high school"),"high school",
+                            ifelse(education %in% c("college","trade diploma","uni degree below bachelor"),"below bachelor",
+                                   ifelse(education == "Prefer not to say", NA, education)))) %>% na.omit()
+```
+
+After making these combinations, the levels that were scarce are nearly equal in relevance (for *survey_data_liberal*, same for *survey_data_conservative* and *survey_data_ndp*)
+```{r, echo=FALSE}
+table(survey_data_liberal$province, survey_data_liberal$vote_liberal)%>%kable(caption="Distributions of Voters Voting for Liberal Across Provinces After Combination")
+
+table(survey_data_conservative$marital_status, survey_data_conservative$vote_conservative) %>% kable(caption="Distributions of Voters Voting for Conservative with Different Marital Status After Combination")
+
+table(survey_data_ndp$education, survey_data_ndp$vote_ndp) %>% kable(caption="Distributions of Voters Voting for NDP with Different Education Levels After Combination")
+```
+
+### Graphical Summaries
+```{r, echo = FALSE}
+combined_data <- bind_rows(
+  mutate(survey_data_liberal, dataset = "survey data"),
+  mutate(census_data, dataset = "census data"))
+
+ggplot(combined_data, aes(x = factor(income, levels = c("Less than $25,000", "$25,000 to $49,999","$50,000 to $74,999","$75,000 to $99,999","$100,000 to $ 124,999","$125,000 and more" )), fill = dataset)) +
+  geom_bar(position = position_dodge(width = 0.9), color = "black", show.legend = TRUE) +
+  labs(title = "Figure 1: Distribution of Voters' Income Level", x = "Income Level", y = "Count") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))
+
+```
+
+Figure 1 shows the distribution of voters' income levels. In the census data, the distribution is right skewed; over 6000 of the voters have a household income less than 25,000 dollars, while only less than 1000 of them have a household income greater than 125,000 dollars. 
+
+```{r, echo=FALSE}
+ggplot(combined_data, aes(x = factor(age, levels = c("younger than 30", "between 30 and 40","bewteen 40 and 50","bewteen 50 and 60","between 60 and 70","between 70 and 80","older than 80")), fill = dataset)) +
+  geom_bar(position = position_dodge(width = 0.9), color = "black", show.legend = TRUE) +
+  labs(title = "Figure 2: Distribution of Voters' Age", x = "Age", y = "Count") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))
+```
+
+Figure 2 shows the distribution of voters' age. We observe that voters age is approximately normally distributed in the census data. Over 4000 of the voters are aged between 60 and 70 years old, less than 1500 of the voters are older than 80, and less than 2500 of them are younger than 30.
+
+```{r, echo=FALSE}
+ggplot(combined_data, aes(x = factor(education, levels=c("high school","below bachelor",     "bachelor","uni degree above bachelor")), fill = dataset)) +
+  geom_bar(position = position_dodge(width = 0.9), color = "black", show.legend = TRUE) +
+  labs(title = "Figure 3: Distribution of Voters' Education Levels", x = "Education Level", y = "Count") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))
+
+```
+
+Figure 3 shows the distribution of voters' education levels. In the census data, it is right skewed; around 7500 of the voters hold high school diplomas, around 6800 of them have degrees below bachelor (e.g. college), less than 4000 of them have bachelor's degrees and less than 2000 of them have an university degree above bachelor.
+
+```{r, echo=FALSE}
+ggplot(combined_data, aes(x = factor(gender), fill = dataset)) +
+  geom_bar(position = position_dodge(width = 0.9), color = "black", show.legend = TRUE) +
+  labs(title = "Figure 4: Distribution of Voters' Gender", x = "Gender", y = "Count") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) 
+```
+
+Figure 4 shows the distribution of voters' gender. We observe that in both datasets, there are more female voters than male voters. Over 10500 of the voters are female in the census data, and arounf 9000 of the voters are male. In the survey data, around 7500 of the voters are female and around 6500 of them are male.
+
+
+
+## Methods
+
+The logistic regression model shows the relationship between the independent variable, ie. response variable, and the dependent variable, ie, predictor variables.  
+
+A multilevel model allows a regression model to have 2 or more levels. These levels are essentially groups on different hierarchy. For this analysis, there are 2 levels.
+
+For our analysis, we have chosen to utilize a multilevel-logistic regression model.
+
+### Model Specifics
+
+There are 4 multilevel-logistic regression models. First model is a model that shows the probability of voting for the Liberal party. Second model is a model that shows the probability of voting for the Conservative party. The third model is a model that shows the probability of voting for the NDP party. The fourth model is a model that shows the probability of voting for the Bloc Quebecois party.
+
+For the regression models, the response variable is a binary response variable. The response variables are *vote_liberal*, *vote_conservative*, *vote_ndp*, and *vote_quebec*. There are 6 variables to be observed for their relation to each response variable. Of the 6 variables, age, gender, education, family income are level 1 variables which are person-specific characteristics. Whereas, province is a level 2 variable which is region-specific characteristics.
+
+We will be using 4 multilevel-logistic regression models to model the probability of voters who will vote for the Liberal party, Conservative party, NDP party, and Bloc Quebecois party respectively. The left side of the equation represents the log odds for voting for the parties. For the fixed effects variables, we will use gender (categorical). For the random effects, we will use the 4 categorical variables age, marital_status, education, family income, province. With these variables, the multilevel logistic regression model is: 
+
+$$ log(\frac{\hat{p}}{1-\hat{p}}) = \beta_{0j}+\beta_1  x_{male} + \epsilon_{ij}$$
+
+Where $p$ represents the proportion of voters voting for the party. 
+
+$\beta_{0j}$ represents the log odds of voting for the party when the voter is a female where $x_{male}$ is set to 0.
+
+$\beta_1$ represents the change in log odds when the participant is male.
+```{r, include=FALSE}
+
+# Creating the Model for liberal (to plot and make a table)
+model_liberal <- glmer(vote_liberal ~ gender + (1|age) + (1|marital_status) + (1|education) + (1|income) + (1|province),  
+               data=survey_data_liberal, 
+               family = binomial(link="logit"))
+
+# Model Results (to Report in Results section)
+summary(model_liberal)
+# OR
+#broom::tidy(model)
+
+### Don't show the results/output here...
+
+```
+
+```{r, include=FALSE}
+
+# Creating the Model for conservative (to plot and make a table)
+model_conservative <- glmer(vote_conservative ~ gender + (1|age) + (1|marital_status) + (1|education) + (1|income) + (1|province),  
+               data=survey_data_conservative, 
+               family = binomial(link="logit"))
+
+# Model Results (to Report in Results section)
+summary(model_conservative)
+# OR
+#broom::tidy(model)
+
+### Don't show the results/output here...
+
+```
+
+```{r, include=FALSE}
+
+# Creating the Model for ndp (to plot and make a table)
+model_ndp <- glmer(vote_ndp ~ gender + (1|age) + (1|marital_status) + (1|education) + (1|income) + (1|province),  
+               data=survey_data_ndp, 
+               family = binomial(link="logit"))
+
+# Model Results (to Report in Results section)
+summary(model_ndp)
+# OR
+#broom::tidy(model)
+
+### Don't show the results/output here...
+
+```
+
+```{r, include=FALSE}
+
+# Creating the Model for ndp (to plot and make a table)
+model_quebec <- glmer(vote_quebec ~ gender + (1|age) + (1|marital_status) + (1|education) + (1|income) + (1|province),  
+               data=survey_data_quebec, 
+               family = binomial(link="logit"))
+
+# Model Results (to Report in Results section)
+summary(model_quebec)
+# OR
+#broom::tidy(model)
+
+### Don't show the results/output here...
+
+```
+### Post-Stratification 
+
+Stratification is the process of dividing sampling units in a population into cells (strata) with the same characteristics or parameters of interest prior to randomly drawing sample. When the the probability of each sampling unit being drawn is different (non-random sample), post-stratification technique is used where the division of population is done after drawing the sample. Post-stratification is useful when making estimates on the population based on the survey data because the homogeneity within each stratum improves the precision of a parameter estimation (Glasgow, 2005).
+
+We used post-stratification technique to predict the proportion of the population voting for the 4 parties, liberal, conservative, ndp, and Bloc Quebecois, based on the survey data *Canadian Election Study 2021*. The survey is not random because it aimed for proportions of people with certain characteristics. For example, it aimed for 28% of the respondents aged 18-34, 33% aged 35-54, and 39% aged 55 and higher (Stephenson, 2021). 
+
+To perform post-stratification, we implemented the logistic model built based on the survey data to the census data. We estimated probability of an individual voting for each party based on all parameters in the logistic model (age, gender, marital status, education, province and income). A group of individuals with the same parameters form a stratum and they have the same probability of voting for the party. We calculated the estimated proportion of the population voting for each party ($\hat{p}^{PS}$) using the the mathematical equation below.
+
+$$\hat{p}^{PS} = \frac{\sum\hat{p}_{j}  {N_j}}{\sum{N_j}} $$
+
+The equation calculates the weighted average of the estimated probability of a cell by summing the product of the estimated probability of cells($\hat{p}_j$) and the number of individuals in the cell ($N_j$), and dividing the sum by the total population (${\sum{N_j}}$). 
+
+The estimated probability of a population ($\hat{p}^{PS}$) and individuals($\hat{p}_j$) assume that the voting outcome of an individual depends only on the parameters in the logistic model. However, when building the model, we chose parameters that are likely to influence the voting outcome of an individual to precisely infer the population.
+
+
+### Poststratification Calculation for the 4 Parties
+```{r, include = FALSE}
+# Poststratification for liberal party
+census_methods_liberal <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>% 
+  ungroup()
+```
+
+```{r,include = FALSE}
+#estimate the census_data by the model based on the survey data
+census_methods_liberal$estimate <-
+  model_liberal %>%
+  predict(newdata = census_methods_liberal,
+          type = "response")
+```
+
+
+```{r, echo = FALSE}
+# Poststratification
+liberal_prop <- census_methods_liberal %>% 
+  mutate(liberal_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(liberal_predict = sum(liberal_predict_prop)/sum(N_cell)) %>% 
+  pull(liberal_predict)
+```
+
+```{r, include = FALSE}
+# Poststratification for conservative party
+census_methods_conservative <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>% 
+  ungroup()
+```
+
+```{r,include = FALSE}
+#estimate the census_data by the model based on the survey data
+census_methods_conservative$estimate <-
+  model_conservative %>%
+  predict(newdata = census_methods_conservative,
+          type = "response")
+```
+
+```{r, echo = FALSE}
+# Poststratification
+conservative_prop <- census_methods_conservative %>% 
+  mutate(conservative_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(conservative_predict = sum(conservative_predict_prop)/sum(N_cell)) %>% 
+  pull(conservative_predict)
+```
+
+
+
+```{r, include = FALSE}
+# Poststratification for ndp party
+census_methods_ndp <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>% 
+  ungroup()
+```
+
+```{r,include = FALSE}
+#estimate the census_data by the model based on the survey data
+census_methods_ndp$estimate <-
+  model_ndp %>%
+  predict(newdata = census_methods_ndp,
+          type = "response")
+```
+
+```{r, echo = FALSE}
+# Poststratification
+ndp_prop <- census_methods_ndp %>% 
+  mutate(ndp_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(ndp_predict = sum(ndp_predict_prop)/sum(N_cell)) %>% 
+  pull(ndp_predict)
+```
+
+
+```{r, include = FALSE}
+# Poststratification for Bloc Quebecois party
+census_methods_quebec <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>% 
+  ungroup()
+```
+
+```{r,include = FALSE}
+#estimate the census_data by the model based on the survey data
+census_methods_quebec$estimate <-
+  model_quebec %>%
+  predict(newdata = census_methods_quebec,
+          type = "response")
+```
+
+```{r, echo = FALSE}
+# Poststratification
+quebec_prop <- census_methods_quebec %>% 
+  mutate(quebec_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(bloc_quebecois_predict = sum(quebec_predict_prop)/sum(N_cell)) %>% 
+  pull(bloc_quebecois_predict)
+```
+
+```{r, echo = FALSE}
+prop_table <- data.frame("party" = c("Liberal", "Conservative", "NDP", "Bloc Quebecois"),
+           "proportion" = c(liberal_prop, conservative_prop, ndp_prop, quebec_prop))
+
+kable(prop_table, caption = "Poststratification: Proportion Summary Table of the 4 Parties")
+```
+From Table 7, we see that the Liberal Party has the highest proportion.
+
+The estimated proportion ${\hat{p}_{Liberal}}^{PS}$ is roughly $0.2615$ which is $26.15\%$ of the population.
+The estimated proportion ${\hat{p}_{Conservative}}^{PS}$ is roughly $0.2523$ which is $25.23\%$ of the population.
+The estimated proportion ${\hat{p}_{NDP}}^{PS}$ is roughly $0.2025$ which is $20.25\%$ of the population.
+The estimated proportion ${\hat{p}_{BlocQuebecois}}^{PS}$ is roughly $0.0543$ which is $5.43\%$ of the population.
+
+### Additional analysis for the Liberal Party
+We also estimated the proportion of liberal voters in each group divided by a predictor ($\hat{p}^{PS}$) using the mathematical formula. For instance, we estimated the proportion of liberal voters in each age group, and the proportion of liberal voters in each gender group and so on. We were able to check if the estimated proportion of liberal voters in the entire population was calculated correctly by taking the average of $\hat{p}^{PS}$ of all groups.
+
+```{r, include=FALSE}
+# Calculate the size of each cell
+census_extra_liberal <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>% 
+  ungroup()
+```
+
+```{r, include=FALSE}
+census_extra_liberal$estimate <-
+  model_liberal %>%
+  predict(newdata = census_extra_liberal,
+          type = "response")
+```
+
+
+
+```{r, echo=FALSE}
+# Here, we grouped cells by a predictor and estimated the proportion of liberal voters in the population.
+
+
+# by age
+age_table <- census_extra_liberal %>% 
+  mutate(liberal_predict_prop = estimate * N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  group_by(age) %>%
+  summarise(liberal_predict = sum(liberal_predict_prop)/sum(N_cell))
+
+kable(age_table, 
+      caption = "Estimated Proportion of Liberal Voters by Age Group",
+      col.names = c("Age Group", "Proportion of Liberal Voters"),
+      format = "markdown")
+
+```
+
+We created this table to present the estimated proportion of liberal voters in different age groups based on the post-stratification. The age groups are categorized into 7 ranges such as 'younger than 30,' 'between 30 and 40,' and so on. The proportion of liberal voters is calculated by summing the estimated probability of each cell (age group) and dividing it by the total number of individuals in that age group. This information provides insights into the voting behavior of different age groups.
+
+```{r, echo=FALSE}
+# by gender
+gender_table <- census_extra_liberal %>% 
+  mutate(liberal_predict_prop = estimate * N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  group_by(gender) %>%
+  summarise(liberal_predict = sum(liberal_predict_prop)/sum(N_cell))
+
+kable(gender_table, 
+      caption = "Estimated Proportion of Liberal Voters by Gender",
+      col.names = c("Gender", "Proportion of Liberal Voters"),
+      format = "markdown")
+
+```
+
+We created this table to present the estimated proportion of liberal voters in different gender groups based on the post-stratification. The gender groups are categorized as 'Male' and 'Female.' The proportion of liberal voters is calculated by summing the estimated probability of each cell (gender group) and dividing it by the total number of individuals in that gender group. For instance, if we look at the 'Male' category, the table shows the estimated proportion of liberal voters for males, indicating the likelihood of voting for the liberal party in this demographic. This information shows the voting behavior of different gender groups in the population, allowing for a comparison of the predicted support for the liberal party between males and females.
+
+```{r, echo=FALSE}
+#by marital status
+marital_status_table <- census_extra_liberal %>% 
+  mutate(liberal_predict_prop = estimate * N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  group_by(marital_status) %>% 
+  summarise(liberal_predict = sum(liberal_predict_prop) / sum(N_cell))
+
+kable(marital_status_table, 
+      caption = "Estimated Proportion of Liberal Voters by Marital Status")
+```
+
+We created this table to present the estimated proportion of liberal voters in different marital status groups based on the post-stratification. The marital status groups are categorized as 'Married,' 'Living common-law,' 'Separated,' 'Single, never married,' and 'Widowed.' The proportion of liberal voters is calculated by summing the estimated probability of each cell (marital status group) and dividing it by the total number of individuals in that marital status group. Each category provides insights into the estimated proportion of liberal voters in different marital status groups. This information allows for a comparison of the predicted support for the liberal party across various marital status categories, offering valuable insights into the voting behavior of individuals based on their marital status.
+
+```{r, echo=FALSE}
+# by education
+education_table <- census_extra_liberal %>% 
+  mutate(liberal_predict_prop = estimate * N_cell) %>% 
+  group_by(education) %>% 
+  summarise(liberal_predict = sum(liberal_predict_prop) / sum(N_cell))
+
+
+kable(education_table, 
+      caption = "Estimated Proportion of Liberal Voters by Education Level")
+```
+
+We created this table to present the estimated proportion of liberal voters across different education levels based on the post-stratification. Education levels are categorized as 'bachelor,' 'below bachelor,' 'high school' and 'uni degree above bachelor.' The proportion of liberal voters is calculated by summing the estimated probability of each cell (education level) and dividing it by the total number of individuals in that education category. For instance, we observe that the proportion of liberal voters is highest among those with a 'uni degree above bachelor,' indicating a higher likelihood of voting for the liberal party in this demographic. However, the 'high school' education category shows a lower estimated proportion of liberal voters. This information provides insights into the voting behavior of different education groups in the population.
+
+```{r, echo=FALSE}
+# by province
+province_table <- census_extra_liberal %>% 
+  mutate(liberal_predict_prop = estimate * N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  group_by(province) %>% 
+  summarise(liberal_predict = sum(liberal_predict_prop) / sum(N_cell))
+
+kable(province_table, 
+      caption = "Estimated Proportion of Liberal Voters by Province")
+```
+
+We created this table to present the estimated proportion of liberal voters across different provinces based on the post-stratification. Provinces are individual geographic regions within the study area. The proportion of liberal voters is calculated by summing the estimated probability of each cell (province) and dividing it by the total number of individuals in that province. For instance, we observe that the proportion of liberal voters varies across provinces, with some provinces (Atlantic Canada and Ontario) showing a higher likelihood of voting for the liberal party compared to others. 
+
+```{r, echo=FALSE}
+# by income
+income_table <- census_extra_liberal %>% 
+  mutate(liberal_predict_prop = estimate * N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  group_by(income) %>% 
+  summarise(liberal_predict = sum(liberal_predict_prop) / sum(N_cell))
+
+kable(income_table, 
+      caption = "Estimated Proportion of Liberal Voters by Income Group")
+```
+
+We created this table that presents the estimated proportion of liberal voters across different income groups based on the post-stratification. Income groups are categorized into 6 categories, such as '100,000 to 124,999', '125,000 and more', 25,000 to 49,999, and so on. The proportion of liberal voters is calculated by summing the estimated probability of each cell (income group) and dividing it by the total number of individuals in that income group. A higher proportion means that people in this category have more probability to vote for the liberal party, like '125,000 and more' and '100,000 to 124,999'.
+
+
+
+## Results 
+
+### Model Summaries for the Liberal Party:
+```{r, echo=FALSE, include=FALSE}
+summary(model_liberal)
+```
+
+$$ log(\frac{\hat{p}}{1-\hat{p}}) = -0.97734-0.0379  x_{male} $$
+
+The estimated coefficient for the intercept is -0.97734, meaning when the voter is a female, the estimated log odds of voting for the Liberal party is -0.97734.
+
+The estimated coefficient for Male is -0.0379 with standard error of 0.03999. This represents that the estimated log odds of voting for Liberal by a Male is less than the log odds of voting for the Liberal party by a Female by 0.0379. 
+
+### Model Summaries for the Conservative Party:
+```{r, echo=FALSE, include=FALSE}
+summary(model_conservative)
+```
+$$ log(\frac{\hat{p}}{1-\hat{p}}) = -1.4367+0.4484  x_{male} $$
+
+The estimated coefficient for the intercept is -1.4367, meaning when the voter is a female, the estimated log odds of voting for the Conservative party is -1.4367.
+
+The estimated coefficient for Male is 0.4484 with standard error of 0.0416. This represents that the estimated log odds of voting for Conservative by a Male is more than the log odds of voting for the Conservative party by a Female by 0.4484.
+
+### Model Summaries for the NDP Party:
+```{r, echo=FALSE, include=FALSE}
+summary(model_ndp)
+```
+$$ log(\frac{\hat{p}}{1-\hat{p}}) = -1.3213-0.3322  x_{male} $$
+
+The estimated coefficient for the intercept is -1.3213, meaning when the voter is a female, the estimated log odds of voting for the NDP is -1.3213.
+
+The estimated coefficient for Male is -0.3322 with standard error of 0.0476. This represents that the log odds of voting for NDP by a Male is less than the log odds of voting for the NDP by a Female by -0.3322
+
+### Model Summaries for the Bloc Quebecois Party
+```{r, echo=FALSE, include=FALSE}
+summary(model_quebec)
+```
+$$ log(\frac{\hat{p}}{1-\hat{p}}) = -16.5251+0.3438  x_{male} $$
+
+The estimated coefficient for the intercept is -16.5251, meaning when the voter is a female, the estimated log odds of voting for the Bloc Quebecois is -16.5251.
+
+The estimated coefficient for Male is 0.3438 with standard error of 0.0694. This represents that the log odds of voting for Bloc Quebecois by a Male is more than the log odds of voting for the Bloc Quebecois by a Female by 0.3438
+
+
+From the Methods section, we found that the estimated population proportion of the Liberal party was highest with $26.15\%$. This indicates that the Liberal Party is the overall favourite. To confirm our finding, we will compare the estimated population proportion (probability) of each party that we found by poststratification to the sample proportion which is based off of survey data respectively.
+
+### Results section for the Liberal Party
+```{r, include=FALSE}
+# Start of Poststratification: Calculate the size of each cell
+census_results_liberal <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>%
+  ungroup()
+```
+
+```{r, include=FALSE}
+#estimate the probability of each grouped cell in census_data by the model based on the survey data
+census_results_liberal$estimate <-
+  model_liberal %>%
+  predict(newdata = census_results_liberal,
+          type = "response")
+```
+
+```{r, include= FALSE}
+#End of Poststratification: the result is the ps
+census_results_liberal %>% 
+  mutate(liberal_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(liberal_predict = sum(liberal_predict_prop)/sum(N_cell))
+```
+
+
+```{r, echo = FALSE}
+# Calculate sample probability of voting for liberal
+sample_probability <- mean(survey_data_liberal$vote_liberal)
+
+# Calculate population probability of voting for liberal through post-stratification
+population_probability <- census_results_liberal %>% 
+  summarise(liberal_predict = sum(estimate * N_cell) / sum(N_cell)) %>%
+  pull(liberal_predict)
+
+
+# table
+result_table <- data.frame(
+  Probability_Type = c("Sample Probability", "Population Probability (Post-Stratification)"),
+  Probability_Value = c(sample_probability, population_probability),
+  Absolute_Difference = abs(sample_probability - population_probability)
+)
+
+kable(result_table, caption="Sample and Population Probabilities of Voting for Liberal")
+
+```
+
+Table 14 displays the sample probability of voting for the liberal party, obtained from the survey data, and the population probability of voting for the liberal party, obtained through post-stratification. Sample Probability is the probability that represents the proportion of individuals in the survey data (sample) who voted for the liberal party. It is calculated as the mean of the *vote_liberal* variable in the survey data. Population Probability (Post-Stratification) estimates the proportion of the entire population that would vote for the liberal party. It is obtained by applying the logistic regression model built on the survey data to the census data and performing post-stratification. The absolute difference between the sample probability and the population probability indicates how closely the sample reflects the characteristics of the population. A smaller absolute difference suggests that the survey data provides a good estimate of the population probability. This is the true for Table 15-17.
+
+In Table 14, the sample probability of voting for the liberal party and the population probability obtained through post-stratification are relatively close, with an absolute difference of 0.0075338. This suggests that, based on our statistical method of post-stratification, the survey data provides a reasonable estimate of the population probability of voting for the liberal party.
+
+### Results section for the Conservative Party
+
+```{r, include=FALSE}
+# Start of Poststratification: Calculate the size of each cell
+census_results_conservative <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>%
+  ungroup()
+```
+
+```{r, include=FALSE}
+#estimate the probability of each grouped cell in census_data by the model based on the survey data
+census_results_conservative$estimate <-
+  model_conservative %>%
+  predict(newdata = census_results_conservative,
+          type = "response")
+```
+
+```{r, include= FALSE}
+#End of Poststratification: the result is the ps
+census_results_conservative %>% 
+  mutate(conservative_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(conservative_predict = sum(conservative_predict_prop)/sum(N_cell))
+```
+
+```{r, echo = FALSE}
+
+sample_probability <- mean(survey_data_conservative$vote_conservative)
+
+population_probability <- census_results_conservative %>% 
+  summarise(conservative_predict = sum(estimate * N_cell) / sum(N_cell)) %>%
+  pull(conservative_predict)
+
+
+# table
+result_table <- data.frame(
+  Probability_Type = c("Sample Probability", "Population Probability (Post-Stratification)"),
+  Probability_Value = c(sample_probability, population_probability),
+  Absolute_Difference = abs(sample_probability - population_probability)
+)
+
+kable(result_table, caption="Sample and Population Probabilities of Voting for Conservative party")
+
+```
+
+Table 15 displays the sample probability of voting for the Conservative party, obtained from the survey data, and the population probability of voting for the Conservative party, obtained through post-stratification. Sample Probability is the probability that represents the proportion of individuals in the survey data (sample) who voted for the Conservative party. It is calculated as the mean of the *vote_conservative* variable in the survey data. Population Probability (Post-Stratification) estimates the proportion of the entire population that would vote for the conservative party. It is obtained by applying the logistic regression model built on the survey data to the census data and performing post-stratification.
+
+In Table 15, the sample probability of voting for the Conservative party and the population probability obtained through post-stratification are relatively close, with an absolute difference of 0.000761. This suggests that, based on our statistical method of post-stratification, the survey data provides a reasonable estimate of the population probability of voting for the Conservative party.
+
+### Results section for the NDP Party
+
+```{r, include=FALSE}
+# Start of Poststratification: Calculate the size of each cell
+census_results_ndp <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>%
+  ungroup()
+```
+
+```{r, include=FALSE}
+#estimate the probability of each grouped cell in census_data by the model based on the survey data
+census_results_ndp$estimate <-
+  model_ndp %>%
+  predict(newdata = census_results_ndp,
+          type = "response")
+```
+
+```{r, include= FALSE}
+#End of Poststratification: the result is the ps
+census_results_ndp %>% 
+  mutate(ndp_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(ndp_predict = sum(ndp_predict_prop)/sum(N_cell))
+```
+
+```{r, echo = FALSE}
+
+sample_probability <- mean(survey_data_ndp$vote_ndp)
+
+population_probability <- census_results_ndp %>% 
+  summarise(ndp_predict = sum(estimate * N_cell) / sum(N_cell)) %>%
+  pull(ndp_predict)
+
+
+# table
+result_table <- data.frame(
+  Probability_Type = c("Sample Probability", "Population Probability (Post-Stratification)"),
+  Probability_Value = c(sample_probability, population_probability),
+  Absolute_Difference = abs(sample_probability - population_probability)
+)
+
+kable(result_table, caption="Sample and Population Probabilities of Voting for NDP party")
+
+```
+
+Table 16 displays the sample probability of voting for the NDP party, obtained from the survey data, and the population probability of voting for the NDP party, obtained through post-stratification. Sample Probability is the probability that represents the proportion of individuals in the survey data (sample) who voted for the NDP party. It is calculated as the mean of the *vote_ndp* variable in the survey data. Population Probability (Post-Stratification) estimates the proportion of the entire population that would vote for the NDP party. It is obtained by applying the logistic regression model built on the survey data to the census data and performing post-stratification. 
+
+In Table 16, the sample probability of voting for the NDP party and the population probability obtained through post-stratification are relatively close, with an absolute difference of 0.0107651. This suggests that, based on our statistical method of post-stratification, the survey data provides a reasonable estimate of the population probability of voting for the NDP party.
+
+### Results section for the Bloc Quebecois Party
+
+```{r, include=FALSE}
+# Start of Poststratification: Calculate the size of each cell
+census_results_quebec <- census_data %>% 
+  group_by(age, gender, marital_status, education, income, province) %>% 
+  summarise(N_cell = n()) %>%
+  ungroup()
+```
+
+```{r, include=FALSE}
+#estimate the probability of each grouped cell in census_data by the model based on the survey data
+census_results_quebec$estimate <-
+  model_quebec %>%
+  predict(newdata = census_results_quebec,
+          type = "response")
+```
+
+```{r, include= FALSE}
+#End of Poststratification: the result is the ps
+census_results_quebec %>% 
+  mutate(quebec_predict_prop = estimate*N_cell) %>% #sum(Nj*yj)/sum(Nj)
+  summarise(quebec_predict = sum(quebec_predict_prop)/sum(N_cell))
+```
+
+```{r, echo = FALSE}
+
+sample_probability <- mean(survey_data_quebec$vote_quebec)
+
+population_probability <- census_results_quebec %>% 
+  summarise(quebec_predict = sum(estimate * N_cell) / sum(N_cell)) %>%
+  pull(quebec_predict)
+
+
+# table
+result_table <- data.frame(
+  Probability_Type = c("Sample Probability", "Population Probability (Post-Stratification)"),
+  Probability_Value = c(sample_probability, population_probability),
+  Absolute_Difference = abs(sample_probability - population_probability)
+)
+
+kable(result_table, caption="Sample and Population Probabilities of Voting for Bloc Quebecois party")
+
+```
+
+Table 17 displays the sample probability of voting for the Bloc Quebecois party, obtained from the survey data, and the population probability of voting for the Bloc Quebecois party, obtained through post-stratification. Sample Probability is the probability that represents the proportion of individuals in the survey data (sample) who voted for the Bloc Quebecois party. It is calculated as the mean of the *vote_quebec* variable in the survey data. Population Probability (Post-Stratification) estimates the proportion of the entire population that would vote for the Bloc Quebecois party. It is obtained by applying the logistic regression model built on the survey data to the census data and performing post-stratification. 
+
+In Table 17, the absolute difference for the Bloc Quebecois party and the population probability obtained through post-stratification is 0.0354301, which is small if you look at with respect to the entire population. However, one can clearly see that the population probability is nearly half of sample probability. This suggests that, based on our statistical method of post-stratification, the survey data provides a reasonable estimate of the population probability of voting for the Bloc Quebecois party, but there is still a relevant difference to make note of.
+
+### Results section for all parties
+
+Table 13-16 contain the population proportion of voting for each party, obtained through post-stratification. The population probability is the estimated proportion of the entire population that would vote for each political party, calculated by applying the logistic regression models to the census data and performing post-stratification.
+
+According to four tables, the Liberal party has the highest population proportion, $26.15\%$, among the four parties, indicating that it is most likely to be elected. This conclusion is drawn based on the statistical method of post-stratification, which considers the distribution of key demographic variables in the population.
+
+
+## Conclusions
+
+In this assignment, our hypothesis was that the Liberal Party is the favourite party. Our aim was to find the estimated population proportion for each party and find which party has the highest proportion to confirm or reject our hypothesis. We calculated the estimated population probability of voting for the 4 parties using a statistical method called post-stratification. The process involved cleaning survey data and census data, creating a logistic regression model based on the survey data, and applying post-stratification techniques to the census data.
+
+In the data section, we first cleaned and standardized the variables in both the survey and census data sets. We ensured that variable values were aligned, missing values were handled, and variable names were consistent across the two data sets. seven variables were chosen to be used in our data analysis, which are *cps21_votechoice*, *cps21_age*, *cps21_genderid*, *cps21_marital*, *cps21_education*, *cps21_income_number* and *cps21_province*. In the census data, six variables will be used, which are *age*, *sex*, *marital_status*, *education* and *income_respondent*.
+
+To model the probability of voting for different parties, a multilevel logistic regression model was employed each time. This model incorporated various predictors such as age, gender, marital status and so on. The model was then applied to the survey data, and the results were used to estimate the probability of voting for the liberal party in the population.
+
+We use Post-stratification to apply the logistic regression model to the census data, categorizing individuals into strata based on their characteristics, and estimating the probability of voting for the liberal party within each stratum. These estimates were then weighted by the size of each stratum to calculate the overall population probability.
+
+In Table 14-17 under the Results section, we compared the sample probability (from the survey data) with the population probability obtained through post-stratification. The absolute difference between the two probabilities was relatively small, indicating that the survey data provided a reasonable estimate of the population probability of voting for the liberal party.
+
+Our hypothesis posited that the the Liberal Party would be the favourites, and the results support this hypothesis. The agreement between the sample and population probabilities, as evidenced by the small absolute difference, suggests that the statistical method of post-stratification effectively adjusted for potential biases in the non-random survey data. The process of aligning variables, creating a logistic regression model, and applying post-stratification techniques led to a reliable estimate of the population probability of each party, leading to finding an accurate conclusion for our hypothesis. One drawback of this assignment was we had to drop all the data that had "Prefered Not to Say" or "NA" because the data was too scarce to process the poststratification leading to a problem when modeling the regression models. Overall, our data and methods found accurate estimations and results represented our hypothesis.
+
+
+## Bibliography
+
+1. Grolemund, G. (2014, July 16) *Introduction to R Markdown*. RStudio. [https://rmarkdown.rstudio.com/articles_intro.html](https://rmarkdown.rstudio.com/articles_intro.html). (Last Accessed: April 4, 1991) 
+
+2.  RStudio Team. (2020). *RStudio: Integrated Development for R*. RStudio, PBC, Boston, MA URL [http://www.rstudio.com/](http://www.rstudio.com/).
+
+3.  Allaire, J.J., et. el. *References: Introduction to R Markdown*. RStudio. [https://rmarkdown.rstudio.com/docs/](https://rmarkdown.rstudio.com/docs/). (Last Accessed: April 4, 1991) 
+
+4. OpenAI. (2023). *ChatGPT (September 13 version) [Large language model]*. [https://chat.openai.com/chat](https://chat.openai.com/chat) (Last Accessed: September 13, 2023)
+
+5. Stephenson, L., Harell, A., Rubenson, D., & Loewen, P. J. (2021). Measuring preferences and behaviours in the 2019 canadian election study – addendum. Canadian Journal of Political Science, 54(1), 247–247. [https://doi.org/10.1017/S0008423921000275](https://doi.org/10.1017/S0008423921000275)
+
+6. Glasgow, G. (2005). Stratified sampling types. In K. Kempf-Leonard (Ed.), Encyclopedia of Social Measurement (pp. 683–688). Elsevier. [https://doi.org/10.1016/B0-12-369398-5/00066-9](https://doi.org/10.1016/B0-12-369398-5/00066-9)
+\newpage
+
+## Appendix
+
+### Generative AI Statement
+
+We did not utilize any generative AI for this assignment.
