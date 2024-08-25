@@ -1210,17 +1210,22 @@ to a problem when modeling the regression models. Overall, our data and methods 
 
 ## Bibliography
 
-1. Grolemund, G. (2014, July 16) *Introduction to R Markdown*. RStudio. [https://rmarkdown.rstudio.com/articles_intro.html](https://rmarkdown.rstudio.com/articles_intro.html). (Last Accessed: April 4, 1991) 
+1. Grolemund, G. (2014, July 16) *Introduction to R Markdown*. RStudio. [https://rmarkdown.rstudio.com/articles_intro.html]
+(https://rmarkdown.rstudio.com/articles_intro.html). (Last Accessed: April 4, 1991) 
 
 2.  RStudio Team. (2020). *RStudio: Integrated Development for R*. RStudio, PBC, Boston, MA URL [http://www.rstudio.com/](http://www.rstudio.com/).
 
-3.  Allaire, J.J., et. el. *References: Introduction to R Markdown*. RStudio. [https://rmarkdown.rstudio.com/docs/](https://rmarkdown.rstudio.com/docs/). (Last Accessed: April 4, 1991) 
+3.  Allaire, J.J., et. el. *References: Introduction to R Markdown*. RStudio. [https://rmarkdown.rstudio.com/docs/](https://rmarkdown.rstudio.com/docs/). 
+(Last Accessed: April 4, 1991) 
 
-4. OpenAI. (2023). *ChatGPT (September 13 version) [Large language model]*. [https://chat.openai.com/chat](https://chat.openai.com/chat) (Last Accessed: September 13, 2023)
+4. OpenAI. (2023). *ChatGPT (September 13 version) [Large language model]*. [https://chat.openai.com/chat](https://chat.openai.com/chat) (Last Accessed: 
+September 13, 2023)
 
-5. Stephenson, L., Harell, A., Rubenson, D., & Loewen, P. J. (2021). Measuring preferences and behaviours in the 2019 canadian election study – addendum. Canadian Journal of Political Science, 54(1), 247–247. [https://doi.org/10.1017/S0008423921000275](https://doi.org/10.1017/S0008423921000275)
+5. Stephenson, L., Harell, A., Rubenson, D., & Loewen, P. J. (2021). Measuring preferences and behaviours in the 2019 canadian election study – addendum.
+Canadian Journal of Political Science, 54(1), 247–247. [https://doi.org/10.1017/S0008423921000275](https://doi.org/10.1017/S0008423921000275)
 
-6. Glasgow, G. (2005). Stratified sampling types. In K. Kempf-Leonard (Ed.), Encyclopedia of Social Measurement (pp. 683–688). Elsevier. [https://doi.org/10.1016/B0-12-369398-5/00066-9](https://doi.org/10.1016/B0-12-369398-5/00066-9)
+6. Glasgow, G. (2005). Stratified sampling types. In K. Kempf-Leonard (Ed.), Encyclopedia of Social Measurement (pp. 683–688). Elsevier. 
+[https://doi.org/10.1016/B0-12-369398-5/00066-9](https://doi.org/10.1016/B0-12-369398-5/00066-9)
 \newpage
 
 ## Appendix
