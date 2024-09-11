@@ -1,3 +1,5 @@
+A synthetic dataset of customer call list was cleaned in python.
+
 ```python
 import pandas as pd
 ```
@@ -7,7 +9,9 @@ import pandas as pd
 df = pd.read_excel(r"C:\Users\Nahye\OneDrive - University of Toronto\Documents\Alex Analyst\Python_Pandas\Customer Call List.xlsx")
 df.head(7)
 ```
+<br />
 
+Below is the first 7 rows of the dataset.
 
 <br />
 
@@ -110,6 +114,7 @@ df.head(7)
 
 <br />
 
+First, I removed useless column(s) and row(s) to reduce the size and complexity of the DataFrame.
 
 ```python
 # remove a duplicate row
@@ -122,6 +127,7 @@ df = df.drop_duplicates()
 df = df.drop(columns = 'Not_Useful_Column')
 ```
 
+Then, I standardized customer's last name to just letters with the first one capitalized.
 
 ```python
 df['Last_Name'] = df['Last_Name'].str.strip('./_')
@@ -142,6 +148,7 @@ df.head(7)['Last_Name']
 
 <br />
 
+I also standardized the Phone_Number	 to xxx-xxx-xxxx. I began with removing any other characters than numbers or alphabets (for NaN) such as |, /, -
 
 ```python
 # remove anything other than alphabets(lower or upper)
@@ -163,6 +170,8 @@ df.head(7)['Phone_Number']
 
 
 <br />
+
+I converted the datatype of Phone_Number to string and formatted to xxx-xxx-xxxx.
 
 ```python
 # convert all entries to str
@@ -187,7 +196,7 @@ df.head(7)['Phone_Number']
 
 <br />
 
-
+I replaced any Na with blank as the last step for cleaning Phone_Number.
 ```python
 # Replace Na with blank
 df['Phone_Number'] = df['Phone_Number'].str.replace('nan--', '')
