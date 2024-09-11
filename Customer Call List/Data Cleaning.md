@@ -219,6 +219,8 @@ df.head(7)['Phone_Number']
 
 <br />
 
+The entires in the column Address contain one or more of street address, state and zip code. I separted Address aoccordingly for better readability.
+
 ```python
 # Create Street_Address, State and Zip_Code with the split address and append
 df[['Street_Address', 'State', 'Zip_Code']] = df['Address'].str.split(',', expand = True)
@@ -340,7 +342,8 @@ df.head(7)
 
 <br />
 
-
+After standardizing Paying Customer and Do_Not_Contact to Y for Yes and N for No and converting Na to blank,
+I removed all rows with blank for Phone_Number or Y for Do_Not_Contact.
 ```python
 # Standardize Paying Customer to Y and N
 
@@ -536,6 +539,7 @@ df
 
 <br />
 
+Below shows the dataframe cleaned so far.
 
 <div>
 <table border="1" class="dataframe">
@@ -682,13 +686,14 @@ df
 
 
 ```python
-# Re-assign index. set drop = True to remove the old index
+# Re-assign index.
 df = df.reset_index(drop = True)
 df
 ```
 
 <br />
 
+As the final step, I re-assigned the index so that it increases by 1 each row from 0
 
 <div>
 <br />
