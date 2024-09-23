@@ -20,7 +20,7 @@ Given the ongoing economic uncertainties and frequent layoffs in the tech indust
 In this project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/NahyeMoon/DataAnalyticsPortfolio/main/Tech%20Layoffs/layoff_chart_overall.jpg"alt="Alt text" width="700"/>
+<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_overview.jpg"alt="Alt text" width="700"/>
 </p>
 
 <p align="center">
