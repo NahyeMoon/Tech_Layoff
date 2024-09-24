@@ -75,28 +75,60 @@ As the very first step in standardizing the data, I trimmed all the entries in e
 industry: 
 <br />
 I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values.
+<br />
+<p align="center">
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_industry.jpg" alt="Alt text" width="700"/>
+	<br />
+	Column industry
+</p>
 <br /><br />
 
 location:
 <br />
 There are some locations that contain non-alphabet characters, such as 'DÃ¼sseldorf', 'FlorianÃ³polis', and 'MalmÃ¶'. Upon researching, I found that they were intended to be 'Düsseldorf', 'Florianópolis', and 'Malmö', respectively, but were incorrectly encoded; I made the change to the DataFrame accoridngly.
-<br /> <br />
+<br /><br />
 
 country: 
 <br />
 I standardized 'United States' and 'United States.' into 'United States'.
+<br />
+<p align="center">
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_country.jpg" alt="Alt text" width="700"/>
+	<br />
+	Column country
+</p>
 <br /><br />
 
 date:
 <br />
 I formatted date to '%m/%d/%Y' for legibility.
+<br />
+<p align="center">
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_country.jpg" alt="Alt text" width="700"/>
+	<br />
+	Column country
+</p>
 <br /><br />
 
 ### 3) Null Values or Blank Values
 
 I replaced blanks in industry to NULL, updated NULLs with populated rows. For example, there are two rows with company 'Airbnb' in the DataFrame but the industry of the one of them is NULL. From the other row (populated row), I knew that industry of 'Airbnb' is Travel and I can replace NULL with 'Airbnb'.
+<br />
+<p align="center">
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb.jpg" alt="Alt text" width="700"/>
+	<br />
+	Before: rows with company 'Airbnb'
+</p>
 
 <br />
+<p align="center">
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb_clean.jpg" alt="Alt text" width="700"/>
+	<br />
+	After: rows with company 'Airbnb'
+</p>
+<br /><br />
+
+
 
 ### 4) Remove Any Columns
 
