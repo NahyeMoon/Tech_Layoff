@@ -74,10 +74,20 @@ As the very first step in standardizing the data, I trimmed all the entries in e
 
 industry: 
 <br />
-I noticed that there are Crypto, Crypto Currency, and CryptoCurrency, which all represent the same industry; I standardized them to Crypto. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values.
+I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to Crypto. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values.
 <br /><br />
 
 location:
 <br />
-There are some locations that contain non-alphabets such as 'DÃ¼sseldorf', 'MalmÃ¶', and 'FlorianÃ³polis'. I did some research and they were 'Düsseldorf', 'Malmö', and 'Florianópolis', respectively, but encoded wrong.
+There are some locations that contain non-alphabet characters, such as 'DÃ¼sseldorf', 'FlorianÃ³polis', and 'MalmÃ¶'. Upon researching, I found that they were intended to be 'Düsseldorf', 'Florianópolis', and 'Malmö', respectively, but were incorrectly encoded; I made the change to the dataframe accoridngly.
+<br /> <br />
 
+country: 
+<br />
+I standardized 'United States' and 'United States.' into 'United States'.
+<br /><br />
+
+date:
+<br />
+I formatted date to '%m/%d/%Y' for legibility.
+<br /><br />
