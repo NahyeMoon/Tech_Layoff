@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="Tech Layoffs/style.css">
 	
 # Tech Layoffs Data Cleaning in SQL
 <p align="center">
@@ -9,8 +9,11 @@
   <a href="https://www.forbes.com/sites/richardnieva/2022/12/23/what-tech-layoffs-mean-for-2023/">Forbes</a>
 </p>
 
+
+
 ## Introduction
 
+<body>
 During the pandemic, lockdowns and anti-pandemic measures triggered the Great Layoff in March and April 2020. 
 This unprecedented surge in layoffs and discharges resulted in about 22 million workers losing their jobs in only two months. 
 The labour force dropped dramatically and the global economy slowed down, and even in 2024, the labour force drop is only partially recovered. 
@@ -28,6 +31,8 @@ In this project, I cleaned a dataset that contains 2361 tech layoffs reported fr
 <p align="center">
   Overview of the Dataset
 </p>
+</body>
+
 
 ## Procedure
 
@@ -42,4 +47,8 @@ As you can see, the top five rows in the image below have row_num of 2, which me
 <p align="center">
   layoff_staging with descending row_num
 </p>
-											
+
+
+
+
+	  
