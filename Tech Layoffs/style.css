@@ -1,4 +1,3 @@
-body {
-    margin-left: 500 px;
-    margin-right: 500 px;
+.body-class {
+    margin: 50 px; /* Adjust the value as needed */
 }
