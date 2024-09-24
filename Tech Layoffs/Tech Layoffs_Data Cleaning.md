@@ -140,3 +140,5 @@ I removed rows with NULLs in both total_laid_off and percentage_laid_off because
 </p>
 <br /><br />
 
+## Conclusion
+I cleaning the tech layoffs dataset was crucial for making the data reliable and easy to use. I removed duplicates, standardized entries, and fixed missing values to create a clear and organized dataset. By addressing encoding issues and unifying categories, I ensured consistency in the data. The cleaned dataset is now ready for exploratory data analysis (EDA), and I plan to conduct EDA in my next project.
