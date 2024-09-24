@@ -47,14 +47,14 @@ I created a DataFrame named layoff_staging by duplicating the original DataFrame
 <br />
 <br />
 
-I removed the duplicates from the DataFrame by removing all rows with row_num of 2 and verified that the job was done properly by checking the rows for the company Casper as a reference. You can see that the row with row_num of 2 was successfully removed.
+I removed the duplicates from the DataFrame by removing all rows with row_num of 2 and verified that the job was done properly by checking the rows for the company 'Casper' as a reference. You can see that the row with row_num of 2 was successfully removed.
 
 <br />
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper.jpg" alt="Alt text" width="700"/>
 	<br />
-	Before: rows for the company Casper
+	Before: rows for the company 'Casper'
 </p>
 
 <br />
@@ -62,7 +62,7 @@ I removed the duplicates from the DataFrame by removing all rows with row_num of
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper_clean.jpg" alt="Alt text" width="700"/>
 	<br />
-	After: rows for the company Casper
+	After: rows for the company 'Casper'
 </p>
 
 <br />
@@ -74,12 +74,12 @@ As the very first step in standardizing the data, I trimmed all the entries in e
 
 industry: 
 <br />
-I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to Crypto. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values.
+I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values.
 <br /><br />
 
 location:
 <br />
-There are some locations that contain non-alphabet characters, such as 'DÃ¼sseldorf', 'FlorianÃ³polis', and 'MalmÃ¶'. Upon researching, I found that they were intended to be 'Düsseldorf', 'Florianópolis', and 'Malmö', respectively, but were incorrectly encoded; I made the change to the dataframe accoridngly.
+There are some locations that contain non-alphabet characters, such as 'DÃ¼sseldorf', 'FlorianÃ³polis', and 'MalmÃ¶'. Upon researching, I found that they were intended to be 'Düsseldorf', 'Florianópolis', and 'Malmö', respectively, but were incorrectly encoded; I made the change to the DataFrame accoridngly.
 <br /> <br />
 
 country: 
@@ -91,3 +91,15 @@ date:
 <br />
 I formatted date to '%m/%d/%Y' for legibility.
 <br /><br />
+
+### 3) Null Values or Blank Values
+
+I replaced blanks in industry to NULL, updated NULLs with populated rows. For example, there are two rows with company 'Airbnb' in the DataFrame but the industry of the one of them is NULL. From the other row (populated row), I knew that industry of 'Airbnb' is Travel and I can replace NULL with 'Airbnb'.
+
+<br />
+
+### 4) Remove Any Columns
+
+I removed rows with NULLs in both total_laid_off and percentage_laid_off because the rows do not give any information about the lay off. Finally, I dropped the column row_num because it was initially to help remove duplicate rows.
+<br />
+
