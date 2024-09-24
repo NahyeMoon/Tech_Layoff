@@ -17,20 +17,20 @@ Given the ongoing economic uncertainties and frequent layoffs in the tech indust
 
 <br />
 
-In this project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL.
+In this project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL.  I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics."
 
 <p align="center">
 <img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_overview.jpg"alt="Alt text" width="700"/>
 </p>
 
 <p align="center">
-  Overview of Dataset
+  Overview of the Dataset
 </p>
 
 ## Procedure
 
 ### 1) Remove Duplicates
-The layoff DataFrame was duplicated into a new DataFrame named layoff_staging, which includes an additional column to track the occurrence count of each row.
+I created a DataFrame named layoff_staging by duplicating the original dataframe and adding a new column, row_num that tracks the occurrence count of each row.
 
 ```
 CREATE TABLE `layoffs_staging` (
@@ -60,5 +60,7 @@ FROM layoffs;
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_staging.jpg" alt="Alt text" width="700"/>
 </p>
 
-
+<p align="center">
+  layoff_staging with descending row_num
+</p>
 											
