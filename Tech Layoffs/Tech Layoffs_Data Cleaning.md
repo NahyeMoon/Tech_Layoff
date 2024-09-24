@@ -57,7 +57,7 @@ FROM layoffs;
 ```
 
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/techlayoffs.pdf" alt="Alt text" width="700"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_staging.jpg" alt="Alt text" width="700"/>
 </p>
 
 
