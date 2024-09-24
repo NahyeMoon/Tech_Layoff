@@ -30,31 +30,8 @@ In this project, I cleaned a dataset that contains 2361 tech layoffs reported fr
 ## Procedure
 
 ### 1) Remove Duplicates
-I created a DataFrame named layoff_staging by duplicating the original dataframe and adding a new column, row_num that tracks the occurrence count of each row.
-
-```
-CREATE TABLE `layoffs_staging` (
-  `company` text,
-  `location` text,
-  `industry` text,
-  `total_laid_off` int DEFAULT NULL,
-  `percentage_laid_off` text,
-  `date` text,
-  `stage` text,
-  `country` text,
-  `funds_raised_millions` int DEFAULT NULL,
-  `row_num` INT
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-```
-
-```
-INSERT INTO layoffs_staging
-SELECT *,
-ROW_NUMBER() OVER(
-PARTITION BY company, location, industry, total_laid_off, percentage_laid_off, `date`,
-stage, country, funds_raised_millions) AS row_num
-FROM layoffs;
-```
+I created a DataFrame named layoff_staging by duplicating the original dataframe and adding a new column, row_num that tracks the number of occurrence of each row.
+As you can see, the top five rows in the image below have row_num of 2, which means the dataframe contains duplicates of them.
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_staging.jpg" alt="Alt text" width="700"/>
