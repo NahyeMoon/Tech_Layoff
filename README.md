@@ -6,10 +6,6 @@ Hope you enjoy exloring my projects!
 
 ## 🔍 Projects
 
-### 🛠️ [Tech Layoff Analysis](https://github.com/NahyeMoon/DataAnalyticsPortfolio/tree/main/Tech%20Layoffs)
-
-- **Description:** An analysis of global tech layoffs from the beginning of COVID-19 (March 2020) to present (June 2024), visualized using Power BI.
-- **Technologies:** MySQL and Power BI
-
+### 🛠️ [Tech Layoff Analysis in SQL](https://github.com/NahyeMoon/DataAnalyticsPortfolio/tree/main/Tech%20Layoffs)
 ### 🛠️ Tech Layoff Analysis
 
