@@ -25,15 +25,16 @@ Given the ongoing economic uncertainties and frequent layoffs in the tech indust
 In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL. <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">(Data Soucre: Kaggle)</a> I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics. 
 
 <br />
-
+The table on the bottoms shows top rows of the dataset. Most of the columns in the dataset represent their names, but for clarification, 'stage' refers to the stage of funding.
+<br />
+<br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_overview.jpg"alt="Alt text" width="700"/>
 	<br />
-	Overview of the Dataset
+	Top Rows in the Dataset
 </p>
 
 <br />
-Most of the columns in the dataset represent their names. However, for clarification, 'stage' refers to the stage of funding.
 
 ## Procedure
 
