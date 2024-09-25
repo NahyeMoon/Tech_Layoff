@@ -17,11 +17,12 @@ During the pandemic, lockdowns and anti-pandemic measures triggered the Great La
 This unprecedented surge in layoffs and discharges resulted in about 22 million workers losing their jobs in only two months. 
 The labour force dropped dramatically and the global economy slowed down, and even in 2024, the labour force drop is only partially recovered. 
 ech firms around the globe are fighting the economic slowdown and theyhave started laying employees off. 
-Given the ongoing economic uncertainties and frequent layoffs in the tech industry, the relevant dataset would be an interesting topic of exploration. 
+Given the ongoing economic uncertainties and frequent layoffs in the tech industry, the relevant dataset would be an interesting topic of exploration. ( <a href="https://cepr.org/voxeu/columns/layoffs-retirement-and-post-pandemic-inflation">CEPR</a>, 
+<a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a> )
 
 <br />
 
-In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL.  I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics.
+In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL. <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">(Data Soucre: Kaggle)</a> I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics. 
 
 <br />
 
