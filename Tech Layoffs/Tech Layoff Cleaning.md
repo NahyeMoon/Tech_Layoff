@@ -33,6 +33,7 @@ In the first part of the project, I cleaned a dataset that contains 2361 tech la
 </p>
 
 <br />
+Most of the columns in the dataset represent their names. However, for clarification, 'stage' refers to the stage of funding.
 
 ## Procedure
 
