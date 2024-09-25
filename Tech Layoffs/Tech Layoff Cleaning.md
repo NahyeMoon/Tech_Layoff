@@ -21,7 +21,7 @@ Given the ongoing economic uncertainties and frequent layoffs in the tech indust
 
 <br />
 
-In this project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL.  I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics.
+In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL.  I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics.
 
 <br />
 
@@ -141,4 +141,4 @@ I removed rows with NULLs in both total_laid_off and percentage_laid_off because
 <br /><br />
 
 ## Conclusion
-I cleaning the tech layoffs dataset was crucial for making the data reliable and easy to use. I removed duplicates, standardized entries, and fixed missing values to create a clear and organized dataset. By addressing encoding issues and unifying categories, I ensured consistency in the data. The cleaned dataset is now ready for exploratory data analysis (EDA), and I plan to conduct EDA in my next project.
+Cleaning the tech layoffs dataset was crucial to making the data reliable and easy to use. I removed duplicates, standardized entries, addressed missing values, and fixed encoding issues to create a clear, organized dataset. The cleaned dataset is now ready for exploratory data analysis (EDA), which is the next phase of this project. Stay tuned!
