@@ -102,7 +102,7 @@ I standardized 'United States' and 'United States.' into 'United States'.
 <br />
 
 date:
-I formatted date to '%m/%d/%Y' for legibility.
+I formatted date to yyyy-mm-dd for legibility.
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_date.jpg" alt="Alt text" width="200"/>
