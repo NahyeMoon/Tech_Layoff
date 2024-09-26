@@ -9,6 +9,7 @@
 </p>
 
 The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2024), was cleaned in SQL during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.md">Tech Layoff Cleaning.md></a>) In this second part, I conducted exploratory data analysis (EDA) on the cleaned dataset using SQL and visualized the results with Power BI.
+(Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>)
 
 I created a map with the companies' locations marked as dots to visualize their distribution (Figure 1). It appears that most of the data was collected from companies in North America and Europe, suggesting that there is a limit to drawing conclusions or insights that are truly global from the analysis on this data.
 <br/>
