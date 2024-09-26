@@ -48,11 +48,10 @@ The histograms for total_laid_off, percentage_laid_off and funds_raised_millions
 </p>
 
 <br/>
-(<strong>Figure 5</strong>) is a pie chart illustrating the top 10 industries with the most layoffs and (<strong>Table 2</strong>) shows the top 10 companies and their industries.
+(<strong>Figure 5</strong>) is a pie chart illustrating the top 9 industries with the most layoffs, and the other industries were combined to the new category 'Others'. The 'other' category in the dataset had the 3rd most layoffs, and it was combined to 'Others'. and (<strong>Table 2</strong>) shows the top 10 companies and their industries.
 
 by industry pie chart --> compare with the top 10 companies and their industries
 
 is the table reliable?: possible biase
-
 - companies that are easy to collect data from (big companies with transparency)
 - we can look more into what occupations have been laid off in each reported layoff case. we can also study the correlation of the industry and the occupation within it. for example, software developers in retail (amazon) may have been layed off more than software developers in consumer (google).
