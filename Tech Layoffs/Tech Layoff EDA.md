@@ -8,10 +8,10 @@
   <a href="https://etedge-insights.com/featured-insights/government-and-policies/tech-layoffs-hit-indians-in-united-states-how-the-eb-5-program-offers-stability/">ET Edge Insights</a>
 </p>
 
-The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2024), was cleaned in SQL during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.md">Tech Layoff Cleaning.md></a>) In this second part, I conducted exploratory data analysis (EDA) on the cleaned dataset using SQL and visualized the results with Power BI.
+The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2024), was cleaned in <strong><em>SQL</strong></em> during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.md">Tech Layoff Cleaning.md></a>) In this second part, exploratory data analysis (EDA) was conducted on the cleaned dataset using SQL and the results were visaulized with <strong><em>PowerBI</strong></em>.
 (Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>)
 
-I created a map with the companies' locations marked as dots to visualize their distribution (<strong>Figure 1</strong>). It appears that most of the data was collected from companies in North America and Europe, suggesting that there is a limit to drawing conclusions or insights that are truly global from the analysis on this data.
+A map with the companies' locations marked as dots was created to visualize their distribution (<strong>Figure 1</strong>). It appears that most of the data was collected from companies in North America and Europe, suggesting the limit to drawing conclusions or insights that are truly global from the dataset
 <br/>
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_locationmap.jpg" width="700"/>
@@ -20,7 +20,7 @@ I created a map with the companies' locations marked as dots to visualize their 
 </p>
 <br/>
 
-I created histograms in PowerBI for total_laid_off, percentage_laid_off and funds_raised_millions (<strong>Figures 2-4</strong>) and calculated descriptive statistic using Python for each to study the distribution of the value in each (<strong>Table 1</strong>). The histograms show that most reported layoffs had a total_laid_off between 0 and 250(<strong>Figure 2</strong>), a percentage_laid_off between 0-20% (<strong>Figure 3</strong>), or the company raised 0-250 million dollars (<strong>Figure 4</strong>), with each variable considered separately. This suggests that the distributions of those variables are skewed to the left. As expected, the difference between the mean and the maximum in each variable is significantly large compared to the difference between mean and the minimum (<strong>Table 1</strong>), and this also contributes to the large standard deviation.
+The histograms for total_laid_off, percentage_laid_off and funds_raised_millions were created usign <strong><em>PowerBI</strong></em> (<strong>Figures 2-4</strong>) and calculated descriptive statistic using Python for each to study the distribution of the value in each (<strong>Table 1</strong>). The histograms show that most reported layoffs had a total_laid_off between 0 and 250(<strong>Figure 2</strong>), a percentage_laid_off between 0-20% (<strong>Figure 3</strong>), or the company raised 0-250 million dollars (<strong>Figure 4</strong>), with each variable considered separately. This suggests that the distributions of those variables are skewed to the left. As expected, the difference between the mean and the maximum in each variable is significantly large compared to the difference between mean and the minimum (<strong>Table 1</strong>), and this also contributes to the large standard deviation.
 <br/><br/>
 
 <p align="center"> 
@@ -48,7 +48,7 @@ I created histograms in PowerBI for total_laid_off, percentage_laid_off and fund
 </p>
 
 <br/>
-I created a pie chart illustrating the top 10 industries with the most layoffs (<strong>Figure 5</strong>) and a table with the top 10 companies and their industries (<strong>Table 2</strong>).
+(<strong>Figure 5</strong>) is a pie chart illustrating the top 10 industries with the most layoffs and (<strong>Table 2</strong>) shows the top 10 companies and their industries.
 
 by industry pie chart --> compare with the top 10 companies and their industries
 
