@@ -28,9 +28,10 @@ Table 1 shows top rows of the dataset. Most of the columns in the dataset repres
 <br />
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_overview.jpg"alt="Alt text" width="700"/>
-	<br />
 	Table 1.Top Rows in the Dataset
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_overview.jpg"alt="Alt text" width="700"/>
+
 </p>
 
 <br />
@@ -41,9 +42,10 @@ Table 1 shows top rows of the dataset. Most of the columns in the dataset repres
 I created a DataFrame named layoff_staging by duplicating the original DataFrame and adding a new column, row_num, which tracks the occurrence count of each row. As Table 2 shows, the top five rows have a row_num of 2, indicating that there was a duplicate rows at a previous index for each of them. 
 
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_staging.jpg" alt="Alt text" width="700"/>
-	<br />
 	Table 2. layoff_staging with descending row_num
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_staging.jpg" alt="Alt text" width="700"/>
+
 </p>
 
 <br />
@@ -54,17 +56,17 @@ I removed the duplicates from the DataFrame by removing all rows with row_num of
 <br />
 
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper.jpg" alt="Alt text" width="700"/>
-	<br />
 	Table 3. Rows for Casper before removing duplicates
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper.jpg" alt="Alt text" width="700"/>	
 </p>
 
 <br />
 
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper_clean.jpg" alt="Alt text" width="700"/>
-	<br />
 	Table 4. Rows for Casper after removing duplicates
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper_clean.jpg" alt="Alt text" width="700"/>
 </p>
 
 <br />
@@ -79,9 +81,9 @@ industry:
 I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values. Table 5 shows some entires in column industry with those entires highlighted in yellow.
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_industry.jpg" alt="Alt text" width="200"/>
+	Table 5. Column industry
 	<br />
-	Table 5. Column industry with entries that need to be fixed highlighted in yellow.
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_industry.jpg" alt="Alt text" width="200"/>
 </p>
 <br />
 
@@ -94,9 +96,9 @@ country:
 I standardized 'United States' and 'United States.' into 'United States' (Table 6).
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_country.jpg" alt="Alt text" width="100"/>
+	Table 6. Column country
 	<br />
-	Table 6. Column country with entries that represent United States highlgihted in yellow
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_country.jpg" alt="Alt text" width="100"/>
 </p>
 <br />
 
@@ -104,9 +106,9 @@ date:
 I formatted date to yyyy-mm-dd for legibility (Table 7).
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_date.jpg" alt="Alt text" width="200"/>
-	<br />
 	Table 7. Column date Before and After the formatting
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_date.jpg" alt="Alt text" width="200"/>
 </p>
 <br />
 
@@ -115,16 +117,16 @@ I formatted date to yyyy-mm-dd for legibility (Table 7).
 I replaced blanks in industry to NULL, updated NULLs with populated rows. For example, there are two rows with company 'Airbnb' in the DataFrame but the industry of the one of them is NULL (Table 8). From the other row (populated row), I knew that industry of 'Airbnb' is Travel and I replaced NULL with 'Airbnb' (Table 9).
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb.jpg" width="700" />
-	<br />
 	Table 8. Rows with company Airbnb before populating them.
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb.jpg" width="700" />
 </p>
 
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb_clean.jpg" width="700"/>
+	Table 9. rows with company Airbnb after populating them.<br />
 	<br />
-	Table 9. rows with company Airbnb after populating them.
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb_clean.jpg" width="700"/>
 </p>
 <br />
 
@@ -136,9 +138,9 @@ I removed rows with NULLs in both total_laid_off and percentage_laid_off because
 
 <br />
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_nulls.jpg" width="700"/>
-	<br />
 	Table 10. Rows with NULLs in both total_laid_off and percentage_laid_off
+	<br />
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_nulls.jpg" width="700"/>
 </p>
 <br /><br />
 
