@@ -5,7 +5,7 @@
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/67eaf22920c9d0f3be1e6ed9636e3e664d7b69d0/Tech%20Layoffs/layoff.jpg" alt="Alt text" width="700"/>
 </p>
 
-<p align="center">
+<p align="center
   <a href="https://www.forbes.com/sites/richardnieva/2022/12/23/what-tech-layoffs-mean-for-2023/">Forbes</a>
 </p>
 
@@ -19,7 +19,7 @@ ech firms around the globe are fighting the economic slowdown and theyhave start
 Given the ongoing economic uncertainties and frequent layoffs in the tech industry, the relevant dataset would be an interesting topic of exploration. ( <a href="https://cepr.org/voxeu/columns/layoffs-retirement-and-post-pandemic-inflation">CEPR</a>, 
 <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a> )
 <br />
-In the first part of the project, a dataset that contains 2,361 tech layoffs reported was cleaned using <strong><em>SQL</strong></em> and visualziations the SQL outputs were created using <strong><em>PowerBI</strong></em>. The data was collected from the onset of the COVID-19 pandemic (March 11, 2020) to the present (July 20, 2024). <strong>Table 1</strong> shows top rows of the dataset, and most of the columns in the dataset represent their names while'stage' refers to the stage of funding.
+In the first part of the project, a dataset that contains 2,361 tech layoffs reported was cleaned using <strong><em>SQL</strong></em> and visualziations the <strong><em>SQL</strong></em> outputs were created using <strong><em>PowerBI</strong></em>. The data was collected from the onset of the COVID-19 pandemic (March 11, 2020) to the present (July 20, 2024). <strong>Table 1</strong> shows top rows of the dataset, and most of the columns in the dataset represent their names while'stage' refers to the stage of funding.
 <br /><br />
 <p align="center">
 	<strong>Table 1.</strong>Top Rows in the Dataset
