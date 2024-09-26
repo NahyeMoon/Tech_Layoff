@@ -20,25 +20,22 @@ I created a map with the companies' locations marked as dots to visualize their 
 </p>
 <br/>
 
-I created histograms in PowerBI for total_laid_off, percentage_laid_off and funds_raised_millions (<strong>Figures 2-4</strong>) and calculated descriptive statistic using Python for each to study the distribution of the value in each (<strong>Table 1</strong>). The histograms show that most reported layoffs had a total_laid_off between 0 and 250 (<strong>Figure 2</strong>), a percentage_laid_off between 0-20% (<strong>Figure 3</strong>), or the company raised 0-250 million dollars (<strong>Figure 4</strong>), with each variable considered separately. This suggests that the distributions of those variables are skewed to the left.
-<br/>
+I created histograms in PowerBI for total_laid_off, percentage_laid_off and funds_raised_millions (<strong>Figures 2-4</strong>) and calculated descriptive statistic using Python for each to study the distribution of the value in each (<strong>Table 1</strong>). The histograms show that most reported layoffs had a total_laid_off between 0 and 250(<strong>Figure 2</strong>), a percentage_laid_off between 0-20% (<strong>Figure 3</strong>), or the company raised 0-250 million dollars (<strong>Figure 4</strong>), with each variable considered separately. This suggests that the distributions of those variables are skewed to the left. As expected, the difference between the mean and the maximum in each variable is significantly large compared to the difference between mean and the minimum (<strong>Table 1</strong>), and this also contributes to the large standard deviation.
+<br/><br/>
 
 <p align="center"> 
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" width="535">
-	<br/>
-	<span style="font-size: 9 px;"><strong>Figure 2.</strong> Histogram of total_laid_off</span>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" height = "320"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/percentage_hist.jpg" height = "320"/>
 </p>
-<br/>
-
-<p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/percentage_hist.jpg" width="535"/>
-	<br/>
+<p align="center"> 
+	<span style="font-size: 9 px;"><strong>Figure 2.</strong> Histogram of total_laid_off</span> 
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 	<strong>Figure 3.</strong> Histogram of percentage_laid_off</span>
 </p>
-<br/>
 
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/funds_hist.jpg"  width="535"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/funds_hist.jpg"  height = "320"/>
 	<br/>
 	<strong>Figure 4.</strong> Histogram of funds_raised_millions</span>
 </p>
@@ -50,4 +47,12 @@ I created histograms in PowerBI for total_laid_off, percentage_laid_off and fund
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_descriptive_stats.jpg"  width="700"/>
 </p>
 
+<br/>
+I created a pie chart illustrating the top 10 industries with the most layoffs (<strong>Figure 5</strong>) and a table with the top 10 companies and their industries (<strong>Table 2</strong>).
 
+by industry pie chart --> compare with the top 10 companies and their industries
+
+is the table reliable?: possible biase
+
+- companies that are easy to collect data from (big companies with transparency)
+- we can look more into what occupations have been laid off in each reported layoff case. we can also study the correlation of the industry and the occupation within it. for example, software developers in retail (amazon) may have been layed off more than software developers in consumer (google).
