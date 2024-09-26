@@ -78,7 +78,7 @@ As the very first step in standardizing the data, I trimmed all the entries in e
 
 industry: 
 <br />
-I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values. Table 5 shows some entires in column industry with those entires highlighted in yellow.
+I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values. Table 5 shows some entris in column industry with those entries highlighted in yellow.
 <br />
 <p align="center">
 	Table 5. Column industry
