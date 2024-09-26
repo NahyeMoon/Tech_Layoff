@@ -19,13 +19,14 @@ I created a map with the companies' locations marked as dots to visualize their 
 	Figure 1. Map of location
 </p>
 <br/>
-I created histograms in PowerBI for total_laid_off, percentage_laid_off and funds_raised_millions (Figures 2-4) and calculated descriptive statistic using Python for each to study the distribution of the value in each (Table 1). 
-<br/><br/>
+
+I created histograms in PowerBI for total_laid_off, percentage_laid_off and funds_raised_millions (Figures 2-4) and calculated descriptive statistic using Python for each to study the distribution of the value in each (Table 1). The histograms show that most reported layoffs had a total_laid_off between 0 and 250 (Figure 2), a percentage_laid_off between 0-20% (Figure 3), or the company raised 0-250 million dollars (Figure 4), with each variable considered separately. This suggests that the distributions of those variables are skewed to the left.
+<br/>
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" width="535">
 	<br/>
-	Figure 2. Histogram of total_laid_off>
+	Figure 2. Histogram of total_laid_off
 </p>
 <br/>
 
@@ -41,3 +42,5 @@ I created histograms in PowerBI for total_laid_off, percentage_laid_off and fund
 	<br/>
 	Figure 4. Histogram of funds_raised_millions
 </p>
+
+
