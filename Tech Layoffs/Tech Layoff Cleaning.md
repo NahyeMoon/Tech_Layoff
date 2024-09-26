@@ -25,13 +25,13 @@ Given the ongoing economic uncertainties and frequent layoffs in the tech indust
 In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (11 March 2020) to Present (20 July 2024) using SQL. <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">(Data Soucre: Kaggle)</a> I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics. 
 
 <br />
-The table on the bottoms shows top rows of the dataset. Most of the columns in the dataset represent their names, but for clarification, 'stage' refers to the stage of funding.
+Table 1 shows top rows of the dataset. Most of the columns in the dataset represent their names, but for clarification, 'stage' refers to the stage of funding.
 <br />
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_overview.jpg"alt="Alt text" width="700"/>
 	<br />
-	Top Rows in the Dataset
+	Table 1.Top Rows in the Dataset
 </p>
 
 <br />
@@ -39,25 +39,25 @@ The table on the bottoms shows top rows of the dataset. Most of the columns in t
 ## Procedure
 
 ### 1) Remove Duplicates
-I created a DataFrame named layoff_staging by duplicating the original DataFrame and adding a new column, row_num, which tracks the occurrence count of each row. As shown in the image below, the top five rows have a row_num of 2, indicating that there was a duplicate rows at a previous index for each of them. 
+I created a DataFrame named layoff_staging by duplicating the original DataFrame and adding a new column, row_num, which tracks the occurrence count of each row. As Table 2 shows, the top five rows have a row_num of 2, indicating that there was a duplicate rows at a previous index for each of them. 
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_staging.jpg" alt="Alt text" width="700"/>
 	<br />
-	layoff_staging with descending row_num
+	Table 2. layoff_staging with descending row_num
 </p>
 
 <br />
 <br />
 
-I removed the duplicates from the DataFrame by removing all rows with row_num of 2 and verified that the job was done properly by checking the rows for the company 'Casper' as a reference. You can see that the row with row_num of 2 was successfully removed.
+I removed the duplicates from the DataFrame by removing all rows with row_num of 2 and verified that the job was done properly by checking the rows for the company 'Casper' as a reference. You can see from Table 3(before) and Table 4(after) that the row with row_num of 2 was successfully removed.
 
 <br />
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper.jpg" alt="Alt text" width="700"/>
 	<br />
-	Before: rows for the company 'Casper'
+	Table 3. Rows for Casper before removing duplicates
 </p>
 
 <br />
@@ -65,7 +65,7 @@ I removed the duplicates from the DataFrame by removing all rows with row_num of
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_casper_clean.jpg" alt="Alt text" width="700"/>
 	<br />
-	After: rows for the company 'Casper'
+	Table 4. Rows for Casper after removing duplicates
 </p>
 
 <br />
@@ -77,12 +77,12 @@ As the very first step in standardizing the data, I trimmed all the entries in e
 
 industry: 
 <br />
-I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values.
+I noticed that there are 'Crypto', 'Crypto Currency', and 'CryptoCurrency', which all represent the same industry; I standardized them to 'Crypto'. I also noticed None and NULL but those are addressed later in the next step, 3) Null Values or Blank Values. Table 5 shows some entires in column industry with those entires highlighted in yellow.
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_industry.jpg" alt="Alt text" width="200"/>
 	<br />
-	Column industry
+	Table 5. Column industry with entries that need to be fixed highlighted in yellow.
 </p>
 <br />
 
@@ -92,40 +92,40 @@ There are some locations that contain non-alphabet characters, such as 'DÃ¼sse
 <br />
 
 country: 
-I standardized 'United States' and 'United States.' into 'United States'.
+I standardized 'United States' and 'United States.' into 'United States' (Table 6).
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_country.jpg" alt="Alt text" width="100"/>
 	<br />
-	Column country
+	Table 6. Column country with entries that represent United States highlgihted in yellow
 </p>
 <br />
 
 date:
-I formatted date to yyyy-mm-dd for legibility.
+I formatted date to yyyy-mm-dd for legibility (Table 7).
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_date.jpg" alt="Alt text" width="200"/>
 	<br />
-	date Before and After the formatting
+	Table 7. Column date Before and After the formatting
 </p>
 <br />
 
 ### 3) Null Values or Blank Values
 
-I replaced blanks in industry to NULL, updated NULLs with populated rows. For example, there are two rows with company 'Airbnb' in the DataFrame but the industry of the one of them is NULL. From the other row (populated row), I knew that industry of 'Airbnb' is Travel and I can replace NULL with 'Airbnb'.
+I replaced blanks in industry to NULL, updated NULLs with populated rows. For example, there are two rows with company 'Airbnb' in the DataFrame but the industry of the one of them is NULL (Table 8). From the other row (populated row), I knew that industry of 'Airbnb' is Travel and I replaced NULL with 'Airbnb' (Table 9).
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb.jpg" width="700" />
 	<br />
-	Before: rows with company Airbnb
+	Table 8. Rows with company Airbnb before populating them.
 </p>
 
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_airbnb_clean.jpg" width="700"/>
 	<br />
-	After: rows with company Airbnb
+	Table 9. rows with company Airbnb after populating them.
 </p>
 <br />
 
@@ -133,13 +133,13 @@ I replaced blanks in industry to NULL, updated NULLs with populated rows. For ex
 
 ### 4) Remove Any Columns
 
-I removed rows with NULLs in both total_laid_off and percentage_laid_off because the rows do not give any information about the lay off. Finally, I dropped the column row_num because it was initially to help remove duplicate rows.
+I removed rows with NULLs in both total_laid_off and percentage_laid_off because the rows do not give any information about the lay off (Table 10). Finally, I dropped the column row_num because it was initially to help remove duplicate rows.
 
 <br />
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_nulls.jpg" width="700"/>
 	<br />
-	Rows with NULLs in both total_laid_off and percentage_laid_off
+	Table 10. Rows with NULLs in both total_laid_off and percentage_laid_off
 </p>
 <br /><br />
 
