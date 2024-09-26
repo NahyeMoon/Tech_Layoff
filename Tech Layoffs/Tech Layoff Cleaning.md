@@ -22,9 +22,8 @@ Given the ongoing economic uncertainties and frequent layoffs in the tech indust
 
 <br />
 
-In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (March 11th, 2020) to Present (July 20th, 2024) using SQL. <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">(Data Soucre: Kaggle)</a> I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics. 
-
-<br />
+In the first part of the project, I cleaned a dataset that contains 2361 tech layoffs reported from when COVID-19 was declared a pandemic (March 11th, 2020) to Present (July 20th, 2024) using SQL. I also used Power BI to create high-resolution visualizations of the SQL outputs with enhanced aesthetics.  (Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>)
+<br /><br />
 Table 1 shows top rows of the dataset. Most of the columns in the dataset represent their names, but for clarification, 'stage' refers to the stage of funding.
 <br />
 <br />
@@ -145,4 +144,4 @@ I removed rows with NULLs in both total_laid_off and percentage_laid_off because
 
 ## Conclusion
 Cleaning the tech layoffs dataset was crucial to making the data reliable and easy to use. I removed duplicates, standardized entries, addressed missing values, and fixed encoding issues to create a clear, organized dataset. The data can be further transformed by filling in the missing total_laid_off and percentage_laid_off values from another dataset.
-The cleaned dataset is now ready for exploratory data analysis (EDA), which is the next phase of this project. Stay tuned!
+The cleaned dataset is now ready for exploratory data analysis (EDA), which is the next phase of this project. <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20EDA.md">Tech Layoff EDA.md </a>
