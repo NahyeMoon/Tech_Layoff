@@ -16,7 +16,7 @@ I created a map with the companies' locations marked as dots to visualize their 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_locationmap.jpg" width="700"/>
 	<br/>
-	Figure 1. Map of location
+	<span style="font-size: 9px;"><span style="font-weight: bold;">Figure 1.</span> Map of location</span>
 </p>
 <br/>
 
@@ -26,21 +26,28 @@ I created histograms in PowerBI for total_laid_off, percentage_laid_off and fund
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" width="535">
 	<br/>
-	Figure 2. Histogram of total_laid_off
+	<span style="font-size: 9px;">Figure 2. Histogram of total_laid_off
 </p>
 <br/>
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/percentage_hist.jpg"  width="535"/>
 	<br/>
-	Figure 3. Histogram of percentage_laid_off
+	<span style="font-size: 9px;">Figure 3. Histogram of percentage_laid_off
 </p>
 <br/>
 
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/funds_hist.jpg"  width="535"/>
 	<br/>
-	Figure 4. Histogram of funds_raised_millions
+	<span style="font-size: 9px;">Figure 4. Histogram of funds_raised_millions
+</p>
+<br/>
+
+<p align="center">
+	<span style="font-size: 9px;">Table 1. Descriptive statistic of total_laid_off, percentage_laid_off and fund_raised_millions	
+	<br/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_descriptive_stats.jpg"  width="700"/>
 </p>
 
 
