@@ -19,7 +19,7 @@ ech firms around the globe are fighting the economic slowdown and theyhave start
 Given the ongoing economic uncertainties and frequent layoffs in the tech industry, the relevant dataset would be an interesting topic of exploration. ( <a href="https://cepr.org/voxeu/columns/layoffs-retirement-and-post-pandemic-inflation">CEPR</a>, 
 <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a> )
 <br />
-In the first part of the project, a dataset that contains 2,361 tech layoffs reported was cleaned using <strong><em>SQL</strong></em> and visualziations the <strong><em>SQL</strong></em> outputs were created using <strong><em>PowerBI</strong></em>. The data was collected from the onset of the COVID-19 pandemic (March 11, 2020) to the present (July 20, 2024). <strong>Table 1</strong> shows top rows of the dataset, and most of the columns in the dataset represent their names while'stage' refers to the stage of funding.
+In the first part of the project, a dataset that contains 2,361 tech layoffs reported was cleaned using <strong><em>SQL</strong></em> and visualziations the <strong><em>SQL</strong></em> outputs were created using <strong><em>PowerBI</strong></em>. The data was collected from the onset of the COVID-19 pandemic (March 11, 2020) to the present (July 20, 2024). <strong>Table 1</strong> shows top rows of the dataset, and most of the columns in the dataset represent their names while'stage' refers to the stage of funding. The meaning of the stages are explained on <a href="https://www.indeed.com/career-advice/career-development/startup-funding-stages">Indeed</a>.
 <br /><br />
 <p align="center">
 	<strong>Table 1.</strong>Top Rows in the Dataset
