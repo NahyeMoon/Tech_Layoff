@@ -106,6 +106,9 @@ The column date was formatted to yyyy-mm-dd for legibility (<strong>Table 7</str
 </p>
 <br />
 
+stage:
+The values 'Unkown' and NULL were merged to 'Unknown'.
+
 ### 3) Null Values or Blank Values
 
 The blanks in industry was replaced to NULL whcih were filled with populated rows where possible. For example, the industry of the second rows with company Aribnb in (<strong>Table 8</strong>) is NULL. From the first row (populated row), the industry of Airbnb is Travel and the NULL is replaced with Airbnb.
