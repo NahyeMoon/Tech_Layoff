@@ -94,7 +94,7 @@ Additionally, we can delve deeper by examining the specific occupations affected
 
 A total of approximately 240,000 layoffs were recorded from companies in the post-IPO funding stage, while around 59,000 layoffs were reported from companies in Series D or beyond, as shown in Figure 5. This indicates that most of the layoffs in the dataset are concentrated among more established companies. This trend makes sense, as companies that receive more funding typically become more stabilized, which often leads to a larger workforce. Consequently, these organizations may also have a greater number of employees to lay off during restructuring or downsizing efforts.
 
-See <a href="https://www.indeed.com/career-advice/career-development/startup-funding-stages">Indeed</a> for details on different stages of funding)
+See <a href="https://www.indeed.com/career-advice/career-development/startup-funding-stages">Indeed</a> for details on different stages of funding
 <p align="center"> 
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/stage_bar.jpg"  width = "700"/>
 	<br/>
