@@ -7,5 +7,4 @@ Hope you enjoy exloring my projects!
 ## 🔍 Projects
 
 ### 🛠️ [Tech Layoff Analysis in SQL](https://github.com/NahyeMoon/DataAnalyticsPortfolio/tree/main/Tech%20Layoffs)
-### Coming Up Soon
 
