@@ -40,22 +40,22 @@ The histograms for total_laid_off, percentage_laid_off and funds_raised_millions
 
 <p align="center"> 
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" width = "700"/>
-	<br/>
+	<br/><br/>
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/percentage_hist.jpg" width = "700"/>
-	<br/>
+	<br/><br/>
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/funds_hist.jpg"  width = "700"/>
-	<br/>
+	<br/><br/>
 	<strong>Figure 3.</strong> Histograms of: <strong>a)</strong> total_laid_off, <strong>b)</strong> precentage_laid_off, and <strong>c)</strong> funds_raised_millions</span>
 </p>
-
+<br/><br/>
 <p align="center">
 	<strong>Table 1.</strong> Descriptive statistic of total_laid_off, percentage_laid_off and fund_raised_millions</span>	
 	<br/>
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_descriptive_stats.jpg"  width="700"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_descriptive_stats.jpg"  width="900"/>
 </p>
 <br/>
 
-<strong>Figure 6</strong> is a pie chart illustrating the top 9 industries with the most layoffs, with the remaining industries combined into a new category labeled 'Others.' The 'Other' category in the dataset had the third-highest number of layoffs and was also merged into 'Others' (<strong>Table 2</strong>). <strong>Table 3</strong> shows the top 10 companies with the most layoffs and their respective industries. Amazon had the highest number of layoffs, with its industry, Retail, ranking second (<strong>Figure 6</strong>). Amazon's layoffs make up 40% of the total layoffs in the Retail industry. Google and Meta had the second and third highest layoffs, with their industry, Consumer, ranking first among industries with the most layoffs. Combined, Google and Meta account for 51% of the total layoffs in their respective industries. The other top companies' industries—Sales, Healthcare, Transportation, Hardware, Travel, and Other from (<strong>Table 2</strong>)—are also among the top 10 industries, suggesting that all top 10 companies contribute significantly to the total layoffs within their industries. On the other hand, the layoffs in the remaining top 10 industries are likely contributed by multiple smaller companies.
+<strong>Figure 4</strong> is a pie chart illustrating the top 9 industries with the most layoffs, with the remaining industries combined into a new category labeled 'Others.' The 'Other' category in the dataset had the third-highest number of layoffs and was also merged into 'Others' (<strong>Table 2</strong>). <strong>Table 3</strong> shows the top 10 companies with the most layoffs and their respective industries. Amazon had the highest number of layoffs, with its industry, Retail, ranking second (<strong>Figure 6</strong>). Amazon's layoffs make up 40% of the total layoffs in the Retail industry. Google and Meta had the second and third highest layoffs, with their industry, Consumer, ranking first among industries with the most layoffs. Combined, Google and Meta account for 51% of the total layoffs in their respective industries. The other top companies' industries—Sales, Healthcare, Transportation, Hardware, Travel, and Other from (<strong>Table 2</strong>)—are also among the top 10 industries, suggesting that all top 10 companies contribute significantly to the total layoffs within their industries. On the other hand, the layoffs in the remaining top 10 industries are likely contributed by multiple smaller companies.
 
 <br/>
 
