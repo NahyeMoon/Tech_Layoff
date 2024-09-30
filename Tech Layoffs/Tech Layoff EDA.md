@@ -20,7 +20,7 @@ A map in <strong>Figure 1</strong> shows the locations of companies marked as do
 </p>
 <br/>
 <p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/country_pie.jpg" width="600"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/country_pie.jpg" width="500"/>
 	<br/>
 	<strong>Figure 2.</strong>Pie chart of top 10 countries with the most rerpoted layoff cases</span>
 </p>
@@ -69,7 +69,7 @@ Additionally, we can delve deeper by examining the specific occupations affected
 <br/>
 
 <p align="center"> 
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/industry_pie.jpg"  width = "600"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/industry_pie.jpg"  width = "500"/>
 	<br/>
 	<strong>Figure 4.</strong> Pie chart of 9 industries with the most layoffs</span>
 </p>
@@ -96,7 +96,7 @@ A total of approximately 240,000 layoffs were recorded from companies in the pos
 
 See <a href="https://www.indeed.com/career-advice/career-development/startup-funding-stages">Indeed</a> for details on different stages of funding)
 <p align="center"> 
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/stage_bar.jpg"  width = "600"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/stage_bar.jpg"  width = "700"/>
 	<br/>
 	<strong>Figure 5.</strong> total_laid_off by stage (of funding) </span>
 </p>
