@@ -55,28 +55,48 @@ The histograms for total_laid_off, percentage_laid_off and funds_raised_millions
 </p>
 <br/>
 
-<strong>Figure 4</strong> is a pie chart illustrating the top 9 industries with the most layoffs, with the remaining industries combined into a new category labeled 'Others.' The 'Other' category in the dataset had the third-highest number of layoffs and was also merged into 'Others' (<strong>Table 2</strong>). <strong>Table 3</strong> shows the top 10 companies with the most layoffs and their respective industries. Amazon had the highest number of layoffs, with its industry, Retail, ranking second (<strong>Figure 4</strong>). Amazon's layoffs make up 40% of the total layoffs in the Retail industry. Google and Meta had the second and third highest layoffs, with their industry, Consumer, ranking first among industries with the most layoffs. Combined, Google and Meta account for 51% of the total layoffs in their respective industries. The other top companies' industries—Sales, Healthcare, Transportation, Hardware, Travel, and Other from (<strong>Table 2</strong>)—are also among the top 10 industries, suggesting that all top 10 companies contribute significantly to the total layoffs within their industries. On the other hand, the layoffs in the remaining top 10 industries are likely contributed by multiple smaller companies.
+<strong>Figure 4</strong> is a pie chart illustrating the top 9 industries with the most layoffs, with the remaining industries combined into a new category labeled 'Others.' The 'Other' category in the dataset had the third-highest number of layoffs and was also merged into 'Others' (<strong>Table 2</strong>). <strong>Table 3</strong> shows the top 10 companies with the most layoffs and their respective industries. Amazon had the highest number of layoffs, with its industry, Retail, ranking second (<strong>Figure 4</strong>). Amazon's layoffs make up 40% of the total layoffs in the Retail industry. Google and Meta had the second and third highest layoffs, with their industry, Consumer, ranking first among industries with the most layoffs. Combined, Google and Meta account for 51% of the total layoffs in their respective industries. The transparency and accessibility of the information on layoffs for bigger companies like Amazon and Google may have contributed to their large fractions of reported layoffs in the industry. The other top companies' industries—Sales, Healthcare, Transportation, Hardware, Travel, and Other from (<strong>Table 2</strong>)—are also among the top 10 industries, suggesting that all top 10 companies contribute significantly to the total layoffs within their industries. On the other hand, the layoffs in the remaining top 10 industries are likely contributed by multiple smaller companies.
 
 <br/>
+Additionally, we can delve deeper by examining the specific occupations affected in each reported layoff case. It would also be valuable to study the correlation between industries and occupations within them. For instance, software developers in the Retail industry (e.g., Amazon) may have been laid off more frequently than software developers in the Consumer industry (e.g., Google).
+<br/><br/>
 
-<p align="center"> 
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/industry_pie.jpg"  width = "600"/>
-	<br/>
-	<strong>Figure 1.</strong> Pie chart of 9 industries with the most layoffs</span>
-</p>
 <p align="center">
-	<strong>Table 2.</strong></span>	
+	<strong>Table 2. Top 9 industries with the most layoffs before merging 'Other' industry into 'Others'</strong></span>	
 	<br/>
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/industry.jpg"  width="300"/>
 </p>
 <br/>
 
+<p align="center"> 
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/industry_pie.jpg"  width = "600"/>
+	<br/>
+	<strong>Figure 4.</strong> Pie chart of 9 industries with the most layoffs</span>
+</p>
+<br/>
 
+<p align="center">
+	<strong>Table 3. Top 10 companies with the most layoffs and their industries </strong></span>	
+	<br/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/company_industry.jpg"  width="400"/>
+</p>
+<br/>
 
-and (<strong>Table 3</strong>) shows the top 10 companies and their industries.
+<strong>Table 4</strong> shows the top 5 companies with the most layoffs and the number of layoffs in each year from 2020 to 2023. Amazon ranked second with a total of 10,150 layoffs in 2022 and fourth with 8,000 total layoffs in 2023, which is consistent with its position the company with the most layoffs in retail from 2020 to 2023. Similary, all 10 companies with the most layoffs and their industries from 2020 to 2023 in <strong>Table 3</strong> are also in <strong>Table 4</strong>.
+<br/>
 
-by industry pie chart --> compare with the top 10 companies and their industries
+<p align="center">
+	<strong>Table 4. Top 5 companies with the most layoffs in each year from 2020 to 2023 with the number of layoffs in parantheses</strong></span>	
+	<br/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/year_top5.jpg"  width="800"/>
+</p>
+<br/>
 
-is the table reliable?: possible biase
-- companies that are easy to collect data from (big companies with transparency)
-- we can look more into what occupations have been laid off in each reported layoff case. we can also study the correlation of the industry and the occupation within it. for example, software developers in retail (amazon) may have been layed off more than software developers in consumer (google).
+A total of approximately 240,000 layoffs were recorded from companies in the post-IPO funding stage, while around 59,000 layoffs were reported from companies in Series D or beyond, as shown in Figure 5. This indicates that most of the layoffs in the dataset are concentrated among more established companies. This trend makes sense, as companies that receive more funding typically become more stabilized, which often leads to a larger workforce. Consequently, these organizations may also have a greater number of employees to lay off during restructuring or downsizing efforts.
+
+See <a href="https://www.indeed.com/career-advice/career-development/startup-funding-stages">Indeed</a> for details on different stages of funding)
+<p align="center"> 
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/stage_bar.jpg"  width = "600"/>
+	<br/>
+	<strong>Figure 5.</strong> total_laid_off by stage (of funding) </span>
+</p>
