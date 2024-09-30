@@ -8,9 +8,11 @@
   <a href="https://etedge-insights.com/featured-insights/government-and-policies/tech-layoffs-hit-indians-in-united-states-how-the-eb-5-program-offers-stability/">ET Edge Insights</a>
 </p>
 
+## Project Overview
 The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2024), was cleaned in <strong><em>SQL</strong></em> during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.md">Tech Layoff Cleaning.md></a>) In this second part, exploratory data analysis (EDA) was conducted on the cleaned dataset using SQL and the results were visaulized with <strong><em>PowerBI</strong></em>.
 (Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>)
 
+## Exploratory Data Analysis EDA
 A map in <strong>Figure 1</strong> shows the locations of companies marked as dots, visualizing their distribution, while <strong>Figure 2</strong> is a pie chart illustrating the 10 countries with the most reported layoffs. The data appears to be predominantly collected from companies in North America and Europe (<strong>Figure 1</strong>), with 67 % of the cases reported in the United States. This suggests the limit to drawing conclusions or insights that are truly global from the dataset.
 <br/>
 <p align="center">
@@ -100,3 +102,11 @@ See <a href="https://www.indeed.com/career-advice/career-development/startup-fun
 	<br/>
 	<strong>Figure 5.</strong> total_laid_off by stage (of funding) </span>
 </p>
+
+## Conclusion and Future Work
+
+In summary, this analysis of the global tech layoff dataset from March 11, 2020, to July 20, 2024, highlights significant trends and insights regarding layoffs across various companies and industries. The exploratory data analysis conducted using SQL and Power BI revealed that most layoffs were reported in North America, particularly in the United States, and that many layoffs occurred after January 2022. The histograms demonstrated that the distribution of layoffs and funding raised was skewed, with many cases involving fewer layoffs and lower funding amounts.
+<br/><br/>
+The findings also indicated that larger companies like Amazon, Google, and Meta have been significant contributors to layoffs in their respective industries. This trend emphasizes the importance of considering company size and funding stage when analyzing layoffs, as larger, well-funded organizations often have a larger workforce and more layoffs during restructuring. Future analyses could focus on the specific occupations affected by layoffs and explore potential correlations between industry sectors and job roles.
+<br/><br/>
+Overall, while the dataset provides valuable insights into layoffs in the tech industry, it also suggests limitations in generalizability due to its focus on larger companies and certain geographical areas.
