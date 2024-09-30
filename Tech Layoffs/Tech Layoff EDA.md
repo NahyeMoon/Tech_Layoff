@@ -39,22 +39,14 @@ The histograms for total_laid_off, percentage_laid_off and funds_raised_millions
 <br/><br/>
 
 <p align="center"> 
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" height = "320"/>
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/percentage_hist.jpg" height = "320"/>
-</p>
-<p align="center"> 
-	<span style="font-size: 9 px;"><strong>Figure 3.</strong> Histogram of total_laid_off</span> 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-	<strong>Figure 4.</strong> Histogram of percentage_laid_off</span>
-</p>
-
-<p align="center">
-	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/funds_hist.jpg"  height = "320"/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/total_hist.jpg" width = "700"/>
 	<br/>
-	<strong>Figure 5.</strong> Histograms of: a)total_laid_off, b)precentage_laid_off, and c)funds_raised_millions</span>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/percentage_hist.jpg" width = "700"/>
+	<br/>
+	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/funds_hist.jpg"  width = "700"/>
+	<br/>
+	<strong>Figure 3.</strong> Histograms of: <strong>a)</strong> total_laid_off, <strong>b)</strong> precentage_laid_off, and <strong>c)</strong> funds_raised_millions</span>
 </p>
-<br/>
 
 <p align="center">
 	<strong>Table 1.</strong> Descriptive statistic of total_laid_off, percentage_laid_off and fund_raised_millions</span>	
