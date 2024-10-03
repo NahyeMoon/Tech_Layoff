@@ -148,4 +148,4 @@ The global tech layoffs dataset was cleandin in SQL by: removing duplicates, sta
 The dataset can be found on  <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>.
 <br />
 The SQL code for this project can be found here:
-<a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>
+<a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Global%20Tech%20Layoff%20Cleaning.sql">SQL code</a>
