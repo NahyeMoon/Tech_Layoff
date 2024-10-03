@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="style.css">	
 
-# Global Tech Layoffs Data Cleaning in SQL
+# Global Tech Layoff Data Cleaning in SQL
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/67eaf22920c9d0f3be1e6ed9636e3e664d7b69d0/Tech%20Layoffs/layoff.jpg" alt="Alt text" width="700"/>
 </p>
