@@ -10,7 +10,7 @@
 
 ## Project Overview
 The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2023), was cleaned in <strong><em>SQL</strong></em> during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Global%20Tech%20Layoff%20EDA.sql">Global Tech Layoff Cleaning.md</a>) In this second part, exploratory data analysis (EDA) was conducted on the cleaned dataset using SQL and the results were visaulized with <strong><em>PowerBI</strong></em>.
-(Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>)
+(Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Global%20Tech%20Layoff%20EDA.sql">SQL code</a>)
 
 ## Exploratory Data Analysis EDA
 A map in <strong>Figure 1</strong> shows the locations of companies marked as dots, visualizing their distribution, while <strong>Figure 2</strong> is a pie chart illustrating the 10 countries with the most reported layoffs. The data appears to be predominantly collected from companies in North America and Europe (<strong>Figure 1</strong>), with 67 % of the cases reported in the United States. This suggests the limit to drawing conclusions or insights that are truly global from the dataset.
