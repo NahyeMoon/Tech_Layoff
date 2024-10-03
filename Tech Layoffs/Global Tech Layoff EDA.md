@@ -9,7 +9,7 @@
 </p>
 
 ## Project Overview
-The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2023), was cleaned in <strong><em>SQL</strong></em> during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Global%20Tech%20Layoffs%20Cleaning.md">Global Tech Layoff Cleaning.md</a>) In this second part, exploratory data analysis (EDA) was conducted on the cleaned dataset using SQL and the results were visaulized with <strong><em>PowerBI</strong></em>.
+The global tech layoff dataset, covering the period from the beginning of COVID-19 (March 11, 2020) to the present (July 20, 2023), was cleaned in <strong><em>SQL</strong></em> during the first part of the project. (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Global%20Tech%20Layoff%20EDA.sql">Global Tech Layoff Cleaning.md</a>) In this second part, exploratory data analysis (EDA) was conducted on the cleaned dataset using SQL and the results were visaulized with <strong><em>PowerBI</strong></em>.
 (Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Tech%20Layoff%20Cleaning.sql">SQL code</a>)
 
 ## Exploratory Data Analysis EDA
