@@ -117,17 +117,17 @@ Below is the first 7 rows of the dataset.
 First, the columns and rows that do not give useful information about customers were removed.
 
 ```python
-# remove a duplicate row
+# Remove a duplicate row
 df = df.drop_duplicates()
 ```
 
 
 ```python
-# delete a column
+# Delete a column
 df = df.drop(columns = 'Not_Useful_Column')
 ```
 
-Then, The column Last_Name was standardized to have only alphabets with the capitalized first letter.
+Then, the column Last_Name was standardized to have only alphabets with the capitalized first letter.
 
 ```python
 df['Last_Name'] = df['Last_Name'].str.strip('./_')
@@ -150,10 +150,10 @@ df.head(7)['Last_Name']
 
 Phone_Number was formatted like xxx-xxx-xxxx.
 <br />
-As the first step, any other characters than numbers or alphabets (for NaN) such as |, /, - wre removed.
+As the first step, any other characters than numbers or alphabets (for NaN) such as |, /, - were removed.
 
 ```python
-# remove anything other than alphabets(lower or upper)
+# Remove anything other than alphabets(lower or upper)
 df['Phone_Number'] = df['Phone_Number'].str.replace('[^a-zA-Z0-9]', '', regex = True)
 df.head(7)['Phone_Number']
 ```
@@ -173,13 +173,13 @@ df.head(7)['Phone_Number']
 
 <br />
 
-The datatype of Phone_Number was converted to string and formatted to xxx-xxx-xxxx.
+The datatype of Phone_Number was converted to str and formatted to xxx-xxx-xxxx.
 
 ```python
-# convert all entries to str
+# Convert all entries to str
 df['Phone_Number'] = df['Phone_Number'].apply(lambda x: str(x))
 
-# Formatting xxx-xxx-xxxx
+# Formatting like xxx-xxx-xxxx
 df['Phone_Number'] = df['Phone_Number'].apply(lambda x: x[0:3] + '-' + x[3:6] + '-' + x[6:10])
 df.head(7)['Phone_Number']
 ```
@@ -227,7 +227,7 @@ The entries in the column Address contain one or more of street address, state a
 # Create Street_Address, State and Zip_Code with the split address and append
 df[['Street_Address', 'State', 'Zip_Code']] = df['Address'].str.split(',', expand = True)
 
-# drop the column Address (old address form)
+# Drop the column Address (old address form)
 df = df.drop(columns = 'Address')
 
 df.head(7)
