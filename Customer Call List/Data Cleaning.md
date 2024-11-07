@@ -148,7 +148,9 @@ df.head(7)['Last_Name']
 
 <br />
 
-Phone_Number was formatted like xxx-xxx-xxxx. First, any other characters than numbers or alphabets (for NaN) such as |, /, - wre removed.
+Phone_Number was formatted like xxx-xxx-xxxx.
+<br />
+As the first step, any other characters than numbers or alphabets (for NaN) such as |, /, - wre removed.
 
 ```python
 # remove anything other than alphabets(lower or upper)
