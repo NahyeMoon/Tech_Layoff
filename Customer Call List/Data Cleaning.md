@@ -114,7 +114,7 @@ Below is the first 7 rows of the dataset.
 
 <br />
 
-First, I removed useless column(s) and row(s) to reduce the size and complexity of the DataFrame.
+First, the columns and rows that do not give useful information about customers were removed.
 
 ```python
 # remove a duplicate row
@@ -127,7 +127,7 @@ df = df.drop_duplicates()
 df = df.drop(columns = 'Not_Useful_Column')
 ```
 
-Then, I standardized customer's last name to just letters with the first one capitalized.
+Then, The column Last_Name was standardized to have only alphabets with the capitalized first letter.
 
 ```python
 df['Last_Name'] = df['Last_Name'].str.strip('./_')
@@ -148,7 +148,7 @@ df.head(7)['Last_Name']
 
 <br />
 
-I also standardized the Phone_Number	 to xxx-xxx-xxxx. I began with removing any other characters than numbers or alphabets (for NaN) such as |, /, -
+Phone_Number was formatted like xxx-xxx-xxxx. First, any other characters than numbers or alphabets (for NaN) such as |, /, - wre removed.
 
 ```python
 # remove anything other than alphabets(lower or upper)
@@ -171,7 +171,7 @@ df.head(7)['Phone_Number']
 
 <br />
 
-I converted the datatype of Phone_Number to string and formatted to xxx-xxx-xxxx.
+The datatype of Phone_Number was converted to string and formatted to xxx-xxx-xxxx.
 
 ```python
 # convert all entries to str
@@ -196,7 +196,7 @@ df.head(7)['Phone_Number']
 
 <br />
 
-I replaced any Na with blank as the last step for cleaning Phone_Number.
+Na's were replaced with blank as the last step for cleaning Phone_Number.
 ```python
 # Replace Na with blank
 df['Phone_Number'] = df['Phone_Number'].str.replace('nan--', '')
@@ -219,7 +219,7 @@ df.head(7)['Phone_Number']
 
 <br />
 
-The entires in the column Address contain one or more of street address, state and zip code. I separted Address aoccordingly for better readability.
+The entries in the column Address contain one or more of street address, state and zip code. I separted Address into three sub-addresses aoccordingly for better readability.
 
 ```python
 # Create Street_Address, State and Zip_Code with the split address and append
@@ -342,8 +342,8 @@ df.head(7)
 
 <br />
 
-After standardizing Paying Customer and Do_Not_Contact to Y for Yes and N for No and converting Na to blank,
-I removed all rows with blank for Phone_Number or Y for Do_Not_Contact.
+After standardizing Paying Customer to Y for Yes and N for No and converting Na to blank in Do_Not_Contact,
+all rows with blank for Phone_Number or Y for Do_Not_Contact were removed since the contact to those customers cannot be made.
 ```python
 # Standardize Paying Customer to Y and N
 
@@ -693,7 +693,7 @@ df
 
 <br />
 
-As the final step, I re-assigned the index so that it increases by 1 each row from 0
+As the final step, the index was reassigned so that it increases by 1 each row from 0
 
 <div>
 <br />
