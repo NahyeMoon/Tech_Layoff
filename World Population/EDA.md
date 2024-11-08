@@ -303,7 +303,7 @@ df.info()
     dtypes: float64(12), int64(1), object(4)
     memory usage: 31.2+ KB
     
-
+<br/>
 
 ```python
 # Number of nulls in each column
