@@ -545,8 +545,6 @@ df.boxplot(figsize = (25, 10))
 
 
 
-    <Axes: >
-
 
 
 
@@ -987,9 +985,6 @@ df4.transpose().plot()
 ```
 
 
-
-
-    <Axes: >
 
 
 
