@@ -1,5 +1,7 @@
 <br/><br/>
-A dataset that contains the world population of 234 countries was analyzed and visualized using pandas. The dataset can be found on <a href="https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset">Kaggle</a>
+A dataset that contains the world population of 234 countries was analyzed and visualized using pandas. 
+The dataset contains country name and code, capital, continent and populations (1970, 1980, 1990, 2000, 2010, 2015, 2020 and 2022), rank by population, area, population density, growth rate and world population percentage.
+The dataset can be found on <a href="https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset">Kaggle</a>
 <br/>
 
 ```python
@@ -7,11 +9,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
-
-<br/><br/>
-The dataset contains country name and code, capital, continent and populations (1970, 1980, 1990, 2000, 2010, 2015, 2020 and 2022), rank by population, area, population density, growth rate and world population percentage.
-<br/>
-
 ```python
 df = pd.read_csv(r"C:\Users\Nahye\OneDrive - University of Toronto\Documents\Alex Analyst\Python_Pandas\world_population.csv")
 df
