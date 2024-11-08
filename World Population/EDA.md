@@ -553,7 +553,7 @@ df.boxplot(figsize = (25, 10))
     
 
 <br/><br/>
-The table below shows the 10 countries with the largest population in 2022 with five of them in Asia, 2 in North America 1 each in South America, Africa and Europe. The top two countries, China and India take up 17.88% and 17.77% of the world population, respectively and United States ranked third take up 4.24% which is significantly low compared to the other two. This explains the left-skewed distribution of values in World Population Percentage that was previously mentioned. The the populations of China and India were not significantly different in 2022, and the growht rates were 1.00 adn 1.01 each, which supports many previous research that the populatioh of India will outgrow that of China. According to UN, India is indeed the most populous country in the world. (https://population.un.org/wpp/)
+The table below shows the 10 countries with the largest population in 2022 with five of them in Asia, 2 in North America 1 each in South America, Africa and Europe. The top two countries, China and India take up 17.88% and 17.77% of the world population, respectively and United States ranked third take up 4.24% which is significantly low compared to the other two. This explains the left-skewed distribution of values in World Population Percentage that was previously mentioned. The the populations of China and India were not significantly different in 2022, and the growht rates were 1.00 adn 1.01 each, which supports many previous research that the populatioh of India will outgrow that of China. According to <a href="https://population.un.org/wpp/">UN</a>, India is indeed the most populous country in the world.
 <br/>
 
 ```python
