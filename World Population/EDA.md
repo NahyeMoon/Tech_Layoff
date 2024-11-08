@@ -1,4 +1,4 @@
-<br/>
+<br/><br/>
 A dataset that contains the world population of 234 countries was analyzed and visaulzied using pandas. The dataset can be found on Kaggle
 <br/><br/>
 
@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-<br/>
+<br/><br/>
 The dataset contains country name and code, capital, continent and populations (1970, 1980, 1990, 2000, 2010, 2015, 2020 and 2022), rank by population, area, population density, growth rate and world population percentage.
 <br/><br/>
 
@@ -268,7 +268,7 @@ df
 </div>
 
 
-<br/>
+<br/><br/>
 There are only a few missing values across some columns, with the dataset being mostly complete. The majority of columns have minor gaps in data, while key columns like Rank, Country, and Continent contain no missing values.
 <br/><br/>
 
@@ -334,7 +334,7 @@ df.isnull().sum()
 
 
 
-<br/>
+<br/><br/>
 The number of unique values in each column is shown below. The columns Rank, CCA3, Country, and Capital only had unique values and the Continent had 6 different values as they should. The populations in each year recorded, area and area and density were mostly unique with less than 5 non-unique values. However, Growth Rate and World Population Percentage have less unique values than those since those values tend to be small and have small variance.
 <br/><br/>
 
@@ -366,7 +366,7 @@ df.nunique()
     dtype: int64
 
 
-<br/>
+<br/><br/>
 According to the summary statistic of each column, Growth Rate ranged from 0.91 t0 1.07 with standard deviation 0.01, which is very small compared to standard deivations of populations that go up to tens or hundreds of million. World Population Percentage ranges from 0.00 to 17.88 with a higher standard deviation of 1.71. However, 25%, 50% and 75% percentile of 0.01, 0.07 and 0.28 indicate that the most countries have a small World Population Percentage below 0.28. The boxplot not only supports those observations but visualizes the distributions of all values in each column.
 <br/><br/>
 
@@ -552,7 +552,7 @@ df.boxplot(figsize = (25, 10))
 ![png](output_13_1.png)
     
 
-<br/>
+<br/><br/>
 The table below shows the 10 countries with the largest population in 2022 with five of them in Asia, 2 in North America 1 each in South America, Africa and Europe. The top two countries, China and India take up 17.88% and 17.77% of the world population, respectively and United States ranked third take up 4.24% which is significantly low compared to the other two. This explains the left-skewed distribution of values in World Population Percentage that was previously mentioned. The the populations of China and India were not significantly different in 2022, and the growht rates were 1.00 adn 1.01 each, which supports many previous research that the populatioh of India will outgrow that of China. According to UN, India is indeed the most populous country in the world. (https://population.un.org/wpp/)
 <br/><br/>
 
@@ -696,7 +696,7 @@ df_2022[['Rank', 'Country', 'Continent', '2022 Population',  'Growth Rate', 'Wor
 </div>
 
 
-<br/>
+<br/><br/>
 The correlation heat map among columns with numeric datatypes show that the change in population of the countries was not statistically significant especially from 2010 to 2022 as the correlations between popualtions recorded in the time frame were all 1. Rank and population columns were negatively correlated as expected since greater the population the higher the ranking. The polulations and growth rate are negatively correlated by small numbers (> -0.01), and this is reasonable considering that the populations of populous countries can saturate over time.
 <br/><br/>
 
@@ -975,7 +975,7 @@ df4
 </div>
 
 
-<br/>
+<br/><br/>
 The graph below represents the average populations of the six continents from 1970 to 2022. Asia and South America has been the two most populous continents and Oceanina has been the least populous throughout the time frame. Asia had a dramatic increase in population from 1990 to 2000, which is likely to be contributed by devleoping countries like China and India. Overall, the mean population of Asia changed dramatically between each time stamp while five other continents changed more steadily. The mean population of Africa outgreww North America by 1990 and Europe by 2010, and the increase in mean population of Africa was possibly contributed by developing countries such as Nigeria which populaiton almost quadrupled from 55 million in 1970 to 218 million in 2022.
 <br/><br/>
 
