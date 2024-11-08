@@ -1,5 +1,5 @@
 <br/><br/>
-A dataset that contains the world population of 234 countries was analyzed and visaulzied using pandas. The dataset can be found on <a href="https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset">Kaggle</a>
+A dataset that contains the world population of 234 countries was analyzed and visualized using pandas. The dataset can be found on <a href="https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset">Kaggle</a>
 <br/>
 
 ```python
