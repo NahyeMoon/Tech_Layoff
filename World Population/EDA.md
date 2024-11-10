@@ -973,7 +973,7 @@ df4
 
 
 <br/><br/>
-The graph below represents the average populations of the six continents from 1970 to 2022. Asia and South America has been the two most populous continents and Oceanina has been the least populous throughout the time frame. Asia had a dramatic increase in population from 1990 to 2000, which is likely to be contributed by devleoping countries like China and India. Overall, the mean population of Asia changed dramatically between each time stamp while five other continents changed more steadily. The mean population of Africa outgreww North America by 1990 and Europe by 2010, and the increase in mean population of Africa was possibly contributed by developing countries such as Nigeria which populaiton almost quadrupled from 55 million in 1970 to 218 million in 2022.
+The graph below represents the average populations of the six continents from 1970 to 2022. Asia and South America has been the two most populous continents and Oceanina has been the least populous throughout the time frame. Asia had a dramatic increase in population from 1990 to 2000, which is likely to be contributed by devleoping countries like China and India. Overall, the population of Asia changed dramatically between each time stamp while five other continents changed more steadily. The population of Africa outgreww North America by 1990 and Europe by 2010, and the increase in population of Africa was possibly contributed by developing countries such as Nigeria which populaiton almost quadrupled from 55 million in 1970 to 218 million in 2022.
 <br/>
 
 
