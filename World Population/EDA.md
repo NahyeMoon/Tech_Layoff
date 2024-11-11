@@ -557,13 +557,29 @@ df.boxplot(figsize = (25, 10))
 
 
 
-
-
     
 ![png](output_13_1.png)
-    
 
 <br/>
+The correlation heat map among columns with numeric datatypes show that the change in population of the countries was not statistically significant especially from 2010 to 2022 as the correlations between popualtions recorded in the time frame were all 1. Rank and population columns were negatively correlated as expected since greater the population the higher the ranking. The polulations and growth rate are negatively correlated by small numbers (> -0.01), and this is reasonable considering that the populations of populous countries can saturate over time.
+
+```python
+# Correlation between all numeric values
+num_df = df.select_dtypes(include=['number'])
+```
+
+```python
+# Visualizae the correlation using heat map
+sns.heatmap(num_df.corr(), annot = True)
+
+plt.rcParams['figure.figsize'] = (20, 7)
+
+plt.show()
+```
+![png](output_heat.png)
+
+<br/>
+
 
 ## Population Density 
 
