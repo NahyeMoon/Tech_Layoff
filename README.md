@@ -7,7 +7,7 @@ Hope you enjoy exloring my projects!
 ## 🔍 Projects
 
 🌏 **World Population Analysis** <br/>
-&nbsp&nbsp&nbsp&nbsp
+&nbsp;&nbsp;&nbsp;&nbsp;
 A comprehensive exploratory data analysis(EDA) of population growth and demographic trends across countries. <br/>
 Tools: Python, PowerBI <br/>
 Last Updated: Nov 2024 <br/>
