@@ -1164,7 +1164,7 @@ plt.show()
     
 ![png](output_33_0.png)
     
-<br/><br/>
+<br/>
 # Conclusion
 
 To conclude, this analysis focused on the disparities in population distribution and density per area across countries. The population data revealed a left-skewed distribution, where the majority of countries have relatively small populations, while a few countries, such as China and India, dominate global population figures. 
