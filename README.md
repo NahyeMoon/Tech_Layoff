@@ -7,9 +7,9 @@ Hope you enjoy exloring my projects!
 ## 🔍 Projects
 
 🌏 **World Population Analysis** <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-: A comprehensive exploratory data analysis(EDA) of population growth and demographic trends across countries. <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Tools: Python, PowerBI <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Last Updated: Nov 2024 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+: A comprehensive exploratory data analysis(EDA) of population growth and demographic trends across countries. <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Tools: Python, PowerBI <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Last Updated: Nov 2024 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [View Project](https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/World%20Population/EDA.md)
 
 📞 **Customer Call List Data** <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
