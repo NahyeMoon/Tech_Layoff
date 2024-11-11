@@ -8,7 +8,7 @@ Hope you enjoy exloring my projects!
 
 🌏 **[World Population Analysis](https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/World%20Population/EDA.md)** <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 : A comprehensive exploratory data analysis(EDA) of population growth and demographic trends across countries. <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Tools: Python, PowerBI <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Tools:** Python, PowerBI <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 **Last Updated:** Nov 2024 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 📞 **[Customer Call List Data](https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Customer%20Call%20List/Data%20Cleaning.md)** <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
