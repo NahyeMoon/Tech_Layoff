@@ -855,7 +855,9 @@ df_2022[['Rank', 'Country', 'Continent', '2022 Population',  'Growth Rate', 'Wor
 
 The line graph below shows the population trends from 1970 to 2022 for the seven most populous countries in 2022. China and India experienced rapid population growth until around 2010, after which the growth began to slow. Similarly, the populations of the other five countries started to stabilize around this time. This trend is likely to be due to low fertility rates driven by urbanization, economic development, the high of living and education.
 
-## China and India's Population Trend
+<br/>
+
+## Population Trend of China and India
 
 China and India have populations that far exceed those of other five countries in the graph, with little difference between them (1.426 billion and 1.417 billion, respectively, in 2022) and similar growth rates of 1.00 and 1.01. This supports many prior research few years ago suggesting that India’s population will eventually surpass China’s. According to the [UN](https://population.un.org/wpp/), India is indeed the most populous country in the world in 2024.
 
