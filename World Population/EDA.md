@@ -372,7 +372,8 @@ df.nunique()
     World Population Percentage     70
     dtype: int64
 
-<br/><br/>
+<br/>
+
 # Data Exploration and Analysis
 
 According to the summary statistic of each column, Growth Rate ranged from 0.91 to 1.07 with standard deviation 0.01, which is very small compared to standard deivations of populations that go up to tens or hundreds of million. World Population Percentage ranges from 0.00 to 17.88 with a higher standard deviation of 1.71. However, 25%, 50% and 75% percentile of 0.01, 0.07 and 0.28 indicate that the most countries have a small World Population Percentage below 0.28. The boxplot not only supports those observations but visualizes the distributions of all values in each column.
@@ -1165,6 +1166,7 @@ plt.show()
 ![png](output_33_0.png)
     
 <br/>
+
 # Conclusion
 
 To conclude, this analysis focused on the disparities in population distribution and density per area across countries. The population data revealed a left-skewed distribution, where the majority of countries have relatively small populations, while a few countries, such as China and India, dominate global population figures. 
