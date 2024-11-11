@@ -275,9 +275,9 @@ df
 </div>
 
 
-
+<br/><br/>
 The dataset is mostly complete, with only a few missing values scattered across some columns. Key columns such as Rank, Country, and Continent contain no missing values, while other columns have only minor data gaps. To ensure accuracy and preserve the original data integrity, these missing values were neither filled nor replaced.
-
+<br/><br/>
 
 ```python
 # Get the info of df
