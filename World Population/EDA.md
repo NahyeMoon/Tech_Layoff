@@ -376,6 +376,7 @@ df.nunique()
 
 # Data Exploration and Analysis
 
+## Summary Statistic 
 According to the summary statistic of each column, Growth Rate ranged from 0.91 to 1.07 with standard deviation 0.01, which is very small compared to standard deivations of populations that go up to tens or hundreds of million. World Population Percentage ranges from 0.00 to 17.88 with a higher standard deviation of 1.71. However, 25%, 50% and 75% percentile of 0.01, 0.07 and 0.28 indicate that the most countries have a small World Population Percentage below 0.28. The boxplot not only supports those observations but visualizes the distributions of all values in each column.
 
 
@@ -555,8 +556,6 @@ df.boxplot(figsize = (25, 10))
 
 
 
-    <Axes: >
-
 
 
 
@@ -565,6 +564,8 @@ df.boxplot(figsize = (25, 10))
     
 
 <br/>
+
+## Population Density 
 
 The figure below displays a bubble map of global population density, with the largest bubbles concentrated in Southeast Asia and Southern Europe, and this is supported by the table below listing the 10 most densely populated regions or countries.  5 of those regions or coutnries are in Asia, 3 in Europe, and 2 in the Caribbean region of North America. Notably, the top six regions—Macau, Monaco, Singapore, Hong Kong, Gibraltar, and Bahrain—share key characteristics. Despite their limited land areas, they serve as major financial and economic hubs. This concentration of wealth and business opportunities results in high living costs, an affluent population, and rapid urban development. Each of these regions also holds a unique political status and significant autonomy, especially Hong Kong and Macau, which operate as Special Administrative Regions of China with distinct economic systems.
 
@@ -727,6 +728,8 @@ df_density[['Rank', 'Country', 'Continent', '2022 Population',  'Growth Rate', '
 
 <br/>
 
+## Most Populous Countries
+
 The table below shows the 10 countries with the largest population in 2022 with five of them in Asia, 2 in North America 1 each in South America, Africa and Europe. The top two countries, China and India take up 17.88% and 17.77% of the world population, respectively and United States ranked third take up 4.24% which is significantly low compared to the other two. This explains the left-skewed distribution of values in World Population Percentage that was previously mentioned.
 
 
@@ -847,8 +850,12 @@ df_2022[['Rank', 'Country', 'Continent', '2022 Population',  'Growth Rate', 'Wor
 </div>
 
 
+
 <br/>
+
 The line graph below shows the population trends from 1970 to 2022 for the seven most populous countries in 2022. China and India experienced rapid population growth until around 2010, after which the growth began to slow. Similarly, the populations of the other five countries started to stabilize around this time. This trend is likely to be due to low fertility rates driven by urbanization, economic development, the high of living and education.
+
+## China and India's Population Trend
 
 China and India have populations that far exceed those of other five countries in the graph, with little difference between them (1.426 billion and 1.417 billion, respectively, in 2022) and similar growth rates of 1.00 and 1.01. This supports many prior research few years ago suggesting that India’s population will eventually surpass China’s. According to the [UN](https://population.un.org/wpp/), India is indeed the most populous country in the world in 2024.
 
@@ -881,6 +888,8 @@ plt.show()
     
 
 <br/>
+
+## Population Prediction of China and India
 A polynomial regression model with a degree of 3 was used to predict the populations of China and India in 2030, and its accuracy was evaluated. The two graphs below display the polynomial regression fit to the data and the predicted populations of the countries for 2030 based on the model. According to this simple model, which does not account for socioeconomic status or growth rates of each country, the predicted populations for 2030, 2040, and 2050 were approximately the same: 1.452 billion, 1.451 billion, and 1.417 billion, respectively. The model underestimated India's population in 2030 by 63 million (4%) and overestimated China's population by 36 million (3%), which are significant discrepancies from a demographic perspective. This clearly highlights the limitations of the polynomial regression model in predicting future populations, especially when relying solely on past data, particularly for large numbers. 
 
 This also suggests that socioeconomic factors, such as income levels, education, urbanization rates, fertility rates, healthcare access, and government policies, are crucial in building a more robust and accurate population model. Incorporating these factors would enable the model to account for the dynamic and complex nature of population growth, offering a more realistic projection of future trends. Without considering such variables, the model's predictions remain overly simplistic and may not accurately reflect the true population trajectories, especially in populous countries with rapidly changing social and economic landscapes.
@@ -1141,6 +1150,8 @@ df3
 
 
 <br/>
+
+## Continent Population
 The graph below represents the populations of the six continents from 1970 to 2022. Asia has consistently been the most populous continent, while Oceania has remained the least populous throughout this period. Asia experienced a dramatic population increase from 1990 to 2000, largely driven by rapidly developing countries such as China and India.
 
 Overall, Asia’s population grew significantly between each time point until 2010, with more volatile changes. In contrast, the populations of the other continents grew more steadily over the same period.
