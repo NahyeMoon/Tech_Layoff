@@ -340,9 +340,9 @@ df.isnull().sum()
     dtype: int64
 
 
-
+<br/><br/>
 The number of unique values in each column is shown below. The columns Rank, CCA3, Country, and Capital only had unique values and the Continent had 6 different values as they should. The populations in each year recorded, area and area and density were mostly unique with less than 5 non-unique values. However, Growth Rate and World Population Percentage have less unique values than those since those values tend to be small and have small variance.
-
+<br/><br/>
 
 ```python
 # Number of unique values in each column
