@@ -3,7 +3,7 @@
 This project analyzes a world population [dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset) of population of 234 countries or regions from 1970 to 2022. In this analysis, python's Pandas library and PowerBI were used to visualize key trends and insights from the dataset. The project begins by addressing null and unique values in each column then exploring the distribution of populations across countries, using summary statistics and boxplots to identify disparities in global population density. Further, the population growth of the 10 most populous countries is visualized and analyzed, offering how the nations' socioeconomic statuses shaped the population trends. A polynomial regression model was built and used to predict the population of India and China in 2030, 2040, and 2050, testing the accuracy of past predictions. Lastly, the project concludes by examining the total population growth of each continent and providing insights from a socioeconomic standpoint to better understand the global demographic shifts.
 
 
-
+# Data Information
 
 ```python
 import pandas as pd
@@ -372,6 +372,7 @@ df.nunique()
     dtype: int64
 
 
+# Data Exploration and Analysis
 
 According to the summary statistic of each column, Growth Rate ranged from 0.91 to 1.07 with standard deviation 0.01, which is very small compared to standard deivations of populations that go up to tens or hundreds of million. World Population Percentage ranges from 0.00 to 17.88 with a higher standard deviation of 1.71. However, 25%, 50% and 75% percentile of 0.01, 0.07 and 0.28 indicate that the most countries have a small World Population Percentage below 0.28. The boxplot not only supports those observations but visualizes the distributions of all values in each column.
 
@@ -843,39 +844,6 @@ df_2022[['Rank', 'Country', 'Continent', '2022 Population',  'Growth Rate', 'Wor
 
 
 
-The correlation heat map among columns with numeric datatypes show that the change in population of the countries was not statistically significant especially from 2010 to 2022 as the correlations between popualtions recorded in the time frame were all 1. Rank and population columns were negatively correlated as expected since greater the population the higher the ranking. The polulations and growth rate are negatively correlated by small numbers (> -0.01), and this is reasonable considering that the populations of populous countries can saturate over time.
-
-
-```python
-# Correlation between all numeric values
-num_df = df.select_dtypes(include=['number'])
-```
-
-
-```python
-# Visualizae the correlation using heat map
-sns.heatmap(num_df.corr(), annot = True)
-
-plt.rcParams['figure.figsize'] = (20, 7)
-
-plt.show()
-```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    Cell In[1], line 2
-          1 # Visualizae the correlation using heat map
-    ----> 2 sns.heatmap(num_df.corr(), annot = True)
-          4 plt.rcParams['figure.figsize'] = (20, 7)
-          6 plt.show()
-    
-
-    NameError: name 'sns' is not defined
-
-
 The line graph below shows the population trends from 1970 to 2022 for the seven most populous countries in 2022. China and India experienced rapid population growth until around 2010, after which the growth began to slow. Similarly, the populations of the other five countries started to stabilize around this time. This trend is likely to be due to low fertility rates driven by urbanization, economic development, the high of living and education.
 
 China and India have populations that far exceed those of other five countries in the graph, with little difference between them (1.426 billion and 1.417 billion, respectively, in 2022) and similar growth rates of 1.00 and 1.01. This supports many prior research few years ago suggesting that India’s population will eventually surpass China’s. According to the [UN](https://population.un.org/wpp/), India is indeed the most populous country in the world in 2024.
@@ -1196,6 +1164,7 @@ plt.show()
 ![png](output_33_0.png)
     
 
+# Conclusion
 
 To conclude, this analysis focused on the disparities in population distribution and density per area across countries. The population data revealed a left-skewed distribution, where the majority of countries have relatively small populations, while a few countries, such as China and India, dominate global population figures. 
 
