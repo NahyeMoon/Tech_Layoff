@@ -2,7 +2,7 @@
 
 This project analyzes a world population [dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset) of population of 234 countries or regions from 1970 to 2022. In this analysis, python's Pandas library and PowerBI were used to visualize key trends and insights from the dataset. The project begins by addressing null and unique values in each column then exploring the distribution of populations across countries, using summary statistics and boxplots to identify disparities in global population density. Further, the population growth of the 10 most populous countries is visualized and analyzed, offering how the nations' socioeconomic statuses shaped the population trends. A polynomial regression model was built and used to predict the population of India and China in 2030, 2040, and 2050, testing the accuracy of past predictions. Lastly, the project concludes by examining the total population growth of each continent and providing insights from a socioeconomic standpoint to better understand the global demographic shifts.
 
-
+<br/><br/>
 # Data Information
 
 ```python
@@ -371,7 +371,7 @@ df.nunique()
     World Population Percentage     70
     dtype: int64
 
-
+<br/><br/>
 # Data Exploration and Analysis
 
 According to the summary statistic of each column, Growth Rate ranged from 0.91 to 1.07 with standard deviation 0.01, which is very small compared to standard deivations of populations that go up to tens or hundreds of million. World Population Percentage ranges from 0.00 to 17.88 with a higher standard deviation of 1.71. However, 25%, 50% and 75% percentile of 0.01, 0.07 and 0.28 indicate that the most countries have a small World Population Percentage below 0.28. The boxplot not only supports those observations but visualizes the distributions of all values in each column.
@@ -1163,7 +1163,7 @@ plt.show()
     
 ![png](output_33_0.png)
     
-
+<br/><br/>
 # Conclusion
 
 To conclude, this analysis focused on the disparities in population distribution and density per area across countries. The population data revealed a left-skewed distribution, where the majority of countries have relatively small populations, while a few countries, such as China and India, dominate global population figures. 
