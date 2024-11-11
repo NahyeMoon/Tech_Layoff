@@ -15,6 +15,7 @@ import numpy as np
 from PIL import Image
 ```
 
+<br/>
 The dataset contains country name and code, capital, continent and populations (1970, 1980, 1990, 2000, 2010, 2015, 2020 and 2022), rank by population, area, population density, growth rate and world population percentage.
 
 
