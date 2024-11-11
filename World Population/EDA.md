@@ -564,6 +564,7 @@ df.boxplot(figsize = (25, 10))
 ![png](output_13_1.png)
     
 
+<br/>
 
 The figure below displays a bubble map of global population density, with the largest bubbles concentrated in Southeast Asia and Southern Europe, and this is supported by the table below listing the 10 most densely populated regions or countries.  5 of those regions or coutnries are in Asia, 3 in Europe, and 2 in the Caribbean region of North America. Notably, the top six regions—Macau, Monaco, Singapore, Hong Kong, Gibraltar, and Bahrain—share key characteristics. Despite their limited land areas, they serve as major financial and economic hubs. This concentration of wealth and business opportunities results in high living costs, an affluent population, and rapid urban development. Each of these regions also holds a unique political status and significant autonomy, especially Hong Kong and Macau, which operate as Special Administrative Regions of China with distinct economic systems.
 
