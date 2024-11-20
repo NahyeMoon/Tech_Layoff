@@ -13,7 +13,7 @@ The global tech layoff dataset, covering the period from the beginning of COVID-
 (Data Soucre: <a href="https://www.kaggle.com/datasets/swaptr/layoffs-2022">Kaggle</a>) (See <a href="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/Global%20Tech%20Layoff%20EDA.sql">SQL code</a>)
 
 ## Exploratory Data Analysis EDA
-A map in <strong>Figure 1</strong> shows the locations of companies marked as dots, visualizing their distribution, while <strong>Figure 2</strong> is a pie chart illustrating the 10 countries with the most reported layoffs. The data appears to be predominantly collected from companies in North America and Europe (<strong>Figure 1</strong>), with 67 % of the cases reported in the United States. This suggests the limit to drawing conclusions or insights that are truly global from the dataset.
+A map in <strong>Figure 1</strong> shows the locations of companies marked as dots, visualizing their distribution, while <strong>Figure 2</strong> is a pie chart illustrating the 10 countries with the most reported layoffs. The data appears to be predominantly collected from companies in North America and and parts of Europe (<strong>Figure 1</strong>), with 67 % of the cases reported in the United States. This suggests the limit to drawing conclusions or insights that are truly global from the dataset.
 <br/>
 <p align="center">
 	<img src="https://github.com/NahyeMoon/DataAnalyticsPortfolio/blob/main/Tech%20Layoffs/layoff_locationmap.jpg" width="700"/>
@@ -103,10 +103,10 @@ A total of approximately 240,000 layoffs were recorded from companies in the pos
 
 ## Conclusion and Future Work
 
-In summary, this analysis of the global tech layoff dataset from March 11, 2020, to July 20, 2023, highlights significant trends and insights regarding layoffs across various companies and industries. The exploratory data analysis conducted using SQL and Power BI revealed that most layoffs were reported in North America, particularly in the United States, and that many layoffs occurred after January 2022. This suggests limitations in finding tech layoff trends that are truely global from this dataset due to its focus on certain geographical areas and larger companies.
-
-The histograms demonstrated that the distribution of layoffs and funding raised was skewed, with many cases involving fewer layoffs and lower funding amounts. 
-The findings also indicated that larger companies like Amazon, Google, and Meta have been significant contributors to layoffs in their respective industries. This trend emphasizes the importance of considering company size and funding stage when analyzing layoffs, as larger, well-funded organizations often have a larger workforce and more layoffs during downsizing.
+In summary, this analysis of the global tech layoff dataset from March 11, 2020, to July 20, 2023, highlights significant trends and insights regarding layoffs across various companies and industries. The exploratory data analysis in SQL and Power BI revealed Consumer and Retail industries had the most number of layoffs, and the majority of the recorded layoffs occurred at companies in the post-IPO funding stage. More importantly, the most layoffs were reported in North America, particularly in the United States, and many occurred after January 2022. This suggests limitations in finding tech layoff trends that are truely global from this dataset due to its focus on certain geographical areas and time.
+<br/><br/>
+The histograms of layoffs based on the funding raised was skewed, with many cases involving fewer layoffs and lower funding amounts. 
+TThe analysis also suggested that larger companies like Amazon, Google, and Meta have been significant contributors to layoffs in their respective industries. This trend emphasizes the importance of considering company size and funding stage when analyzing layoffs, as larger, well-funded organizations often have a larger workforce and more layoffs during downsizing.
 <br/><br/>
 Given these limitations, future work could involve sourcing more diverse data from regions that are underrepresented in the current dataset, such as Asia, South America, and Africa, to create a more globally representative analysis. Additionally, data from smaller companies could be incorporated to balance the current focus on larger organizations. A detailed time series analysis, examining layoffs across different phases of the pandemic and recovery, could provide more nuanced insights. Exploring industry-specific trends across various regions, as well as studying the correlation between job roles and layoff rates within each industry, would further improve the analysis.
 <br/><br/>
