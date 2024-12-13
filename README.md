@@ -1,8 +1,6 @@
-# Tech Layoff
+# Global Tech Layoff
 
-Welcome to my portfolio! <br/>
-I'm Nahye and I upload data analtyics projects I've worked on using SQL, Python and PowerBI. <br/>
-Hope you enjoy exloring my projects!
+
 
 ## 🔍 Projects
 
