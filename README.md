@@ -1,4 +1,4 @@
-# Nahye's Data Portfolio
+# Customer Call List
 
 Welcome to my portfolio! <br/>
 I'm Nahye and I upload data analtyics projects I've worked on using SQL, Python and PowerBI. <br/>
