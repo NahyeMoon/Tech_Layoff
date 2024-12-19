@@ -1,3 +1,3 @@
-# Global Tech Companies Layoff
+# Global Tech Company Layoff
 
 
