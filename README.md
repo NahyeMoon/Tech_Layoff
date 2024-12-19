@@ -1,3 +1,3 @@
-# Global Tech Company Layoff
+# Global Tech Layoff Post-Pandemic Analysis
 
 
