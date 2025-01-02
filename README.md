@@ -12,7 +12,8 @@ Transportation was the hardest hit with 13,606 layoffs due to travel restriction
 
 
 <ul style="list-style-type: circle;">
-  <li>__2020__: <br/>
+  <li>
+</strong>2020</strong>: <br/>
 Transportation was the hardest hit with 13,606 layoffs due to travel restrictions. Other industries like Retail (7,615 layoffs) and Food (5,629 layoffs) were impacted by store closures and hospitality shutdowns, while Finance (5,714 layoffs) and Consumer (5,341 layoffs) faced layoffs due to economic downturns and reduced discretionary spending.
   </li>
   
