@@ -13,7 +13,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
   <strong>2020</strong>: <br/>
-  The <em><strong><strong>transportation</strong></strong></em> industry saw the <strong>highest number of layoffs, with approximately <em><strong><strong>13,600 positions</strong></strong></em> affected due to <em><strong>travel restrictions</strong></em>. Other industries, such as Retail (7,615 layoffs), Finance (5,714), Food (5,629), Consumer (5,341) were also impacted but to a lesser extent, as store closures, hospitality shutdowns, 
+  The <em><strong><strong>transportation</strong></strong></em> industry saw the <strong>highest number of layoffs, with approximately <em><strong><strong>13,600 positions</strong></strong></em> affected due to <em><strong>travel restrictions</strong></em>. Other industries, such as <strong><em>Retail</strong></em> (7,615 layoffs), <strong><em>Finance</strong></em> (5,714), <strong><em>Food</strong></em> (5,629), <strong><em>Consumer</strong></em> (5,341) were also impacted but to a lesser extent, as store closures, hospitality shutdowns, 
   and the economic downturn took their toll.
   </li>
   <br/>
