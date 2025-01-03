@@ -25,7 +25,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
   
   <li>
-  <strong>2021</strong>: <br/>
+  <strong>2022</strong>: <br/>
   The increased layoffs in Retail (18,528) and by 140% compared to 2020 is likely to be due to the shift to E-commerce. In Finance, the introduction of machine learning and automation may have contributed to the 
   87% increase in layoffs, resulting in 10,663 job cuts
 </ul>
