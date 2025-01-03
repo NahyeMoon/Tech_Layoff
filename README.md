@@ -14,7 +14,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
   <strong>General Trends</strong>: <br/>
-  Layoffs across industries increased due to the combined effects of automation, e-commerce growth, inflation, and ongoing economic challenges.
+  <em><strong>Layoffs</em></strong> across industries <em><strong>increased</em></strong> due to the combined effects of <em><strong>automation, e-commerce growth, inflation,</em></strong> and ongoing <em><strong>economic challenges</em></strong>.
   </li>
   <br/>
   
