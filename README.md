@@ -21,13 +21,13 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
   <li>
   <strong>Retail</strong>: <br/>
-  The layoffs in <em><strong>Retail</em></strong> surged by <em><strong>140%</em></strong> in <em><strong>2022 (18,528)</em></strong> compared to 2020 due to the <em><strong>shift to e-commerce</em></strong> and <em><strong>disrupted supply chains</em></strong>, with the number further increasing by <em><strong>230% in 2023 (25,535)</em></strong> compared to 2020."
+  The layoffs in <em><strong>Retail</em></strong> surged by <em><strong>140%</em></strong> in <em><strong>2022 (18,528)</em></strong> compared to 2020 due to the <em><strong>shift to e-commerce</em></strong> and <em><strong>disrupted supply chains</em></strong>, with the number further increasing by <em><strong>230%</em></strong> in <em><strong>2023 (25,535)</em></strong> compared to 2020."
   </li>
   <br/>
   
   <li>
   <strong>Consumer</strong>: <br/>
-  The layoffs in <em><strong>Consumer</em></strong> starting at <em><strong>5,341 in 2020</em></strong>, surged to <em><strong>27,110 in 2023</em></strong>, reflecting continued shifts in consumer spending, inflation, and economic downturns that impacted the industry over the years.
+  The layoffs in <em><strong>Consumer</em></strong> starting at <em><strong>5,341</em></strong> in <em><strong>2020</em></strong>, surged to <em><strong>27,110</em></strong> in <em><strong>2023</em></strong>, reflecting continued <em><strong>shifts in consumer spending, inflation</em></strong>, and <em><strong>economic downturns</em></strong> that impacted the industry over the years.
   </li>
   <br/>  
   
