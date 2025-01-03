@@ -21,11 +21,11 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
   <li>
   <strong>2021</strong>: <br/>
-  The highest number of layoffs in the <strong><em>Real Estate (2,900)</strong></em> and <strong><em>Construction (2,434)</strong></em> reflects the pandemic's impact on the housing market, driven by reduced       office demand, disrupted supply chains and regional lockdowns slowing construction</li>
+  The highest number of layoffs in the <strong><em>Real Estate (2,900)</strong></em> and <strong><em>Construction (2,434)</strong></em> reflects the pandemic's impact on the housing market, driven by reduced        office demand, disrupted supply chains and regional lockdowns slowing construction</li>
   <br/>
   
   <li>
   <strong>2022</strong>: <br/>
-  The layoffs in <strong><em>Retail (18,528)</strong></em> increased by <strong><em>140%</strong></em> compared to 2020, likely due to the shift to <strong><em>e-commerce</em></strong> and disrupted supply chains. In <strong><em>Finance (10,663)</strong></em>, the introduction of <strong><em>machine learning and automation</strong></em> may have contributed to the 87% increase in layoffs."
+  The layoffs in <strong><em>Retail (18,528)</strong></em> increased by <strong><em>140%</strong></em> compared to 2020, likely due to the shift to <strong><em>e-commerce</em></strong> and disrupted supply          chains. In <strong><em>Finance (10,663)</strong></em>, the introduction of <strong><em>machine learning and automation</strong></em> may have contributed to the 87% increase in layoffs."
   </ul>
 
