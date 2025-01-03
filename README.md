@@ -39,7 +39,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
   <li>
   <strong>Real Estate & Construction</strong>: <br/>
-  In 2021, Real Estate (2,900) and Construction (2,434) saw significant layoffs due to reduced office demand, disrupted supply chains, and slowed construction during the pandemic.
+  In 2021, <em><strong>Real Estate (2,900)</em></strong> and <em><strong>Construction (2,434)</em></strong> saw significant layoffs due to <em><strong>reduced office demand, disrupted supply chains,</em></strong> and <em><strong>slowed construction</em></strong> during the pandemic.
   </li>
   </ul>
 
