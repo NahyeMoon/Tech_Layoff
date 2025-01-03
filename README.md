@@ -10,12 +10,12 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 ## Insight Deep Dive
 ### Layoff Trends for Top 5 Industries with the most total layoffs
 
-
+</em></strong>
   
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
   <strong>Transportation</strong>: <br/>
-  13,600 layoffs in 2020 were driven by travel restrictions, with annual numbers in up to June 28th in 2024 (4,638) remaining significant due to economic challenges and labor shortages.
+  13,600 layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638, up to June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
   </li>
   <br/>
   
