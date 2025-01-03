@@ -22,7 +22,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
   <li>
   <strong>2021</strong>: <br/>
-  The highest number of layoffs in <strong><em>Real Estate (2,900)</strong></em> and <strong><em>Construction (2,434)</strong></em> reflect the pandemic's impact on the housing market, driven by reduced             office demand, disrupted supply chains, and regional lockdowns slowing construction. The comparatively low number of layoffs in other industries in 2021 is likely due to data bias, which will be discussed         further in the assumptions section.
+  <strong><em>Real Estate (2,900)</strong></em> and <strong><em>Construction (2,434)</strong></em> saw the highest layoffs due to <strong><em>reduced office demand<strong><em> and disrupted supply chains in         construction. The low layoffs in other sectors likely stem from data bias, which will be discussed in the assumptions section.
   </li>
   <br/>
 
