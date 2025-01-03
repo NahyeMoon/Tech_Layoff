@@ -38,7 +38,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
   <li>
   <strong>2024</strong>: <br/>
-  
+  Considering the data is available up to June 28th of 2024, the layoffs in  <strong><em>Finance (8,891)</strong></em> possibly increased again compared to 2023. Retail layoffs (7,980), Food (5,453), and Transportation (4,638) layoffs remained significant, likely due to ongoing economic challenges, labor shortages, and continued shifts toward e-commerce and automation in operations.
   </li>
   </ul>
 
