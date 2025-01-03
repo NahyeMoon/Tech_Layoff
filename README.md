@@ -33,7 +33,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
   <li>
   <strong>Finance</strong>: <br/>
-  The layoffs rose by <em><strong>87%</em></strong> in <em><strong>2022 (10,663)</em></strong> compared to 2020 due to <em><strong>economic downturns</em></strong> and <em><strong>automation</em></strong>. The layoffs in </em></strong>Finance</em></strong> in </em></strong>2024 (8,891; as of June 28th)</em></strong> suggest that it may have furtther increased by the end of the year compared to previous years due to        ongoing automation and economic factors.
+  The layoffs rose by <em><strong>87%</em></strong> in <em><strong>2022 (10,663)</em></strong> compared to 2020 due to <em><strong>economic downturns</em></strong> and <em><strong>automation</em></strong>. The layoffs in </em></strong>Finance</em></strong> in </em></strong>2024 (8,891; as of June 28th)</em></strong> suggest that the total number by the end of the year may be higher than previous years' due to ongoing automation and economic factors.
   </li>
   <br/>
 
