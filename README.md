@@ -9,6 +9,8 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 ## Insight Deep Dive
 ### Layoff Trends for Top 5 Industries with the most total layoffs
 
+<span style="font-weight: normal;">
+  
 <ul style="list-style-type: circle;">
   <li>
   <strong>2020</strong>: <br/>
@@ -29,3 +31,5 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   The increased layoffs in Retail (18,528) and by 140% compared to 2020 is likely to be due to the shift to E-commerce. In Finance, the introduction of machine learning and automation may have contributed to the 
   87% increase in layoffs, resulting in 10,663 job cuts
 </ul>
+
+</span>
