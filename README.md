@@ -10,9 +10,14 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 ## Insight Deep Dive
 ### Layoff Trends for Top 5 Industries with the most total layoffs
 
-Layoffs across industries increased due to the combined effects of automation, e-commerce growth, inflation, and ongoing economic challenges.
 
 <ul style="list-style-type: circle; font-weight: light;">
+  <li>
+  <strong>General Trends</strong>: <br/>
+  Layoffs across industries increased due to the combined effects of automation, e-commerce growth, inflation, and ongoing economic challenges.
+  </li>
+  <br/>
+  
   <li>
   <strong>Transportation</strong>: <br/>
   <em><strong>13,600</em></strong> layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638 as of June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
