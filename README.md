@@ -35,7 +35,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
   </li>
   <strong>2023</strong>: <br/>
-  The layoffs in <strong><em>Consumer (27,110)</strong></em> surged significantly, reflecting changes in consumer spending habits and restructuring in the sector due to <strong><em>inflationa and economic           downturns</strong></em>. <strong><em>Retail (25,535)</strong></em> layoffs also remained high, likely driven by continued growth in <strong><em>e-commerce</strong></em> and shifts in shopping behaviors.
+  The layoffs in <strong><em>Consumer (27,110)</strong></em> surged significantly, reflecting changes in consumer spending habits and <strong><em>restructuring</strong></em> in the sector due to <strong>            <em>inflationa and economic downturns</strong></em>. <strong><em>Retail (25,535)</strong></em> layoffs also remained high, likely driven by continued growth in <strong><em>e-commerce</strong></em> and shifts      in shopping behaviors.
   </li>
   <br/>
   
