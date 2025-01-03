@@ -15,7 +15,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
   <strong>Transportation</strong>: <br/>
-  <em><strong>13,600</em></strong> layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638; as of June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
+  <em><strong>13,600</em></strong> layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638 as of June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
   </li>
   <br/>
   
@@ -33,7 +33,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
   <li>
   <strong>Finance</strong>: <br/>
-  The layoffs rose by <em><strong>87%</em></strong> in <em><strong>2022 (10,663)</em></strong> compared to 2020 due to <em><strong>economic downturns</em></strong> and <em><strong>automation</em></strong>. The layoffs in </em></strong>Finance</em></strong> in </em></strong>2024 (8,891; as of June 28th)</em></strong> suggest that the total number by the end of the year may be higher than previous years' due to ongoing automation and economic factors.
+  The layoffs rose by <em><strong>87%</em></strong> in <em><strong>2022 (10,663)</em></strong> compared to 2020 due to <em><strong>economic downturns</em></strong> and <em><strong>automation</em></strong>. The layoffs in </em></strong>Finance</em></strong> in </em></strong>2024 (8,891 as of June 28th)</em></strong> suggest that the total number by the end of the year <em><strong>may exceed previous years'</em></strong> due to ongoing automation and economic factors.
   </li>
   <br/>
 
