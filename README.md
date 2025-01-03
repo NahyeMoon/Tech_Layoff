@@ -15,19 +15,19 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
   <strong>Transportation</strong>: <br/>
-  13,600 layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638, up to June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
+  13,600 layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638; up to June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
   </li>
   <br/>
   
   <li>
   <strong>Retail</strong>: <br/>
-  The layoffs in Retail surged by 140% in 2022 (18,528) compared to 2020 due to the shift to e-commerce and disrupted supply chains, with the number further increasing by 230% in 2023 (25,535) compared to 2020."
+  The layoffs in <em><strong>Retail</em></strong> surged by <em><strong>140%</em></strong> in <em><strong>2022 (18,528)</em></strong> compared to 2020 due to the <em><strong>shift to e-commerce</em></strong> and <em><strong>disrupted supply chains</em></strong>, with the number further increasing by <em><strong>230% in 2023 (25,535)</em></strong> compared to 2020."
   </li>
   <br/>
   
   <li>
   <strong>Consumer</strong>: <br/>
-  The layoffs in Consumer starting at 5,341 in 2020, surged to 27,110 in 2023, reflecting continued shifts in consumer spending, inflation, and economic downturns that impacted the industry over the years.
+  The layoffs in <em><strong>Consumer</em></strong> starting at <em><strong>5,341 in 2020</em></strong>, surged to <em><strong>27,110 in 2023</em></strong>, reflecting continued shifts in consumer spending, inflation, and economic downturns that impacted the industry over the years.
   </li>
   <br/>  
   
