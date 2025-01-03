@@ -13,33 +13,32 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
-  <strong>2020</strong>: <br/>
-  <strong><em>Transportation</strong></em> had the highest layoffs <strong><em>(13,600)</strong></em> due to <strong><em>travel restrictions</strong></em>. Other industries, such as <strong><em>Retail (7,615),      Finance (5,714), Food (5,629), and Consumer (5,341)</strong></em> were also impacted by store closures, hospitality shutdowns, and the economic downturn.
+  <strong>Transportation</strong>: <br/>
+  13,600 layoffs in 2020 were driven by travel restrictions, with numbers in 2024 (4,638) remaining significant due to economic challenges, labor shortages, and automation.
   </li>
   <br/>
   
   <li>
-  <strong>2021</strong>: <br/>
-  <strong><em>Real Estate (2,900)</strong></em> and <strong><em>Construction (2,434)</strong></em> saw the highest layoffs due to <strong><em>reduced office demand</em></strong> and disrupted supply chains in       construction. The low layoffs in other sectors likely stem from data bias, which will be discussed in the assumptions section.
+  <strong>Retail</strong>: <br/>
+  The layoffs in Retail surged by 140% in 2022 (18,528) compared to 2020 due to the shift to e-commerce and disrupted supply chains, with the number further increasing by 230% in 2023 (25,535) compared to 2020."
   </li>
   <br/>
   
   <li>
-  <strong>2022</strong>: <br/>
-  The layoffs in <strong><em>Retail (18,528)</strong></em> increased by <strong><em>140%</strong></em> compared to 2020, likely due to the shift to <strong><em>e-commerce</em></strong> and disrupted supply          chains. In <strong><em>Finance (10,663)</strong></em>, the <strong><em>econominc downturns</strong></em> and the introduction of <strong><em>machine learning and automation</strong></em> may have contributed to   the <strong><em>87%</strong></em> increase in layoffs.
+  <strong>Consumer</strong>: <br/>
+  The layoffs in Consumer starting at 5,341 in 2020, surged to 27,110 in 2023, reflecting continued shifts in consumer spending, inflation, and economic downturns that impacted the industry over the years.
   </li>
   <br/>  
   
   <li>
-  <strong>2023</strong>: <br/>
-  The layoffs in <strong><em>Consumer (27,110)</strong></em> surged significantly, reflecting changes in consumer spending habits and <strong><em>restructuring</strong></em> in the sector due to <strong>            <em>inflationa and economic downturns</strong></em>. <strong><em>Retail (25,535)</strong></em> layoffs also remained high, likely driven by continued growth in <strong><em>e-commerce</strong></em> and shifts      in shopping behaviors.
+  <strong>Finance</strong>: <br/>
+  The layoffs rose by 87% in 2022 (10,663) compared to 2020 due to economic downturns and automation. The annual number of layoffs in Finance (8,891) up to June 28th in 2024 may have increased further due to        ongoing automation and economic factors.
   </li>
   <br/>
 
   <li>
-  <strong>2024</strong>: <br/>
-    
-  Considering the data available up to June 28th, the layoffs in <strong><em>Finance (8,891)</strong></em> possibly increased compared to 2023. The layoffs in <strong><em>Retail (7,980), Food (5,453), and           Transportation (4,638) </strong></em> remained significant, likely due to ongoing economic challenges, labor shortages, and continued shifts toward <strong><em>e-commerce and automation</strong></em>.
+  <strong>Real Estate & Construction</strong>: <br/>
+  In 2021, Real Estate (2,900) and Construction (2,434) saw significant layoffs due to reduced office demand, disrupted supply chains, and slowed construction during the pandemic.
   </li>
   </ul>
 
