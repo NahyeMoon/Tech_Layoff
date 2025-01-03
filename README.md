@@ -29,14 +29,15 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <li>
   <strong>2022</strong>: <br/>
   The layoffs in <strong><em>Retail (18,528)</strong></em> increased by <strong><em>140%</strong></em> compared to 2020, likely due to the shift to <strong><em>e-commerce</em></strong> and disrupted supply          chains. In <strong><em>Finance (10,663)</strong></em>, the introduction of <strong><em>machine learning and automation</strong></em> may have contributed to the <strong><em>87%</strong></em> increase in           layoffs.
-
-  </li>
-  <br/>
-  The layoffs in <strong><em>Consumer (27,110)</strong></em> surged significantly, reflecting changes in consumer spending habits and restructuring in the sector due to <strong><em>inflationa and economic           downturns</strong></em>. <strong><em>Retail (25,535)</strong></em> layoffs also remained high, likely driven by continued growth in <strong><em>e-commerce</strong></em> and shifts in shopping behaviors.
-  <li>
-  <strong>2023</strong>: <br/>
-  
   </li>
   <br/>  
+  
+
+  </li>
+  <strong>2023</strong>: <br/>
+  The layoffs in <strong><em>Consumer (27,110)</strong></em> surged significantly, reflecting changes in consumer spending habits and restructuring in the sector due to <strong><em>inflationa and economic           downturns</strong></em>. <strong><em>Retail (25,535)</strong></em> layoffs also remained high, likely driven by continued growth in <strong><em>e-commerce</strong></em> and shifts in shopping behaviors.
+  </li>
+  <br/>
+  
   </ul>
 
