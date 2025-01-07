@@ -8,7 +8,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 ## Executive Summary
 
 ## Insight Deep Dive
-### Layoff Trends for Top 5 Industries with the most total layoffs
+### Layoff Trends of Top 5 Industries By Total Layoffs
 
 
 <ul style="list-style-type: circle; font-weight: light;">
