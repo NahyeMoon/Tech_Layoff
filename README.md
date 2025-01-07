@@ -59,7 +59,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
 
   <li>
-<strong>SaaS</strong> and <strong>Fintech</strong>: As key players in digital transformation, SaaS (45 layoffs) and Fintech (190) thrived with increased adoption of remote work, digital banking, and financial innovations, reflecting their emergence as high-growth sectors.
+<strong>SaaS</strong> and <strong>Fintech</strong>: With the rapid <em><strong>digital transformation</em></strong> since pandemic, <em><strong>SaaS (45 layoffs)</em></strong> and <em><strong>Fintech (190)</em></strong> thrived with increased adoption of remote work, digital banking, and financial innovations, reflecting their emergence as <em><strong>high-growth sectors</em></strong>.
     </li>
   <br/>
 
