@@ -49,7 +49,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <ul style="list-style-type: circle; font-weight: light;">
  <li>
   <strong>General Trends</strong>: <br/>
-   The industries with the lowest number of layoffs, including <em><strong>Insurance, Biotechnology Research, SaaS, Fintech, and Translation</em></strong> showed records only in 2024, ndicating their emergence and growth with relatively low layoffs.
+   The industries with the lowest number of layoffs, including <em><strong>Insurance, Biotechnology Research, SaaS, Fintech</em></strong>, and <em><strong>Translation</em></strong> showed records <em><strong>only in 2024</em></strong>, indicating their <em><strong>emergence</em></strong> and <em><strong>growth</em></strong> with small number of layoffs.
   </li>
   <br/>
   
