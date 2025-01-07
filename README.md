@@ -64,7 +64,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
 
   <li>
-<strong>Translation and Localization</strong>: With only <em><strong>160</em></strong> layoffs recorded in 2024, this sector benefited from globalization and the growing demand for <em><strong>cross-border communication<em><strong> in the <em><strong>post-pandemic</em></strong> world.
+<strong>Translation and Localization</strong>: With only <em><strong>160</em></strong> layoffs recorded in 2024, this sector benefited from globalization and the growing demand for <em><strong>cross-border communication</em></strong> in the <em><strong>post-pandemic</em></strong> world.
     </li>
   <br/>
 
