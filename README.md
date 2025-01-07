@@ -16,6 +16,13 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
     
 <ul style="list-style-type: circle; font-weight: light;">
+  
+<li>
+  <strong>General Trends</strong>: <br/>
+  <em><strong>Layoffs</em></strong> across industries <em><strong>increased</em></strong> due to the combined effects of <em><strong>automation, e-commerce growth, inflation,</em></strong> and ongoing <em>      <strong>economic challenges</em></strong>. The significantly low number of layoffs in 2021 is discussed in more detail in the assumptions section.
+      </li>
+  <br/>
+    
   <li>
   <strong>Transportation</strong>: <br/>
   <em><strong>13,600</em></strong> layoffs in <em><strong>2020</em></strong> were driven by <em><strong>travel restrictions</em></strong>, with the number remaining significant in <em><strong>2024 (4,638 as of June 28th)</em></strong>  due to economic <em><strong>challenges</em></strong> and <em><strong>labor shortages</em></strong>.
