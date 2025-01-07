@@ -54,7 +54,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
   
   <li>
-  <strong>Insurance</strong> and <strong>Biotechnology Research</strong>: -Both industries showed low number of layoffs layoffs (135 and 184, respectively), driven by steady demand for risk management and growing investments in healthcare innovation during and after the pandemic.
+  <strong>Insurance</strong> and <strong>Biotechnology Research</strong>: Both industries showed low number of layoffs layoffs (<em><strong>135</em></strong> and <em><strong>184</em></strong>, respectively), driven by <em><strong>steady demand</em></strong> for <em><strong>risk management</em></strong> and growing investments in <em><strong>healthcare innovation</em></strong> during and after the pandemic.
     </li>
   <br/>
 
