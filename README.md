@@ -8,8 +8,8 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 ## Executive Summary
 
 ## Insight Deep Dive
-### Layoff Trends of Top 5 Industries By Total Layoffs
 
+### Layoff Trends of Top 5 Industries By Total Layoffs
 
 <ul style="list-style-type: circle; font-weight: light;">
   <li>
@@ -46,6 +46,12 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
 ### Layoff Trends of Bottom 5 Industries By Total Layoffs (2024)
 <ul style="list-style-type: circle; font-weight: light;">
+ <li>
+  <strong>General Trends</strong>: <br/>
+   The industries with the lowest number of layoffs, including SaaS, Insurance, Biotechnology Research, and Fintech, showed records only in 2024, indicating their emergence and growth with relatively low layoffs.
+  </li>
+  <br/>
+  
   <li>
   <strong>Insurance</strong> and <strong>Biotechnology Research</strong>: -Both industries showed low number of layoffs layoffs (135 and 184, respectively), driven by steady demand for risk management and growing investments in healthcare innovation during and after the pandemic.
     </li>
