@@ -53,6 +53,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
 
 
+
   Insurance and Biotechnology Research: Both industries demonstrated resilience and low layoffs (135 and 184, respectively, in 2024), driven by steady demand for risk management and growing investments in healthcare innovation during and after the pandemic.
 
 SaaS and Fintech: As key players in digital transformation, SaaS (45 layoffs) and Fintech (190 layoffs) thrived with increased adoption of remote work, digital banking, and financial innovations, reflecting their emergence as high-growth sectors.
