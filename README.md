@@ -86,7 +86,7 @@ Layoffs at <em><strong>Uber (6,700)</em></strong>, <em><strong>Groupon (2,800)</
 <br/>
 
 <li>
-Amazon (17,000 in 2023, ranked 1st; 10,150 in 2022, ranked 2nd) hired extensively during the early stages of the pandemic to meet the surge in online shopping demand but significantly reduced its workforce by 2022 as the demand began to level off.
+<em><strong>Amazon (17,000 in 2023, ranked 1st; 10,150 in 2022, ranked 2nd)</em></strong> hired extensively during the early stages of the pandemic to meet the surge in online shopping demand but significantly <em><strong>reduced</em></strong> its workforce by <em><strong>2022</em></strong> as the <em><strong>demand</em></strong> began to <em><strong>level off</em></strong>.
 </li>
 <br/>
 
