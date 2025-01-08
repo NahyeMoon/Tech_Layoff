@@ -14,12 +14,12 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   - Layoffs remained significant in 2022 with 12,870 but **decreased** to 8,268 in **2023** as the **post-pandemic recovery** began.
   
 * <strong>Retail</strong>:
-   - Layoffs in **Retail** recorded **7,615** in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
-   - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**. **Amazon** led with **17,000** layoffs (**highest by company**) in **2023** and **10,150** (**2nd highest**) in **2022**
+   - Layoffs in **Retail** recorded **7,615** in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic **(Figure 1)**. 
+   - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**. **Amazon** led with **17,000** layoffs (**highest by company**) in **2023** and **10,150** (**2nd highest**) in **2022** **(Figures 1, 2b, 2c)**
 
 * <strong>Consumer</strong>:
-  - The layoffs in Consumer followed a **similar pattern to Retail** due to the shift in demand toward online services and subsequent demand stabilization. 
-  - The number started at **5,341** in **2020** and surged to **18,350** in **2022**, with **Meta** contributing **11,000** layoffs (**highest by company**).
+  - The layoffs in Consumer followed a **similar pattern to Retail** due to the shift in demand toward **online services** and subsequent **demand stabilization**. 
+  - The number started at **5,341** in **2020** and surged to **18,350** in **2022**, with **Meta** contributing **11,000** layoffs (**highest by company**). 
   - In **2023**, layoffs increased further to **27,110**, with **Google** contributing **12,000 (2nd highest)** and **Meta** accounting for **10,000 (3rd highest)**.  
 
 * <strong>Food</strong>:
