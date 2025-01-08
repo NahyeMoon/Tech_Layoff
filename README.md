@@ -98,3 +98,5 @@ Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>
 
 Layoffs in Transportation driven by travel restrictions totalled 13,600 in 2020, making it the industry with the most layoffs that year(Figure). Uber contributed 6,700—the highest recorded by any company that year—and Airbnb in Travel reported 1,900, the 4th highest (Figure). Layoffs remained significant in 2022 with 12,870 and decreased to 8,268 in 2023 as the post-pandemic recovery began.
 
+Layoffs in Retail totaled 7,615 in 2020 due to physical store closures during the pandemic. As retail quickly adapted to the rising demand for e-commerce, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs in 2023 (ranked 1st) and 10,150 in 2022 (ranked 2nd).
+
