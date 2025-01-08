@@ -81,7 +81,7 @@ Layoffs at <em><strong>Uber (6,700)</em></strong>, <em><strong>Groupon (2,800)</
 <br/>
 
 <li>
-Google (12,000 in 2023, ranked 2nd) and Meta (11,000 in 2022, ranked 1st; 10,000 in 2023, ranked 3rd) laid off thousands of employees as the demand for online services that spiked during the pandemic leveled off by 2022 and 2023.
+<em><strong>Google (12,000 in 2023, ranked 2nd)</em></strong> and <em><strong>Meta (11,000 in 2022, ranked 1st; 10,000 in 2023, ranked 3rd)</em></strong> laid off thousands of employees as the <em><strong>demand for online services</em></strong> that spiked during the pandemic <em><strong>leveled off by 2022 and 2023</em></strong>.
 </li>
 <br/>
 
