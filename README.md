@@ -15,7 +15,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   
 * <strong>Retail</strong>:
    - Layoffs in **Retail** recorded **7,615** in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
-   - As the **demand** started to **plateau**, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs (the highest by company) in 2023 and 10,150 (2nd highest) in 2022
+   - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**. **Amazon** led with **17,000** layoffs (the **highest by company**) in **2023** and **10,150** (**2nd highest**) in **2022**
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
