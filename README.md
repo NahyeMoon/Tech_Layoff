@@ -33,6 +33,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 <div style="text-align:center;">
   <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="500" height="auto"/>
 </div>
+
  
  ### Emerging Industries with Minimal Layoffs (2024)
 <ul style="list-style-type: circle; font-weight: light;">
