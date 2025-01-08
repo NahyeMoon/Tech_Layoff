@@ -104,3 +104,7 @@ The layoffs in Consumer followed a similar pattern due to the shift in demand to
 
 The food industry recorded 5,629 layoffs in 2020, with 2,250 from Swiggy (ranked 3rd), driven by cost reductions and gathering restrictions. Layoffs surged to 16,252 in 2023, with Flink contributing 8,100 (ranked 5th), as companies downsized after overexpansion during the peak of the pandemic when demand for online food delivery was at its highest.
 
+The recorded layoffs in Finance rose by approximately 87% in 2022 (10,663) and by 130% compared to 2020 (5,623), driven by ongoing economic downturns and the increasing replacement of jobs through automation.
+
+
+
