@@ -18,8 +18,8 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
-  - The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs being the company with the most recorded layoffs in 2022.
-  - In 2023, layoffs increased further to 27,110, with Meta accounting for 10,000 (3rd highest) and Google contributing 12,000 (2nd highest).  
+  - The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs (highest by company).
+  - In 2023, layoffs increased further to 27,110, with Google contributing 12,000 (2nd highest) and Meta accounting for 10,000 (3rd highest).  
 
 * <strong>Food</strong>:
   - The food industry recorded 5,629 layoffs in 2020, with 2,250 from Swiggy (3rd highest), driven by cost reductions and gathering restrictions.
@@ -50,7 +50,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 <strong>Translation and Localization</strong>: With only <em><strong>160</em></strong> layoffs recorded in <em><strong>2024</em></strong>, this sector benefited from globalization and the growing demand for <em><strong>cross-border communication</em></strong> in the <em><strong>post-pandemic</em></strong> world.
     </li>
 
-  The 5,900 recorded layoffs from Microsoft and 6,000 from Dell in 2024 (as of June 28th) reflect workforce adjustments as both companies pivot toward cloud computing and enterprise solutions, responding to a decline in PC demand and slower growth in traditional software products post-pandemic.
+  6,000 from Dell (4th highest) and 5,900 recorded layoffs from Microsoft (5th highest) in 2024 as of June 28th reflect workforce adjustments as both companies pivot toward cloud computing and enterprise solutions, responding to a decline in PC demand and slower growth in traditional software products post-pandemic.
   <br/>
   </ul>
 
