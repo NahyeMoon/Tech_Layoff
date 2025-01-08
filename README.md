@@ -111,7 +111,7 @@ Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
-  - The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs (ranked 1st). 
+  - The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs being the company with the most recorded layoffs in 2022.
   - In 2023, layoffs increased further to 27,110, with Meta accounting for 10,000 (ranked 3rd) and Google contributing 12,000 (ranked 2nd).  
 
 * <strong>Food</strong>:
