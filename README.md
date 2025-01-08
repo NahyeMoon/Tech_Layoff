@@ -86,6 +86,6 @@ Google (12,000 in 2023, ranked 2nd) and Meta (11,000 in 2022, ranked 1st; 10,000
 <br/>
 
 <li>
-Layoffs at Uber (6,700), Groupon (2,800), and Airbnb (1,900) in 2020 highlight the severe impact of the pandemic on Transportation, Retail, and Travel industries due to travel restrictions and reduced consumer spending.
+Amazon (17,000 in 2023, ranked 1st; 10,150 in 2022, ranked 2nd) hired extensively during the early stages of the pandemic to meet the surge in online shopping demand but significantly reduced its workforce by 2022 as the demand began to level off.
 </li>
 <br/>
