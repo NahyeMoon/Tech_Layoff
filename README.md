@@ -107,7 +107,7 @@ Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>
   
 * <strong>Retail</strong>:
    - Layoffs in Retail recorded 7,615 in 2020 due to physical store closures during the pandemic. 
-   - As retail quickly adapted to the rising demand for e-commerce, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs in 2023 (ranked 1st) and 10,150 in 2022 (ranked 2nd).
+   - As retail quickly adapted to the rising demand for e-commerce, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs in 2023 and 10,150 in 2022, the highest and second highest recordeds by any company each year
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
