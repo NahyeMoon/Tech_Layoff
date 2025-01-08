@@ -10,12 +10,12 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ### Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic 
   
 * <strong>Transportation</strong>:
-  - Layoffs in ***Transportation*** driven by travel restrictions recorded ***13,600*** in ***2020***, making it the industry with the ***most layoffs*** that year ***(Figure 1)***. ***Uber*** contributed ***6,700***—the ***highest*** recorded by any ***company*** that year—and ***Airbnb*** in ***Travel*** reported ***1,900***, the ***4th highest*** ***(Figure 2a)***.
-  - Layoffs remained significant in 2022 with 12,870 but ***decreased*** to 8,268 in ***2023*** as the ***post-pandemic recovery*** began.
+  - ***Layoffs*** in ***Transportation*** driven by travel restrictions recorded ***13,600*** in ***2020***, making it the industry with the ***most layoffs*** that year ***(Figure 1)***. ***Uber*** contributed ***6,700***—the ***highest*** recorded by any ***company*** that year—and ***Airbnb*** in ***Travel*** reported ***1,900***, the ***4th highest*** ***(Figure 2a)***.
+  - ***Layoffs remained significant in 2022 with 12,870 but ***decreased*** to 8,268 in ***2023*** as the ***post-pandemic recovery*** began.
   
 * <strong>Retail</strong>:
-   - Layoffs in Retail recorded 7,615 in 2020 due to physical store closures during the pandemic. 
-   - As Retail shifted to e-commerce to meet rising demand, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs (the highest by company) in 2023 and 10,150 (2nd highest) in 2022
+   - Layoffs in ***Retail*** recorded ***7,615*** in ***2020*** due to ***physical store closures*** and ***rising demand for e-commerce*** during the pandemic. 
+   - As the ***demand*** started to ***plateau***, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs (the highest by company) in 2023 and 10,150 (2nd highest) in 2022
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
