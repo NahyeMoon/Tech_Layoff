@@ -100,3 +100,5 @@ Layoffs in Transportation driven by travel restrictions totalled 13,600 in 2020,
 
 Layoffs in Retail totaled 7,615 in 2020 due to physical store closures during the pandemic. As retail quickly adapted to the rising demand for e-commerce, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs in 2023 (ranked 1st) and 10,150 in 2022 (ranked 2nd).
 
+The layoffs in Consumer followed a similar pattern due to the shift in demand toward online services and subsequent demand stabilization. The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs (ranked 1st). In 2023, layoffs increased further to 27,110, with Meta accounting for 10,000 (ranked 3rd) and Google contributing 12,000 (ranked 2nd).
+
