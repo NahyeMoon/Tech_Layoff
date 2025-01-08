@@ -102,3 +102,5 @@ Layoffs in Retail totaled 7,615 in 2020 due to physical store closures during th
 
 The layoffs in Consumer followed a similar pattern due to the shift in demand toward online services and subsequent demand stabilization. The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs (ranked 1st). In 2023, layoffs increased further to 27,110, with Meta accounting for 10,000 (ranked 3rd) and Google contributing 12,000 (ranked 2nd).
 
+The food industry recorded 5,629 layoffs in 2020, with 2,250 from Swiggy (ranked 3rd), driven by cost reductions and gathering restrictions. Layoffs surged to 16,252 in 2023, with Flink contributing 8,100 (ranked 5th), as companies downsized after overexpansion during the peak of the pandemic when demand for online food delivery was at its highest.
+
