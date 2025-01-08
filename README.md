@@ -83,3 +83,8 @@ Layoffs at Uber (6,700), Groupon (2,800), and Airbnb (1,900) in 2020 highlight t
 Google (12,000 in 2023, ranked 2nd) and Meta (11,000 in 2022, ranked 1st; 10,000 in 2023, ranked 3rd) laid off thousands of employees as the demand for online services that spiked during the pandemic leveled off by 2022 and 2023.
 </li>
 <br/>
+
+<li>
+Layoffs at Uber (6,700), Groupon (2,800), and Airbnb (1,900) in 2020 highlight the severe impact of the pandemic on Transportation, Retail, and Travel industries due to travel restrictions and reduced consumer spending.
+</li>
+<br/>
