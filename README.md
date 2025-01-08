@@ -91,6 +91,6 @@ Layoffs at <em><strong>Uber (6,700)</em></strong>, <em><strong>Groupon (2,800)</
 <br/>
 
 <li>
-Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>Dell (6,000 in 2024)<em><strong> reflect workforce adjustments in response to a <em><strong>decline</em></strong> in <em><strong>PC demand</em></strong> and slower growth in <em><strong>traditional software products</em></strong> post-pandemic.
+Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>Dell (6,000 in 2024)</em></strong> reflect workforce adjustments in response to a <em><strong>decline</em></strong> in <em><strong>PC demand</em></strong> and slower growth in <em><strong>traditional software products</em></strong> post-pandemic.
 </li>
 <br/>
