@@ -23,7 +23,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   - In **2023**, layoffs increased further to **27,110**, with **Google** contributing **12,000 (2nd highest)** and **Meta** accounting for **10,000 (3rd highest)**.  
 
 * <strong>Food</strong>:
-  - The food industry recorded **5,629** layoffs in **2020**, with **2,250** from **Swiggy (3rd highest)**, driven by **cost reductions**.
+  - The Food industry recorded **5,629** layoffs in **2020**, with **2,250** from **Swiggy (3rd highest)**, driven by **cost reductions**.
   - Layoffs surged to **16,252** in **2023**, with **Flink** contributing **8,100 (5th highest)**, as companies **downsized after overexpansion** during the peak of the pandemic when demand for online food delivery was at its highest.
 
 * <strong>Finance</strong>:
