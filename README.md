@@ -71,7 +71,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <ul style="list-style-type: circle; font-weight: light;">
   
 <li>
-The **_bubble map_** shows that layoffs were concentrated in the USA. The table shows that companies in the USA led the top layoffs each year, with examples like Uber in 2020 (6,700), Meta in 2022 (11,000), and Tesla in 2024 (20,020), contributing to the 73% of total layoffs recorded in the dataset being from the USA.
+The ***bubble map*** shows that layoffs were concentrated in the USA. The table shows that companies in the USA led the top layoffs each year, with examples like Uber in 2020 (6,700), Meta in 2022 (11,000), and Tesla in 2024 (20,020), contributing to the 73% of total layoffs recorded in the dataset being from the USA.
 </li>
 <br/>
 
