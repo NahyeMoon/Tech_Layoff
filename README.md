@@ -7,7 +7,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 ## Insight Deep Dive
 
-### Industry Layoff Pandemic and Post-Pandemic Trends: 2020-2024
+### Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic 
   
 * <strong>Transportation</strong>:
   - Layoffs in Transportation driven by travel restrictions recorded 13,600 in 2020, making it the industry with the most layoffs that year(Figure). Uber contributed 6,700—the highest recorded by any company that year—and Airbnb in Travel reported 1,900, the 4th highest (Figure).
