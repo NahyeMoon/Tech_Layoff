@@ -64,7 +64,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 <strong>Translation and Localization</strong>: With only <em><strong>160</em></strong> layoffs recorded in 2024, this sector benefited from globalization and the growing demand for <em><strong>cross-border communication</em></strong> in the <em><strong>post-pandemic</em></strong> world.
     </li>
   <br/>
-
+  </ul>
 
 ### Emerging Industries (Bottom 2024)
 <ul style="list-style-type: circle; font-weight: light;">
