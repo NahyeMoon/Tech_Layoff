@@ -108,7 +108,7 @@ Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>
     <li>Layoffs in Transportation driven by travel restrictions recorded 13,600 in 2020, making it the industry with the most layoffs that year(Figure).Uber contributed 6,700—the highest recorded by any company that year—and Airbnb in Travel reported 1,900, the 4th highest (Figure).</li>
     <li>Layoffs remained significant in 2022 with 12,870 but decreased to 8,268 in 2023 as the post-pandemic recovery began.</li>
     
-</li>
+
 <br/>
 
 <li>
