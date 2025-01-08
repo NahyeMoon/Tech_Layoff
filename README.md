@@ -43,7 +43,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   </ul>
 
 
-### Emerging Industries (Bottom 2024)
+### Emerging Industries with Minimal Layoffs (2024)
 <ul style="list-style-type: circle; font-weight: light;">
  <li>
   <strong>General Trends</strong>: <br/>
