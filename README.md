@@ -8,8 +8,6 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 ## Insight Deep Dive
 
 ### Most Affected Industries by Pandemic and Post-Pandemic (2020-2024)
-
-    
 <ul style="list-style-type: circle; font-weight: light;">
 <li>
   <strong>General Trends</strong>: <br/>
@@ -68,6 +66,8 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
 
 
-### 
+### Emerging Industries (Bottom 2024)
+<ul style="list-style-type: circle; font-weight: light;">
+<li>
   Companies in the USA led the top layoffs each year, with examples like Uber in 2020 (6,700), Meta in 2022 (11,000), and Tesla in 2024 (20,020). This reflects North America’s significant representation in the dataset, accounting for 73.01% of total layoffs.
 
