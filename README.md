@@ -1,7 +1,7 @@
 # Global Tech Layoff Post-Pandemic Analysis
 
 ## Project Overview
-The COVID-19 pandemic significantly changed customer demand, especially with a shift toward remote work and digital services. This project aims to understand how the pandemic affected different sectors of tech and how tech companies restructured their workforces during and after the pandemic in response to these shifts and subsequent demand plateau. The goal is to provide HR department leaders and business leaders with data-driven insights into workforce planning and investment to emerging and resilient sectors and help them mitigate risks in future economic uncertainties.
+The COVID-19 pandemic significantly shifted customer demand, particularly toward remote work and digital services. This project explores how the pandemic impacted various tech sectors and how companies restructured their workforces in response to these changes and subsequent demand stabilization. It aims to provide HR and business leaders with data-driven insights for workforce planning, investment in emerging and resilient sectors, and mitigating risks during future economic uncertainties.
 
 ## Executive Summary
 
