@@ -67,7 +67,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
   </ul>
 
-### Emerging Industries (Bottom 2024)
+### Regional Analysis and Top 5 Companies of Each Year
 <ul style="list-style-type: circle; font-weight: light;">
   
 <li>
