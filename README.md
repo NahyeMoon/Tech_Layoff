@@ -30,10 +30,9 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   - The recorded layoffs in Finance rose by approximately 87% in 2022 (10,663) and by 130% compared to 2020 (5,623), driven by ongoing economic downturns and the increasing replacement of jobs through automation.
 
 
-<div style="text-align:center;">
+<center>
   <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="500" height="auto"/>
-</div>
-
+</center>
  
  ### Emerging Industries with Minimal Layoffs (2024)
 <ul style="list-style-type: circle; font-weight: light;">
