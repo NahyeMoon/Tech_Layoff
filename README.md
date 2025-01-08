@@ -94,3 +94,7 @@ Layoffs at <em><strong>Uber (6,700)</em></strong>, <em><strong>Groupon (2,800)</
 Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>Dell (6,000 in 2024)</em></strong> reflect workforce adjustments in response to a <em><strong>decline</em></strong> in <em><strong>PC demand</em></strong> and slower growth in <em><strong>traditional software products</em></strong> post-pandemic.
 </li>
 <br/>
+
+
+Transportation experienced the highest number of layoffs in 2020, totaling 13,600, driven by travel restrictions (Figure). Uber contributed 6,700—the highest recorded by any company that year—and Airbnb in Travel reported 1,900, the 4th highest (Figure). Layoffs remained significant in 2022 with 12,870 and decreased to 8,268 in 2023 as the post-pandemic recovery began.
+
