@@ -67,7 +67,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   <br/>
   </ul>
 
-### Regional Analysis and Top 5 Companies of Each Year
+### Regional and Company-Specific Layoff Trends (2020-2024)
 <ul style="list-style-type: circle; font-weight: light;">
   
 <li>
