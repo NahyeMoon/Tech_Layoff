@@ -89,3 +89,8 @@ Google (12,000 in 2023, ranked 2nd) and Meta (11,000 in 2022, ranked 1st; 10,000
 Amazon (17,000 in 2023, ranked 1st; 10,150 in 2022, ranked 2nd) hired extensively during the early stages of the pandemic to meet the surge in online shopping demand but significantly reduced its workforce by 2022 as the demand began to level off.
 </li>
 <br/>
+
+<li>
+Layoffs at Microsoft (10,000 in 2023) and Dell (6,000 in 2024) reflect workforce adjustments in response to a decline in PC demand and slower growth in traditional software products post-pandemic.
+</li>
+<br/>
