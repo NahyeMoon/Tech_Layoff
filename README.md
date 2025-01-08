@@ -64,6 +64,8 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   <li>
 <strong>Translation and Localization</strong>: With only <em><strong>160</em></strong> layoffs recorded in <em><strong>2024</em></strong>, this sector benefited from globalization and the growing demand for <em><strong>cross-border communication</em></strong> in the <em><strong>post-pandemic</em></strong> world.
     </li>
+
+  The 5,900 recorded layoffs from Microsoft and 6,000 from Dell in 2024 (as of June 28th) reflect workforce adjustments as both companies pivot toward cloud computing and enterprise solutions, responding to a decline in PC demand and slower growth in traditional software products post-pandemic.
   <br/>
   </ul>
 
