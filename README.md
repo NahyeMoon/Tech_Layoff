@@ -39,7 +39,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 <div style="text-align: center; display: flex; justify-content: center; gap: 20px;">
   <div>
     a. Top 5 Company 2020
-    <img src="Screenshots/Top5Company2020.png" alt="Top 5 Company 2020" height="155">
+    <img src="Screenshots/Top5Company2020.png" alt="Top 5 Company 2020" height="155", title="AAAAAA">
     <p>b. Top 5 Company 2021</p>
     <img src="Screenshots/Top5Company2021.png" alt="Top 5 Company 2021" height="155">
   </div>
