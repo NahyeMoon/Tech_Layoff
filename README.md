@@ -107,16 +107,16 @@ Layoffs at <em><strong>Microsoft (10,000 in 2023)</em></strong> and <em><strong>
   
 * <strong>Retail</strong>:
    - Layoffs in Retail recorded 7,615 in 2020 due to physical store closures during the pandemic. 
-   - As retail quickly adapted to the rising demand for e-commerce, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs in 2023 and 10,150 in 2022, the highest and second highest recordeds by any company each year
+   - As retail quickly adapted to the rising demand for e-commerce, layoffs surged by 140% in 2022 (18,528) compared to 2020, followed by a further 230% increase in 2023 (25,535). Amazon led with 17,000 layoffs (the highest by company) in 2023 and 10,150 (2nd highest) in 2022
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
   - The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs being the company with the most recorded layoffs in 2022.
-  - In 2023, layoffs increased further to 27,110, with Meta accounting for 10,000 (ranked 3rd) and Google contributing 12,000 (ranked 2nd).  
+  - In 2023, layoffs increased further to 27,110, with Meta accounting for 10,000 (3rd highest) and Google contributing 12,000 (2nd highest).  
 
 * <strong>Food</strong>:
-  - The food industry recorded 5,629 layoffs in 2020, with 2,250 from Swiggy (ranked 3rd), driven by cost reductions and gathering restrictions.
-  - Layoffs surged to 16,252 in 2023, with Flink contributing 8,100 (ranked 5th), as companies downsized after overexpansion during the peak of the pandemic when demand for online food delivery was at its highest.
+  - The food industry recorded 5,629 layoffs in 2020, with 2,250 from Swiggy (3rd highest), driven by cost reductions and gathering restrictions.
+  - Layoffs surged to 16,252 in 2023, with Flink contributing 8,100 (5th highest), as companies downsized after overexpansion during the peak of the pandemic when demand for online food delivery was at its highest.
 
 * <strong>Finance</strong>:
   - The recorded layoffs in Finance rose by approximately 87% in 2022 (10,663) and by 130% compared to 2020 (5,623), driven by ongoing economic downturns and the increasing replacement of jobs through automation.
