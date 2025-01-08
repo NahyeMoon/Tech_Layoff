@@ -7,7 +7,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
 ## Insight Deep Dive
 
-### Most Affected Industries by Pandemic and Post-Pandemic (2020-2024)
+### Impact of Pandemic and Post-Pandemic Trends on Industry Layoffs (2020-2024)
 <ul style="list-style-type: circle; font-weight: light;">
 <li>
   <strong>General Trends</strong>: <br/>
