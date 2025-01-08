@@ -10,12 +10,12 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ### Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic 
   
 * <strong>Transportation</strong>:
-  - **Layoffs** in **Transportation** driven by travel restrictions recorded **13,600** in **2020**, making it the industry with the **most layoffs** that year **(Figure 1)**. **Uber** contributed **6,700**—the **highest recorded by any company that year**—and **Airbnb** in **Travel** reported **1,900**, the **4th highest** **(Figure 2a)**.
+  - **Layoffs** in **Transportation** driven by travel restrictions recorded **13,600** in **2020**, making it the industry with the **most layoffs** that year. **Uber** contributed **6,700**—the **highest recorded by any company that year**—and **Airbnb** in **Travel** reported **1,900**, the **4th highest**.
   - Layoffs remained significant in 2022 with 12,870 but **decreased** to 8,268 in **2023** as the **post-pandemic recovery** began.
   
 * <strong>Retail</strong>:
-   - Layoffs in **Retail** recorded **7,615** in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic **(Figure 1)**. 
-   - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**. **Amazon** led with **17,000** layoffs (**highest by company**) in **2023** and **10,150** (**2nd highest**) in **2022** **(Figures 1, 2b, 2c)**
+   - Layoffs in **Retail** recorded **7,615** in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
+   - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**. **Amazon** led with **17,000** layoffs (**highest by company**) in **2023** and **10,150** (**2nd highest**) in **2022**
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a **similar pattern to Retail** due to the shift in demand toward **online services** and subsequent **demand stabilization**. 
@@ -23,11 +23,11 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   - In **2023**, layoffs increased further to **27,110**, with **Google** contributing **12,000 (2nd highest)** and **Meta** accounting for **10,000 (3rd highest)**.  
 
 * <strong>Food</strong>:
-  - The food industry recorded **5,629** layoffs in **2020**, with **2,250** from **Swiggy (3rd highest)**, driven by cost reductions and gathering restrictions.
-  - Layoffs surged to 16,252 in 2023, with Flink contributing 8,100 (5th highest), as companies downsized after overexpansion during the peak of the pandemic when demand for online food delivery was at its highest.
+  - The food industry recorded **5,629** layoffs in **2020**, with **2,250** from **Swiggy (3rd highest)**, driven by **cost reductions**.
+  - Layoffs surged to **16,252** in **2023**, with **Flink** contributing **8,100 (5th highest)**, as companies **downsized after overexpansion** during the peak of the pandemic when demand for online food delivery was at its highest.
 
 * <strong>Finance</strong>:
-  - The recorded layoffs in Finance rose by approximately 87% in 2022 (10,663) and by 130% compared to 2020 (5,623), driven by ongoing economic downturns and the increasing replacement of jobs through automation.
+  - The recorded layoffs in Finance rose by approximately **87%** in **2022 (10,663)** and by **130% compared to 2020 (5,623)**, driven by **ongoing economic downturns** and the increasing replacement of jobs through **automation**.
 
 
 <p align="center">
