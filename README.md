@@ -18,9 +18,9 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
    - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**. **Amazon** led with **17,000** layoffs (**highest by company**) in **2023** and **10,150** (**2nd highest**) in **2022**
 
 * <strong>Consumer</strong>:
-  - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
-  - The number started at 5,341 in 2020 and surged to 18,350 in 2022, with Meta contributing 11,000 layoffs (highest by company).
-  - In 2023, layoffs increased further to 27,110, with Google contributing 12,000 (2nd highest) and Meta accounting for 10,000 (3rd highest).  
+  - The layoffs in Consumer followed a **similar pattern to Retail** due to the shift in demand toward online services and subsequent demand stabilization. 
+  - The number started at **5,341** in **2020** and surged to **18,350** in **2022**, with **Meta** contributing **11,000** layoffs (**highest by company**).
+  - In **2023**, layoffs increased further to **27,110**, with **Google** contributing **12,000 (2nd highest)** and Meta accounting for **10,000 (3rd highest)**.  
 
 * <strong>Food</strong>:
   - The food industry recorded 5,629 layoffs in 2020, with 2,250 from Swiggy (3rd highest), driven by cost reductions and gathering restrictions.
