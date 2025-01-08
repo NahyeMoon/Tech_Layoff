@@ -76,7 +76,7 @@ The <em><strong>bubble map</em></strong> shows that layoffs were <em><strong>con
 <br/>
 
 <li>
-Layoffs at Uber (6,700), Groupon (2,800), and Airbnb (1,900) in 2020 highlight the severe impact of the pandemic on Transportation, Retail, and Travel industries due to travel restrictions and reduced consumer spending.
+Layoffs at <em><strong>Uber (6,700)</em></strong>, <em><strong>Groupon (2,800)</em></strong>, and <em><strong>Airbnb (1,900)</em></strong> in <em><strong>2020</em></strong> highlight the severe impact of the pandemic on Transportation, Retail, and Travel industries due to travel restrictions and reduced consumer spending.
 </li>
 <br/>
 
