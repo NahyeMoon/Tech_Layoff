@@ -23,7 +23,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   
   <li>
   <strong>Retail</strong>: <br/>
-  The layoffs in <em><strong>Retail</em></strong> totaled <em><strong>7,615</em></strong> in <em><strong>2020 (18,528)</em></strong> due todue to physical store closures during the pandemic. Retail quickly adapted to the rising demand for <em><strong>e-commerce</em></strong> but as the demand leveled off by 2022, layoffs <em><strong>increased</em></strong> by <em><strong>140%</em></strong> in <em><strong>2022 (18,528)</em></strong> compared to <em><strong>2020</em></strong>, followed by another surge of <em><strong>230%</em></strong> in <em><strong>2023 (25,535)</em></strong>.
+  The layoffs in <em><strong>Retail</em></strong> totaled <em><strong>7,615</em></strong> in <em><strong>2020 (18,528)</em></strong> due todue to physical store closures during the pandemic. Retail quickly adapted to the <em><strong>rising demand</em></strong> for <em><strong>e-commerce</em></strong> but as the demand <em><strong>leveled off</em></strong> by 2022, layoffs <em><strong>increased</em></strong> by <em><strong>140%</em></strong> in <em><strong>2022 (18,528)</em></strong> compared to <em><strong>2020</em></strong>, followed by another surge of <em><strong>230%</em></strong> in <em><strong>2023 (25,535)</em></strong>.
 
   </li>
   <br/>
