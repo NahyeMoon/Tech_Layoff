@@ -8,7 +8,8 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ## Insight Deep Dive
 
 * <strong>General Trends</strong>:
-  - 
+  - Layoffs across industries showed significant increases post-pandemic, especially in sectors like Retail and Consumer, where the shift to e-commerce and online services led to notable workforce reductions.
+  - The Transportation and Food industries saw fluctuations as companies downsized after overexpansion during peak pandemic demand, while Finance experienced layoffs driven by economic downturns and automation advancements.
   
 * <strong>Transportation</strong>:
   - Layoffs in Transportation driven by travel restrictions recorded 13,600 in 2020, making it the industry with the most layoffs that year(Figure). Uber contributed 6,700—the highest recorded by any company that year—and Airbnb in Travel reported 1,900, the 4th highest (Figure).
