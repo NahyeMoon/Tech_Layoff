@@ -31,7 +31,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 
 <p align="center">
-  <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="900"/>
+  <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="600"/>
 </p>
 
 
