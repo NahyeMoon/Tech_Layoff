@@ -7,8 +7,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
 ## Insight Deep Dive
 
-### Trends of Top 5 Industries By Total Layoffs (2020-2024)
-
+### Most Affected Industries by Pandemic and Post-Pandemic (2020-2024)
 
     
 <ul style="list-style-type: circle; font-weight: light;">
@@ -45,7 +44,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
   </ul>
 
 
-### Layoff Trends of Bottom 5 Industries By Total Layoffs (2024)
+### Emerging Industries (Bottom 2024)
 <ul style="list-style-type: circle; font-weight: light;">
  <li>
   <strong>General Trends</strong>: <br/>
