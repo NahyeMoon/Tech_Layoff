@@ -7,7 +7,7 @@ The COVID-19 pandemic significantly changed customer demand, especially with a s
 
 ## Insight Deep Dive
 
-### Industry Trends Over Time (Top 5 Industries by Layoffs)
+### Trends of Top 5 Industries By Total Layoffs (2020-2024)
 
 
     
