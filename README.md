@@ -40,7 +40,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   <img src="Screenshots/Top5Company2021.png" alt="Top 5 Company 2021" width="430",height = "210", style="display: inline-block;"/>
   <img src="Screenshots/Top5Company2022.png" alt="Top 5 Company 2022" width="430", height = "210", style="display: inline-block;"/>
   <img src="Screenshots/Top5Company2023.png" alt="Top 5 Company 2023" width="430", height = "210", style="display: inline-block;"/>
-  <img src="Screenshots/Top5Company2024.png" alt="Top 5 Company 2024" width="450", height = "210", style="display: inline-block;"/>
+  <img src="Screenshots/Top5Company2024.png" alt="Top 5 Company 2024" width="465", height = "210", style="display: inline-block;"/>
 </p>
 
   
