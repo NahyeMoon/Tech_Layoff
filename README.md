@@ -24,7 +24,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 * <strong>Food</strong>:
   - The Food industry recorded **5,629** layoffs in **2020**, with **2,250** from **Swiggy (3rd highest)**, driven by **cost reductions**.
-  - Layoffs surged to **16,252** in **2023**, with **Flink** contributing **8,100 (5th highest)**, as companies **downsized after overexpansion** during the peak of the pandemic when demand for online food delivery was at its highest.
+  - Layoffs surged to **16,252** in **2023** as companies **downsized after overexpansion** during the peak of the pandemic when demand for online food delivery was at its highest.
 
 * <strong>Finance</strong>:
   - The recorded layoffs in Finance rose by approximately **87%** in **2022 (10,663)** and by **130% compared to 2020 (5,623)**, driven by **ongoing economic downturns** and the increasing replacement of jobs through **automation**.
