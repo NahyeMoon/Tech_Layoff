@@ -54,13 +54,11 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
  ### Emerging Industries with Minimal Layoffs (2024, as of June 28th)
 
 * **General Trends**:</br>
-&nbsp;&nbsp;&nbsp;
-The industries with the lowest number of layoffs, including **Insurance, Biotechnology Research, SaaS, Fintech**, and **Translation** showed records **only in 2024**, indicating their **emergence** and **growth** with small number of layoffs.
+  - The industries with the lowest number of layoffs, including **Insurance, Biotechnology Research, SaaS, Fintech**, and **Translation** showed records **only in 2024**, indicating their **emergence** and **growth** with small number of layoffs.
 
 
 * **Insurance** and **Biotechnology Research**:</br>
-&nbsp;&nbsp;&nbsp;
-Both industries recorded **low number** of layoffs of *135* and *184*, respectively, in *2024* due to **steady demand** for **risk management** and growing investments in **healthcare innovation** during and after the pandemic.
+  - Both industries recorded **low number** of layoffs of *135* and *184*, respectively, in *2024* due to **steady demand** for **risk management** and growing investments in **healthcare innovation** during and after the pandemic.
 
 
 
@@ -71,8 +69,7 @@ Both industries recorded **low number** of layoffs of *135* and *184*, respectiv
 
   
 * **Translation and Localization**:</br>
-&nbsp;&nbsp;&nbsp;
-With **160** layoffs recorded in **2024**, this sector benefited from globalization and the growing demand for **cross-border communication** in the **post-pandemic** world.
+  - With **160** layoffs recorded in **2024**, this sector benefited from globalization and the growing demand for **cross-border communication** in the **post-pandemic** world.
   
 
 
