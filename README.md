@@ -62,7 +62,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 
   
-* **Tech**:</br>
+* **Tech**:
  - With the rapid **digital transformation** since pandemic, **SaaS**(*45* layoffs) and **Fintech**(*190*) thrived with increased adoption of remote work, digital banking, and financial innovations, reflecting their emergence as **high-growth sectors**.
  - The recorded layoffs from **Dell**(*6,000*) and **Microsoft**(*5,900*) in 2024 as of June 28th reflect workforce adjustments as both companies pivot toward **cloud computing** and **enterprise solutions**, responding to a **decline in PC demand** and slower growth in **traditional software products** post-pandemic.
 
