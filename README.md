@@ -37,16 +37,16 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   -  Most affected companies:**Katerra** (*2,434* layoffs in *2021*), **Zillow** (*2,000* layoffs in *2021*), and **Better.com** (*900* layoffs in *2021*)
 
 <p align="center">
-  <img src="DataVisualization/Top5Industry.png" alt="Top 5 Industry" width="800"/>
+  <img src="DataVisualization/Top5Industry.png" alt="Top 5 Industry" width="600"/>
 </p>
 
 
 <p align="center">
-  <img src="DataVisualization/Top5Company2020.png" alt="Top 5 Company 2020" width="266", height = "130",style="display: inline-block;"/>
-  <img src="DataVisualization/Top5Company2021.png" alt="Top 5 Company 2021" width="266", height = "130", style="display: inline-block;"/>
-  <img src="DataVisualization/Top5Company2022.png" alt="Top 5 Company 2022" width="266", height = "130", style="display: inline-block;"/>
-  <img src="DataVisualization/Top5Company2023.png" alt="Top 5 Company 2023" width="266", height = "130", style="display: inline-block;"/>
-  <img src="DataVisualization/Top5Company2024.png" alt="Top 5 Company 2024" width="286", height = "130", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2020.png" alt="Top 5 Company 2020" width="300", height = "150",style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2021.png" alt="Top 5 Company 2021" width="300", height = "150", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2022.png" alt="Top 5 Company 2022" width="300", height = "150", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2023.png" alt="Top 5 Company 2023" width="300", height = "150", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2024.png" alt="Top 5 Company 2024" width="300", height = "150", style="display: inline-block;"/>
 </p>
 
   
