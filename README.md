@@ -11,12 +11,12 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   
 * <strong>Transportation</strong>:
   - Layoffs in **Transportation** driven by **travel restrictions** recorded *13,600* in **2020**, making it the **industry with the most layoffs** that year.
-  - The number remained significant in *2022* with *12,870* but decreased to *8,268* in *2023* as the **post-pandemic recovery** began.
+  - The number remained significant in **2022** with *12,870* but **decreased** to *8,268* in **2023** as the **post-pandemic recovery** began.
   - Most affected companies: **Uber** (6,700 layoffs in 2020), **Airbnb** (1,900 layoffs in 2020)
   
 * <strong>Retail</strong>:
-   - Layoffs in **Retail** recorded **7,615** in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
-   - As the **demand** started to **plateau**, layoffs **surged** by **140%** in **2022 (18,528)** compared to 2020, followed by a **230%** increase in **2023 (25,535)**.
+   - Layoffs in **Retail** recorded *7,615* in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
+   - As the **demand started to plateau**, layoffs **surged** to *18,528 (140%)* in **2022** compared to 2020, followed by a *25,535 (230%)* increase in **2023**.
    - Most affected company: **Amazon**(10,150 layoffs  in 2022; 17,000 layoffs in 2023)
 
 * <strong>Consumer</strong>:
