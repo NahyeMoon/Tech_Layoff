@@ -35,7 +35,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 * **Construction and Real Estate**:
   - The **top 3 companies** with the **most layoffs** recorded in *2021* are in Construction and Real Estate due to the disrupted construction supply chain and **shift to remote work**.
   -  Most affected companies:**Katerra** (*2,434* layoffs in *2021*), **Zillow** (*2,000* layoffs in *2021*), and **Better.com** (*900* layoffs in *2021*)
-  -  
+
 <p align="center">
   <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="600"/>
 </p>
