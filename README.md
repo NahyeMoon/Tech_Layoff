@@ -12,7 +12,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 * <strong>Transportation</strong>:
   - Layoffs in **Transportation** driven by **travel restrictions** recorded *13,600 in 2020*, making it the **industry with the most layoffs** that year.
   - The number remained significant in *2022* with *12,870* but **decreased** to *8,268* in *2023* as the **post-pandemic recovery** began.
-  - Most affected companies: **Uber** (*6,700* layoffs in *2020*), **Airbnb** (*1,900* layoffs in *2020*)
+  - Most affected companies: **Uber** (*6,700* layoffs in *2020*), and **Airbnb** (*1,900* layoffs in *2020*)
   
 * <strong>Retail</strong>:
    - Layoffs in **Retail** recorded *7,615 in 2020* due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
@@ -22,17 +22,20 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 * <strong>Consumer</strong>:
   - The layoffs in **Consumer** followed a **similar pattern to Retail** due to the shift in demand toward **online services** and subsequent **demand stabilization**. 
   - The number started at *5,341 in 2020* and surged to *18,350 in 2022* and to *27,110 in 2023*.
-  - Most affected companies: **Meta** (*11,000* layoffs in *2022*; *10,000* in *2023*) and **Google** (*12,000* layoffs in *2023*)
+  - Most affected companies: **Meta** (*11,000* layoffs in *2022*; *10,000* in *2023*), and **Google** (*12,000* layoffs in *2023*)
 
 * <strong>Food</strong>:
   - The **Food** industry recorded *5,629* layoffs in *2020* driven by cost reductions and gathering ristrictions.
   - Layoffs surged to *16,252 in 2023* as companies **downsized after overexpansion** during the peak of the pandemic when demand for online food delivery was at its highest.
-  -  Most affected companies:**Swiggy** (*2,250* layoffs in *2020*) and **Delivery Hero** (*300* layoffs in *2021*)
+  -  Most affected companies:**Swiggy** (*2,250* layoffs in *2020*), and **Delivery Hero** (*300* layoffs in *2021*)
 
 * <strong>Finance</strong>:
   - The recorded layoffs in **Finance** rose to *10,663 (87% compared to 2020) in 2022* due to **ongoing economic downturns** and the increasing replacement of jobs through **automation**.
 
-
+* **Construction and Real Estate**:
+  - The **top 3 companies** with the **most layoffs** recorded in *2021* are in Construction and Real Estate due to the disrupted construction supply chain and **shift to remote work**.
+  -  Most affected companies:**Katerra** (*2,434* layoffs in *2021*), **Zillow** (*2,000* layoffs in *2021*), and **Better.com** (*900* layoffs in *2021*)
+  -  
 <p align="center">
   <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="600"/>
 </p>
