@@ -54,25 +54,24 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
  ### Emerging Industries with Minimal Layoffs (2024, as of June 28th)
 
 * **General Trends**:
-  - The industries with the lowest number of layoffs, including **Insurance, Biotechnology Research, SaaS, Fintech**, and **Translation** showed records **only in 2024**, indicating their **emergence** and **growth** with small number of layoffs.
+  The industries with the lowest number of layoffs, including **Insurance, Biotechnology Research, SaaS, Fintech**, and **Translation** showed records **only in 2024**, indicating their **emergence** and **growth** with small number of layoffs.
 
 
 * **Insurance** and **Biotechnology Research**:
-  - Both industries recorded **low number** of layoffs of *135* and *184*, respectively, in 2024 due to **steady demand** for **risk management** and growing investments in **healthcare innovation** during and after the pandemic.
+  Both industries recorded **low number** of layoffs of *135* and *184*, respectively, in *2024* due to **steady demand** for **risk management** and growing investments in **healthcare innovation** during and after the pandemic.
 
 
-  <li>
+  
 **SaaS** and **Fintech**:
 With the rapid **digital transformation** since pandemic, **SaaS (45 layoffs)** and **Fintech (190)** thrived with increased adoption of remote work, digital banking, and financial innovations, reflecting their emergence as **high-growth sectors**.
-    </li>
-  <br/>
 
-  <li>
+
+  
 **Translation and Localization**: With only **160** layoffs recorded in **2024**, this sector benefited from globalization and the growing demand for **cross-border communication** in the **post-pandemic** world.
-    </li>
+    
 
   6,000 from Dell (4th highest) and 5,900 recorded layoffs from Microsoft (5th highest) in 2024 as of June 28th reflect workforce adjustments as both companies pivot toward cloud computing and enterprise solutions, responding to a decline in PC demand and slower growth in traditional software products post-pandemic.
-  <br/>
-  </ul>
+  
+  
 
 
