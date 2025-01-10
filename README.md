@@ -17,7 +17,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 * <strong>Retail</strong>:
    - Layoffs in **Retail** recorded *7,615* in **2020** due to **physical store closures** and **rising demand for e-commerce** during the pandemic. 
    - As the **demand started to plateau**, layoffs **surged** to *18,528 (140%)* in **2022** compared to 2020, followed by a *25,535 (230%)* increase in **2023**.
-   - Most affected company: **Amazon**(10,150 layoffs  in 2022; 17,000 layoffs in 2023)
+   - Most affected company: **Amazon** (10,150 layoffs  in 2022; 17,000 layoffs in 2023)
 
 * <strong>Consumer</strong>:
   - The layoffs in Consumer followed a **similar pattern to Retail** due to the shift in demand toward **online services** and subsequent **demand stabilization**. 
