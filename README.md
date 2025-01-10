@@ -37,7 +37,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   -  Most affected companies:**Katerra** (*2,434* layoffs in *2021*), **Zillow** (*2,000* layoffs in *2021*), and **Better.com** (*900* layoffs in *2021*)
 
 <p align="center">
-  <img src="DataVisualization/Top5Industry.png" alt="Top 5 Industry" width="700"/>
+  <img src="DataVisualization/Top5Industry.png" alt="Top 5 Industry" width="800"/>
 </p>
 
 
