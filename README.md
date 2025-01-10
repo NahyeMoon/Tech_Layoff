@@ -62,5 +62,6 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 * **Translation and Localization**:</br>
   - With **160** layoffs recorded in **2024**, this sector benefited from globalization and the growing demand for **cross-border communication** in the **post-pandemic** world.
   
-
-
+<p align="center">
+  <img src="Screenshots/Bottom5Industry.png" alt="Bottom 5 Industries 2024" width="430", height = "210",style="display: inline-block;"/>
+</p>
