@@ -37,16 +37,16 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   -  Most affected companies:**Katerra** (*2,434* layoffs in *2021*), **Zillow** (*2,000* layoffs in *2021*), and **Better.com** (*900* layoffs in *2021*)
 
 <p align="center">
-  <img src="Screenshots/Top5Industry.png" alt="Top 5 Industry" width="700"/>
+  <img src="DataVisualization/Top5Industry.png" alt="Top 5 Industry" width="700"/>
 </p>
 
 
 <p align="center">
-  <img src="Screenshots/Top5Company2020.png" alt="Top 5 Company 2020" width="330", height = "165",style="display: inline-block;"/>
-  <img src="Screenshots/Top5Company2021.png" alt="Top 5 Company 2021" width="330",height = "165", style="display: inline-block;"/>
-  <img src="Screenshots/Top5Company2022.png" alt="Top 5 Company 2022" width="330", height = "165", style="display: inline-block;"/>
-  <img src="Screenshots/Top5Company2023.png" alt="Top 5 Company 2023" width=330", height = "165", style="display: inline-block;"/>
-  <img src="Screenshots/Top5Company2024.png" alt="Top 5 Company 2024" width=360", height = "165", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2020.png" alt="Top 5 Company 2020" width="330", height = "165",style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2021.png" alt="Top 5 Company 2021" width="330",height = "165", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2022.png" alt="Top 5 Company 2022" width="330", height = "165", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2023.png" alt="Top 5 Company 2023" width=330", height = "165", style="display: inline-block;"/>
+  <img src="DataVisualization/Top5Company2024.png" alt="Top 5 Company 2024" width=360", height = "165", style="display: inline-block;"/>
 </p>
 
   
@@ -63,5 +63,5 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   - With **160** layoffs recorded in **2024**, this sector benefited from globalization and the growing demand for **cross-border communication** in the **post-pandemic** world.
   
 <p align="center">
-  <img src="Screenshots/Bottom5Industry.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
+  <img src="DataVisualization/Bottom5Industry.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
 </p>
