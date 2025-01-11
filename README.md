@@ -68,7 +68,8 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 </p>
 
 
-### Correlation
+### Stock Price and Layoffs
+
 <p align="center">
   <img src="DataVisualization/HeatMapCorr.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
 </p>
