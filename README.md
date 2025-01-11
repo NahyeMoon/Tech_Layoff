@@ -51,7 +51,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
   
 
- ### Emerging Industries with Minimal Layoffs (2024, as of June 28th)
+### Emerging Industries with Minimal Layoffs (2024, as of June 28th)
 * **Insurance** and **Biotechnology Research**:</br>
   - Both industries recorded **low number** of layoffs of *135* and *184*, respectively, in *2024* due to **steady demand** for **risk management** and growing investments in **healthcare innovation** during and after the pandemic.
 
@@ -66,7 +66,8 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   <img src="DataVisualization/Bottom5Industry.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
 </p>
 
-  
+
+### Correlation
 <p align="center">
   <img src="DataVisualization/HeatMapCorr.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
 </p>
