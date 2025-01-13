@@ -77,4 +77,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 * **Retail**, **Consumer**, **Software Development** and **Fintech**:
    - The stock prices of **Amazon**(Retail), **Meta**(Consumer), **Microsoft**(Software Development) and **Intuit**(Fintech) peaked around late 2021 and early 2022, then rapidly decreased before beginning to recover in 2023 (values highlighted in *yellow in the table* below)
    - The **large-scale layoffs** at **Meta** and **Amazon** in **2022 and 2023** discussed in a previous section (Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic) **correspond** to two periods: after their **stock prices** decreased rapidly and when they just started recovering.
-
+  
+<p align="center">
+  <img src="DataVisualization/Bottom5Industry.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
+</p>
