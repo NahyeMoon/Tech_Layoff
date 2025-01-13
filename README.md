@@ -81,3 +81,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   <img src="DataVisualization/StockTime.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
   <img src="DataVisualization/StockTable.png" alt="Bottom 5 Industries 2024" width="400",style="display: inline-block;"/>
 </p>
+
+
+## Suggestions
+
