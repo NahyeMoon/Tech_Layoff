@@ -8,7 +8,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ## Insight Deep Dive
 
 ### Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic 
-  
+  in 
 * **Transportation**:
   - Layoffs in **Transportation** driven by **travel restrictions** recorded *13,600 in 2020*, making it the **industry with the most layoffs** that year.
   - The number remained significant in *2022* with *12,870* but **decreased** to *8,268* in *2023* as the **post-pandemic recovery** began.
@@ -71,10 +71,11 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ### Stock Price and Layoffs
 
 * **Biotechnology Research** and **Insurance**:
-  - The stock prices of **Johnson & Johnson**(Biotechnology Research) and **Berkshire Hathaway Inc.**(Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* on January 1, 2020, to *143.55 USD* and *407.95 USD* on June 27, 2024, respectively, with **no significant drops** in between.
+  - The stock prices of **Johnson & Johnson**(Biotechnology Research) and **Berkshire Hathaway Inc.**(Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* from March 12 , 2020, to *143.55 USD* and *407.95 USD* on June 27, 2024, respectively, with **no significant drops** in between.
   - **Biotechnology Research** and **insurance** had the **lowest layoffs** recorded in the dataset, and the **stable increase in stock prices** of major companies in these industries suggests their **resilience** and **stability** during challenging times.
 
 * **Retail**, **Consumer**, **Software Development** and **Fintech**:
-   - The stock prices of **Amazon**(Retail), **Meta**(Consumer), **Microsoft**(Software Development) and **Intuit**(Fintech)
+   - The stock prices of **Amazon**(Retail), **Meta**(Consumer), **Microsoft**(Software Development) and **Intuit**(Fintech) peaked around late 2021 and early 2022, then rapidly decreased before beginning to recover in 2023.
+   - The large-scale layoffs at Meta and Amazon in 2022 and 2023 discussed in a previous section (Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic) correspond to two periods: after their stock prices decreased rapidly and when they just started recovering."id stock price decreases, right when they began to recover.
    
 
