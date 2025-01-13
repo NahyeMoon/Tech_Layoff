@@ -79,5 +79,6 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
    - The **large-scale layoffs** at **Meta** and **Amazon** in **2022 and 2023** discussed in a previous section (Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic) **correspond** to two periods: after their **stock prices** decreased rapidly and when they just started recovering.
   
 <p align="center">
-  <img src="DataVisualization/Bottom5Industry.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
+  <img src="DataVisualization/StockTime.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
+  <img src="DataVisualization/StockTable.png" alt="Bottom 5 Industries 2024" width="300",style="display: inline-block;"/>
 </p>
