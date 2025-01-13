@@ -5,6 +5,8 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 ## Executive Summary
 
+The analysis of industry layoffs and stock market data from 2020 to 2024 highlights how companies navigated the challenges of the pandemic. The transportation sector faced the highest layoffs in 2020, with 13,600, followed by significant layoffs in the retail and consumer industries in 2022 and 2023—25,535 and 27,110, respectively—after demand plateaued. Large-scale layoffs from companies like Meta (11,000 layoffs in 2022) and Amazon (17,000 layoffs in 2023) reflect these demand trends and the significant drop in stock prices across industries during those years, following a peak in 2021. In contrast, resilient sectors like healthcare and insurance experienced low layoffs and stable stock prices, with companies like Berkshire Hathaway and Johnson & Johnson maintaining gradual growth. The successful recovery of companies like Amazon and Meta, which pivoted to cloud services and customer experience, underscores the importance of adaptability in navigating future uncertainties.
+
 ## Insight Deep Dive
 
 ### Industry Layoff Trends 2020-2024 Pandemic and Post-Pandemic 
