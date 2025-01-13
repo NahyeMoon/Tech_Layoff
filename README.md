@@ -75,6 +75,6 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
   - **Biotechnology Research** and **insurance** had the **lowest layoffs** recorded in the dataset, and the **stable increase in stock prices** of major companies in these industries suggests their **resilience** and **stability** during challenging times.
 
 * **Retail**, **Consumer**, **Software Development** and **Fintech**:
-   - The stock prices of **Amazon** (Retail), **Google** (Consumer), Microsoft(Software Development) and Intuit(Fintech)
+   - The stock prices of **Amazon**(Retail), **Google** (Consumer), Microsoft(Software Development) and Intuit(Fintech)
    
 
