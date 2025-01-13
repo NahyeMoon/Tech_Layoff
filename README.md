@@ -71,10 +71,10 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ### Stock Price and Layoffs
 
 * **Biotechnology Research** and **Insurance**:
-  - The stock prices of **Johnson & Johnson** (Biotechnology Research) and **Berkshire Hathaway Inc.** (Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* on January 1, 2020, to *143.55 USD* and *407.95 USD* on June 27, 2024, respectively, with **no significant drops** in between.
+  - The stock prices of **Johnson & Johnson**(Biotechnology Research) and **Berkshire Hathaway Inc.**(Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* on January 1, 2020, to *143.55 USD* and *407.95 USD* on June 27, 2024, respectively, with **no significant drops** in between.
   - **Biotechnology Research** and **insurance** had the **lowest layoffs** recorded in the dataset, and the **stable increase in stock prices** of major companies in these industries suggests their **resilience** and **stability** during challenging times.
 
 * **Retail**, **Consumer**, **Software Development** and **Fintech**:
-   - The stock prices of **Amazon**(Retail), **Google** (Consumer), Microsoft(Software Development) and Intuit(Fintech)
+   - The stock prices of **Amazon**(Retail), **Meta**(Consumer), **Microsoft**(Software Development) and **Intuit**(Fintech)
    
 
