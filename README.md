@@ -85,4 +85,4 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 ## Suggestions
 1. Form Strategic **Partnerships** with High-Growth and Resilient Sectors:
-* Build partnerships with **high-growth** sectors such as cloud services, fintech, and **resilient** industries like healthcare and insurance to diversify revenue streams and create a buffer against future demand plateaus.
+* Build partnerships with high-growth sectors such as **cloud services, fintech**, and resilient industries like **healthcare and insurance** to diversify revenue streams and create a buffer against future demand plateaus.
