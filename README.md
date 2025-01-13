@@ -51,7 +51,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
   
 
-### Emerging Industries with Minimal Layoffs (2024, as of June 28th)
+### Emerging Industries with Lowest Layoffs (2024, as of June 28th)
 
 * **Tech**:
   - With the rapid **digital transformation** since pandemic, **SaaS** (*45* layoffs) and **Fintech** (*190*) thrived with increased adoption of remote work, digital banking, and financial innovations, reflecting their emergence as **high-growth sectors**.
@@ -70,7 +70,7 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 
 ### Stock Price and Layoffs
 
-<p align="center">
-  <img src="DataVisualization/HeatMapCorr.png" alt="Bottom 5 Industries 2024" width="700",style="display: inline-block;"/>
-</p>
+* **Healthcare** and **insurance**:
+  - The stock prices of **Johnson & Johnson** (Healthcare) and **Berkshire Hathaway Inc.** (Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* on January 1, 2020, to *143.55 USD* and *407.95 USD* June 27, 2024, respectively, with **no significant drops** in between.
+  - **Healthcare** and **insurance** Two of the industries with the lowest layoffs recorded in the dataset. 
 
