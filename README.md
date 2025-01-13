@@ -71,10 +71,10 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ### Stock Price and Layoffs
 
 * **Biotechnology Research** and **Insurance**:
-  - The stock prices of **Johnson & Johnson**(Biotechnology Research) and **Berkshire Hathaway Inc.**(Insurance) **gradually increased** from March 12 , 2020 to June 27, 2024 with **no significant drops** in between (values highlighted in **green** in the **table** below).
+  - The stock prices of **Johnson & Johnson**(Biotechnology Research) and **Berkshire Hathaway Inc.**(Insurance) **gradually increased** from March 12 , 2020 to June 27, 2024 with **no significant drops** in between (values highlighted in *green in the table* below).
   - **Biotechnology Research** and **insurance** had the **lowest layoffs** recorded in the dataset, and the **stable increase in stock prices** of major companies in these industries suggests their **resilience** and **stability** during challenging times.
 
 * **Retail**, **Consumer**, **Software Development** and **Fintech**:
-   - The stock prices of **Amazon**(Retail), **Meta**(Consumer), **Microsoft**(Software Development) and **Intuit**(Fintech) peaked around late 2021 and early 2022, then rapidly decreased before beginning to recover in 2023 (values highlighted in **yellow** in the **table** below)
+   - The stock prices of **Amazon**(Retail), **Meta**(Consumer), **Microsoft**(Software Development) and **Intuit**(Fintech) peaked around late 2021 and early 2022, then rapidly decreased before beginning to recover in 2023 (values highlighted in *yellow in the table* below)
    - The **large-scale layoffs** at **Meta** and **Amazon** in **2022 and 2023** discussed in a previous section (Industry Layoff Trends 2020-2024: Pandemic and Post-Pandemic) **correspond** to two periods: after their **stock prices** decreased rapidly and when they just started recovering.
 
