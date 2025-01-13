@@ -71,6 +71,6 @@ The COVID-19 pandemic significantly shifted customer demand, particularly toward
 ### Stock Price and Layoffs
 
 * **Healthcare** and **insurance**:
-  - The stock prices of **Johnson & Johnson** (Healthcare) and **Berkshire Hathaway Inc.** (Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* on January 1, 2020, to *143.55 USD* and *407.95 USD* June 27, 2024, respectively, with **no significant drops** in between.
-  - **Healthcare** and **insurance** Two of the industries with the lowest layoffs recorded in the dataset. 
+  - The stock prices of **Johnson & Johnson** (Healthcare) and **Berkshire Hathaway Inc.** (Insurance) **gradually increased** from *109.86 USD* and *175.97 USD* on January 1, 2020, to *143.55 USD* and *407.95 USD* on June 27, 2024, respectively, with **no significant drops** in between.
+  - **Healthcare** and **insurance** had the **lowest layoffs** recorded in the dataset, and the **stable increase in stock prices** of major companies in these industries suggests their **resilience** and **stability** during challenging times.
 
