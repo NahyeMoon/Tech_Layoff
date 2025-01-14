@@ -102,3 +102,17 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
 
 * **Use Predictive Analytics and Scenario Planning**
   - Utilize predictive analytics and scenario planning to anticipate market shifts, allowing companies to adjust their workforce strategy and explore new growth areas before demand plateaus.
+
+
+## Tools Used
+* **SQL**
+  - Standardized and added columns based on their relevance to ensure meaningful analysis.
+  - Used CTEs to explore data distribution by region and identify the top 5 companies with the highest total layoffs
+
+* **PowerBI**
+  - Developed the visualizations presented in this report.
+  - Removed uninformative columns and verified data types for consistency.
+  - Combined stock price data from multiple companies into one dataset for easier management.
+
+* **Python**
+  - Extracted stock price data of various companies in CSV format.
