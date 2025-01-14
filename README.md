@@ -12,8 +12,8 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
   - The data was analyzed to examine how external factors, such as the pandemic and shifting customer demands, influenced workforce trends across various industries over time, highlighting both emerging and resilient sectors.
 
 * **Stock**
-  - The dataset includes closing stock prices of notable companies or those from significant industries identified in the Tech Layoffs dataset, covering the period from March 12, 2020, to June 27, 2024.
-  -  It was used to analyze the relationship between layoffs and stock performance and to explore how these companies successfully adapted to changing customer demands or emerging industry trends.
+  - The dataset includes daily closing stock prices of notable companies or those from significant industries identified in the Tech Layoffs dataset, covering periods from March 12, 2020, to June 27, 2024.
+  - It was used to analyze the relationship between layoffs and stock performance and to explore how these companies successfully adapted to changing customer demands or emerging industry trends.
  
 <p align="center">
   <img src="DataVisualization/DataOverview.png" alt="Bottom 5 Industries 2024" width="700",style="display inline-block;"/>
