@@ -12,7 +12,6 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
 ### Industry Layoff Trends 2020-2024 Pandemic and Post-Pandemic 
 * **Transportation**
   - Layoffs in Transportation driven by travel restrictions recorded 13,600 in 2020, making it the industry with the most layoffs that year.
-  - The number remained significant in 2022 with 12,870 but decreased to 8,268 in 2023 as the post-pandemic recovery began.
   - Most affected companies Uber (6,700 layoffs in 2020), and Airbnb (1,900 layoffs in 2020)
   
 * **Retail**
@@ -24,11 +23,6 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
   - The layoffs in Consumer followed a similar pattern to Retail due to the shift in demand toward online services and subsequent demand stabilization. 
   - The number started at 5,341 in 2020 and surged to 18,350 in 2022 and to 27,110 in 2023.
   - Most affected companies **Meta** (11,000 layoffs in 2022; 10,000 in 2023), and Google (12,000 layoffs in 2023)
-
-* **Food**
-  - The Food industry recorded 5,629 layoffs in 2020 driven by cost reductions and gathering ristrictions.
-  - Layoffs surged to 16,252 in 2023 as companies downsized after overexpansion during the peak of the pandemic when demand for online food delivery was at its highest.
-  -  Most affected companies: Swiggy (2,250 layoffs in 2020), and Delivery Hero (300 layoffs in 2021)
 
  **Finance**
   - The recorded layoffs in Finance rose to 10,663 (87% compared to 2020) in 2022 due to ongoing economic downturns and the increasing replacement of jobs through automation.
