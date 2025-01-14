@@ -116,3 +116,7 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
 
 * **Python**
   - Extracted stock price data of various companies in CSV format.
+
+
+
+## Caveats and Assumptions
