@@ -120,3 +120,18 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
 
 
 ## Caveats and Assumptions
+* **Focus on External Factors**
+  - The analysis focuses the impact of external factors such as the pandemic and customer demand shifts.
+    
+* **Dataset Coverage Assumptions**
+  - It is assumed that the layoffs dataset contains sufficient records to reflect industry-wide trends.
+  - The absence of significant layoff records for the bottom five industries prior to 2024 is attributed to the relatively low volume of layoffs compared to other industries in earlier years.
+  - The notably low volume of layoff records in 2021 was excluded from the analysis of the top 5 industry trends. However, commentary on the top 5 companies and their respective industries during that year was provided.
+
+* **Geographic Limitation**
+  - 73% of the total number of layoffs recorded in the dataset are from companies headquartered in North America, with 70% based in the United States. This geographic concentration limits the scope of the analysis to a national rather than a global scale.
+ 
+<p align="center">
+  <img src="DataVisualization/Location.png" alt="Bottom 5 Industries 2024" width="400",style="display inline-block;"/>
+  <img src="DataVisualization/Year.png" alt="Bottom 5 Industries 2024" width="400",style="display inline-block;"/>
+</p>
