@@ -132,6 +132,6 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
   - 73% of the total number of layoffs recorded in the dataset are from companies headquartered in North America, with 70% based in the United States. This geographic concentration limits the scope of the analysis to a national rather than a global scale.
  
 <p align="center">
-  <img src="DataVisualization/Location.png" alt="Bottom 5 Industries 2024" width="400",style="display inline-block;"/>
-  <img src="DataVisualization/Year.png" alt="Bottom 5 Industries 2024" width="400",style="display inline-block;"/>
+  <img src="DataVisualization/Location.png" alt="Bottom 5 Industries 2024" width="350", height = "150", style="display inline-block;"/>
+  <img src="DataVisualization/Year.png" alt="Bottom 5 Industries 2024" width="350", height = "150",style="display inline-block;"/>
 </p>
