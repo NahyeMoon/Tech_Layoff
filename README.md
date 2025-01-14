@@ -24,10 +24,10 @@ The analysis of industry layoffs and stock market data from 2020 to 2024 highlig
   - The number started at 5,341 in 2020 and surged to 18,350 in 2022 and to 27,110 in 2023.
   - Most affected companies **Meta** (11,000 layoffs in 2022; 10,000 in 2023), and Google (12,000 layoffs in 2023)
 
- **Finance**
+* **Finance**
   - The recorded layoffs in Finance rose to 10,663 (87% compared to 2020) in 2022 due to ongoing economic downturns and the increasing replacement of jobs through automation.
 
- **Construction and Real Estate**
+* **Construction and Real Estate**
   - The top 3 companies with the most layoffs recorded in 2021 are in Construction and Real Estate due to the disrupted construction supply chain and shift to remote work.
   -  Most affected companiesKaterra (2,434 layoffs in 2021), Zillow (2,000 layoffs in 2021), and Better.com (900 layoffs in 2021)
 
