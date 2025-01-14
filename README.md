@@ -1,12 +1,16 @@
-# Global Tech Layoff Analysis (2020-2024)
+# Tech Layoff Analysis (2020-2024)
 
 ## Project Overview
 The COVID-19 pandemic significantly shifted customer demand, particularly toward remote work and digital services. This project explores how the pandemic impacted various tech sectors and how companies restructured their workforces in response to these changes and subsequent demand stabilization. It aims to provide HR and business leaders with data-driven insights for workforce planning, investment in emerging and resilient sectors, and mitigating risks during future economic uncertainties.
 
 ## Executive Summary
-
 The analysis of industry layoffs and stock market data from 2020 to 2024 highlights how companies navigated the challenges of the pandemic. The transportation sector faced the highest layoffs in 2020, with 13,600, followed by significant layoffs in the retail and consumer industries in 2022 and 2023—25,535 and 27,110, respectively—after demand plateaued. Large-scale layoffs from companies like Meta (11,000 layoffs in 2022) and Amazon (17,000 layoffs in 2023) reflect these demand trends and the significant drop in stock prices across different industries during those years, following a peak in 2021. In contrast, resilient sectors like healthcare and insurance experienced low layoffs and stable stock prices, with companies like Berkshire Hathaway and Johnson & Johnson maintaining gradual growth. The successful stock price recovery of companies like Amazon and Meta, which pivoted to cloud services and customer experience, highlights the importance of adaptability in navigating future uncertainties.
 
+## Data Overview
+* The dataset **Tech Layoffs** contains information about layoffs at technology-driven companies from March 12, 2020 (the start of the COVID-19 pandemic), to June 28, 2024. It includes details such as the size and date of layoffs, company information, and industry. The data was analyzed to examine how external factors, such as the pandemic and shifting customer demands, influenced workforce trends across various industries over time, highlighting both emerging and resilient sectors.
+
+* The dataset **Stock** includes closing stock prices of notable companies or those from significant industries identified in the Tech Layoffs dataset, covering the period from March 12, 2020, to June 27, 2024. It was used to analyze the relationship between layoffs and stock performance and to explore how these companies successfully adapted to changing customer demands or emerging industry trends.
+  
 ## Insight Deep Dive
 
 ### Industry Layoff Trends 2020-2024 Pandemic and Post-Pandemic 
