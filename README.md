@@ -4,10 +4,9 @@
 The COVID-19 pandemic significantly shifted customer demand, particularly toward remote work and digital services. This project examines how the pandemic impacted various tech sectors and how companies restructured their workforces in response to these changes and the subsequent stabilization of demand. By analyzing the relationship between layoff trends and the stock prices of companies across different industries, the project identifies resilient and emerging sectors. It aims to provide HR and business leaders with data-driven insights for workforce planning, investment in growth areas, and risk mitigation during future economic uncertainties.
 
 ## Executive Summary
-* The transportation sector faced the highest layoffs in 2020, with 13,600, followed by significant layoffs in the retail and consumer industries in 2022 and 2023—25,535 and 27,110, respectively—after demand plateaued.
-* Large-scale layoffs from companies like Meta (11,000 layoffs in 2022) and Amazon (17,000 layoffs in 2023) reflect these demand trends and the significant drop in stock prices across different industries during those years, following a peak in 2021.
-* Resilient sectors like healthcare and insurance experienced low layoffs and stable stock prices, with companies like Berkshire Hathaway and Johnson & Johnson maintaining gradual growth.
-* The stock price recovery of companies like Amazon and Meta, following workforce restructuring and a strategic shift toward cloud services and customer experience, highlights the crucial role of cost-cutting in maintaining company stability.
+* Retail layoffs increased significantly from 7,615 in 2020 due to pandemic-related store closures and e-commerce growth, to 18,528 in 2022 (140% rise), and 25,535 in 2023 (230% rise), with Amazon leading the sector with 10,150 layoffs in 2022 and 17,000 in 2023.
+*  Meta and Amazon successfully recovered their stock prices in 2023 through strategic cost-cutting by large-scale layoffs—11,000 at Meta in 2022 and 17,000 at Amazon in 2023—after declines following the 2021 peak. The shift toward cloud services and customer experience helped them sustain the stock price into 2024
+* Resilient sectors like healthcare and insurance experienced low layoffs and stable stock prices, with companies like Berkshire Hathaway and Johnson & Johnson maintaining gradual growth from pandemic to post-pandemic.
 
 ## Data Overview
 * **Tech Layoffs**
